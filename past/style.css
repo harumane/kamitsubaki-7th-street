@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+
+header {
+    background-color: white;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+header h1 {
+    margin: 0 0 15px 0;
+}
+
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+nav a:hover {
+    color: #777;
+}
+
+
+h2 {
+    margin-top: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ============================= */
+/* 왼쪽 사이드바 */
+/* ============================= */
+
+.sidebar {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 240px;
+    height: 100vh;
+
+    background-color: white;
+
+    border-right: 1px solid #ddd;
+
+    padding: 25px 20px;
+
+    box-sizing: border-box;
+
+    overflow-y: auto;
+}
+
+
+/* 사이트 제목 */
+.site-title {
+
+    font-size: 24px;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+
+}
+
+
+/* 사이드 메뉴 */
+.side-menu {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/* 기본 메뉴 */
+.menu-item {
+
+    display: block;
+
+    padding: 12px 10px;
+
+    color: #222;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+}
+
+
+/* ============================= */
+/* 아티스트 메뉴 */
+/* ============================= */
+
+.menu-row {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+/* 아티스트 글자 부분 */
+.artist-main {
+
+    flex: 1;
+
+}
+
+
+/* 화살표 버튼 */
+.toggle-button{
+
+    border:none;
+    background:none;
+    cursor:pointer;
+
+    padding:0;
+
+}
+
+.toggle-button img{
+
+    width:18px;
+
+    display:block;
+
+}
+
+
+
+
+/* ============================= */
+/* 펼쳐지는 아티스트 목록 */
+/* ============================= */
+
+.submenu {
+
+    display: none;
+
+    margin-left: 15px;
+
+}
+
+
+/* open이 붙으면 표시 */
+.submenu.open {
+
+    display: block;
+
+}
+
+
+/* 하위 아티스트 */
+.submenu a {
+
+    display: block;
+
+    padding: 9px 12px;
+
+    color: #444;
+
+    text-decoration: none;
+
+    border-radius: 7px;
+
+    font-size: 14px;
+
+}
+
+
+
+
+/* 더보기 */
+.submenu .more-button {
+
+    margin-top: 5px;
+
+    font-weight: bold;
+
+    color: #555;
+
+}
+
+
+/* ============================= */
+/* 메인 페이지 */
+/* ============================= */
+
+.main-content {
+
+    margin-left: 240px;
+
+    max-width: 1000px;
+
+    padding: 40px;
+
+}
+
+.site-logo {
+
+    margin-bottom:30px;
+
+}
+
+.site-logo img{
+
+    width:200px;
+
+    display:block;
+
+}

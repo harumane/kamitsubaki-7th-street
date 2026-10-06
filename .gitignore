@@ -1,0 +1,6 @@
+*.psd
+*.ai
+Thumbs.db
+.DS_Store
+.env
+.env.*
