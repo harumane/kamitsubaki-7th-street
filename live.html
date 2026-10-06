@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>라이브 | 카미츠바키 아카이브</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="sidebar.css">
+    
+    <script src="sidebar.js" defer></script>
+<link rel="stylesheet" href="theme.css">
+<script src="theme.js"></script>
+    <link rel="icon" type="image/png" href="images/icon.png">
+<link rel="stylesheet" href="catalog.css">
+<script src="catalog-data.js" defer></script>
+<script src="catalog.js" defer></script>
+</head>
+<body>
+<aside class="sidebar">
+
+        <div class="site-logo"><a class="site-logo-link" href="index.html" aria-label="홈으로 이동">
+
+            <img
+                src="images/logo.png"
+                alt="카미츠바키 아카이브"
+            >
+
+        </a></div>
+
+        <nav class="side-menu">
+
+            <!-- 홈 -->
+            <a class="menu-item" href="index.html">
+                홈
+            </a>
+
+
+            <!-- 아티스트 -->
+            <a class="menu-item" href="artists.html">아티스트</a>
+            <a class="menu-item" href="albums.html">앨범</a>
+            <a class="menu-item" href="live.html">라이브</a>
+            <a class="menu-item" href="schedule.html">일정</a>
+
+            <!-- 웹사이트 -->
+            <a class="menu-item" href="website.html">
+                웹사이트
+            </a>
+            <a class="menu-item" href="guide.html">가이드</a>
+            <a class="menu-item" href="discord.html">디스코드</a>
+
+        </nav>
+
+    </aside>
+    <main class="main-content catalog-directory" data-catalog="live">
+    <h1 class="catalog-title">LIVE</h1>
+    <p class="catalog-subtitle">라이브</p>
+    <form id="catalog-search" class="catalog-search" role="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7.5"/><path d="m16 16 5 5"/></svg>
+        <input id="catalog-query" type="search" aria-label="라이브 또는 참여 아티스트 검색" placeholder="라이브 이름 또는 참여 아티스트 검색" autocomplete="off">
+        <button id="catalog-clear" class="catalog-clear" type="button" aria-label="검색어 지우기" hidden>×</button>
+    </form>
+    <div class="catalog-categories" role="group" aria-label="라이브 종류"><button type="button" data-release-type="one-man" aria-pressed="true">ONE-MAN</button><button type="button" data-release-type="cover" aria-pressed="true">COVER</button><button type="button" data-release-type="mini" aria-pressed="true">MINI</button><button type="button" data-release-type="etc" aria-pressed="true">etc</button></div>
+    <div id="catalog-filter" class="catalog-filter"></div>
+    <p id="catalog-status" class="catalog-status" role="status"></p>
+    <div id="catalog-results" class="catalog-results"></div>
+</main>
+</body>
+</html>

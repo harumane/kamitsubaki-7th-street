@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일정 | 카미츠바키 아카이브</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="sidebar.css">
+    
+    <script src="sidebar.js" defer></script>
+<link rel="stylesheet" href="theme.css">
+<script src="theme.js"></script>
+    <link rel="icon" type="image/png" href="images/icon.png">
+<link rel="stylesheet" href="schedule.css">
+<script src="schedule-data.js" defer></script>
+<script src="schedule.js" defer></script>
+</head>
+<body>
+<aside class="sidebar">
+
+        <div class="site-logo"><a class="site-logo-link" href="index.html" aria-label="홈으로 이동">
+
+            <img
+                src="images/logo.png"
+                alt="카미츠바키 아카이브"
+            >
+
+        </a></div>
+
+        <nav class="side-menu">
+
+            <!-- 홈 -->
+            <a class="menu-item" href="index.html">
+                홈
+            </a>
+
+
+            <!-- 아티스트 -->
+            <a class="menu-item" href="artists.html">아티스트</a>
+            <a class="menu-item" href="albums.html">앨범</a>
+            <a class="menu-item" href="live.html">라이브</a>
+            <a class="menu-item" href="schedule.html">일정</a>
+
+            <!-- 웹사이트 -->
+            <a class="menu-item" href="website.html">
+                웹사이트
+            </a>
+            <a class="menu-item" href="guide.html">가이드</a>
+            <a class="menu-item" href="discord.html">디스코드</a>
+
+        </nav>
+
+    </aside>
+    <main class="main-content schedule-directory">
+    <h1 class="schedule-title">SCHEDULE</h1>
+    <div class="schedule-topbar"><h2>캘린더</h2><button type="button" id="view-toggle" aria-pressed="false">☷ 리스트 보기</button></div>
+    <section class="calendar-panel" aria-label="월별 일정">
+        <div class="calendar-toolbar">
+            <div class="calendar-filters" role="group" aria-label="일정 종류">
+                <button type="button" data-event-filter="live" aria-pressed="true">LIVE</button>
+                <button type="button" data-event-filter="stream" aria-pressed="true">STREAM</button>
+                <button type="button" data-event-filter="event" aria-pressed="true">EVENT</button>
+            </div>
+            <h3 id="schedule-month" aria-live="polite"></h3>
+            <div class="month-navigation">
+                <button type="button" id="today-button">오늘</button>
+                <button type="button" class="month-arrow" id="previous-month" aria-label="이전 달">‹</button>
+                <button type="button" class="month-arrow" id="next-month" aria-label="다음 달">›</button>
+            </div>
+        </div>
+        <div id="calendar-view" class="calendar-scroll"></div>
+        <ul id="schedule-list" class="schedule-list" hidden></ul>
+        <p id="schedule-status" class="schedule-status" role="status"></p>
+        <noscript>캘린더를 보려면 JavaScript를 활성화해 주세요.</noscript>
+    </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,37 @@
+:root { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; }
+[data-theme="dark"] body { background: #141416; color: #ededf0; }
+[data-theme="dark"] .sidebar,
+[data-theme="dark"] header { background: #1b1b1e; border-color: #333338; }
+[data-theme="dark"] .main-content a { color: #b9ccff; }
+[data-theme="dark"] .side-menu .menu-item,
+[data-theme="dark"] .main-content .artist-card { color: #ededf0; }
+[data-theme="dark"] .side-menu .menu-item:hover,
+[data-theme="dark"] .side-menu .menu-item.is-active { background: #303035; color: #fff; }
+[data-theme="dark"] .studio-name-ko,
+[data-theme="dark"] .artist-name-ko { color: #d7d7de; }
+[data-theme="dark"] .artist-role { color: #b4b4bf; }
+[data-theme="dark"] .artist-portrait { background: #26262b; }
+[data-theme="dark"] .artist-card:hover .artist-portrait { background: #323239; }
+[data-theme="dark"] .artist-placeholder { color: #a5a5b0; }
+[data-theme="dark"] .artist-card:focus-visible { outline-color: #b9ccff; }
+[data-theme="dark"] .site-logo img { filter: invert(1); mix-blend-mode: screen; }
+.theme-controls { position: absolute; top: 72px; right: 40px; display: flex; flex-direction: column; align-items: center; gap: 6px; z-index: 2; }
+.theme-switch { position: relative; display: flex; align-items: center; justify-content: space-between; width: 64px; height: 34px; padding: 6px; border: 1px solid #c9c9cf; border-radius: 999px; background: #dedee3; color: #686873; cursor: pointer; }
+.theme-switch svg { width: 20px; height: 20px; position: relative; z-index: 1; }
+.theme-thumb { position: absolute; top: 3px; left: 3px; width: 26px; height: 26px; border-radius: 50%; background: #fff; transform: translateX(30px); transition: transform .18s ease; box-shadow: 0 1px 3px #0002; }
+.theme-sun { color: #34343c; }
+[data-theme="dark"] .theme-switch { background: #303038; border-color: #484851; color: #b7b7c0; }
+[data-theme="dark"] .theme-thumb { transform: translateX(0); background: #e9e9ee; }
+[data-theme="dark"] .theme-moon { color: #303038; }
+[data-theme="dark"] .theme-sun { color: #b7b7c0; }
+.theme-reset { padding: 2px; border: 0; background: transparent; font-size: 11px; color: #666; cursor: pointer; }
+.theme-reset:disabled { cursor: default; }
+[data-theme="dark"] .theme-reset { color: #b4b4bf; }
+.theme-switch:focus-visible, .theme-reset:focus-visible { outline: 2px solid #668ce0; outline-offset: 3px; }
+.artist-directory section:first-child .studio-title { padding-right: 140px; }
+@media (max-width: 1000px) {
+    .theme-controls { top: 16px; right: 24px; }
+    .artist-directory section:first-child .studio-title { padding-right: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .theme-thumb { transition: none; } }

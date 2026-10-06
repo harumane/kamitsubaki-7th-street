@@ -1,0 +1,39 @@
+/* Artist directory only; the shared sidebar and home keep their existing styles. */
+.artist-directory {
+    white-space: normal;
+    box-sizing: border-box;
+    width: calc(100% - var(--sidebar-width));
+    min-width: 0;
+    font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+.studio-title {
+    font-family: 'Arial Black', Arial, sans-serif;
+    margin: 32px 0 8px;
+    font-size: clamp(28px, 3vw, 46px);
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    line-height: 1.15;
+}
+.studio-name-ko { margin: 12px 0 38px; font-size: 19px; font-weight: 600; color: #333; line-height: 1.6; word-break: keep-all; }
+.artist-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr)); gap: 28px 24px; }
+.artist-card { display: block; min-width: 0; color: #222; text-decoration: none; }
+.artist-portrait {
+    position: relative;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #e8e8e8;
+    display: grid;
+    place-items: center;
+    transition: background-color .15s ease;
+}
+.artist-placeholder { color: #999; font-size: 12px; letter-spacing: 2px; }
+.artist-portrait img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.artist-name { display: block; font-size: 17px; font-weight: 700; line-height: 1.5; overflow-wrap: anywhere; }
+.artist-name-ko { display: block; margin-left: auto; color: #333; font-size: 15px; font-weight: 600; line-height: 1.6; text-align: right; word-break: keep-all; }
+.artist-card:hover .artist-portrait { background-color: #dedede; }
+.artist-card:focus-visible { outline: 2px solid #555; outline-offset: 6px; border-radius: 12px; }
+.artist-directory section + section { margin-top: 72px; }
+.studio-title + .artist-grid { margin-top: 38px; }
+.artist-name-row { padding-inline: 2px; display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 3px 10px; margin-top: 12px; }
+.artist-role { padding-left: 4px; display: block; margin-top: 5px; font-size: 13px; font-weight: 400; color: #666; line-height: 1.5; }

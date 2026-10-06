@@ -1,0 +1,256 @@
+/* ============================= */
+/* 왼쪽 사이드바 */
+/* ============================= */
+
+
+.sidebar {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: var(--sidebar-width);
+    height: 100vh;
+
+    background-color: white;
+
+    border-right: 1px solid #ddd;
+
+    padding: 25px 20px;
+
+    box-sizing: border-box;
+
+    overflow-y: auto;
+}
+
+
+/* 사이트 제목 */
+.site-title {
+    font-size: 24px;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+/* 사이드 메뉴 */
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+/* 기본 메뉴 */
+.menu-item {
+    display: block;
+
+    padding: 12px 10px;
+
+    color: #222;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-size: 22px;
+
+    font-weight: 600;
+}
+
+
+/* ============================= */
+/* 아티스트 메뉴 */
+/* ============================= */
+
+.menu-row {
+    display: flex;
+    align-items: center;
+    gap:0px;
+}
+
+
+/* 아티스트 글자 부분 */
+.artist-main{
+
+    flex:none;
+
+    white-space: nowrap;
+
+    padding-right:0;
+
+}
+
+/* 화살표 버튼 */
+.toggle-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    padding: 0;
+
+    margin-left: -10px;
+
+    flex-shrink: 0;
+}
+
+
+.toggle-button img {
+    width: 18px;
+
+    display: block;
+}
+
+
+/* ============================= */
+/* 펼쳐지는 아티스트 목록 */
+/* ============================= */
+
+.submenu{
+
+    max-height: 0;
+
+    overflow: hidden;
+
+    opacity: 0;
+
+    transition:
+        max-height .25s ease,
+        opacity .2s ease;
+
+}
+
+
+.submenu.open{
+
+    max-height: 500px;
+
+    opacity: 1;
+
+}
+
+
+/* 하위 아티스트 */
+.submenu a {
+    display: block;
+
+    padding: 9px 12px;
+
+    color: #444;
+
+    text-decoration: none;
+
+    border-radius: 7px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    transition: background-color .15s ease,
+            color .15s ease;
+}
+
+
+/* 더보기 */
+.submenu .more-button {
+    margin-top: 5px;
+
+    font-weight: bold;
+
+    color: #444;
+}
+
+
+/* ============================= */
+/* 사이트 로고 */
+/* ============================= */
+
+.site-logo {
+    margin-bottom: 30px;
+}
+
+
+.site-logo img {
+    width: 250px;
+
+    display: block;
+}
+
+/* 아티스트 토글 버튼 */
+
+.menu-toggle{
+
+    width:100%;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    padding:12px 10px;
+
+    background:none;
+
+    border:none;
+
+    cursor:pointer;
+
+    font-size:22px;
+
+    font-weight:600;
+
+    color:#222;
+
+    text-align:left;
+
+    border-radius: 8px;
+
+}
+
+
+/* 화살표 */
+
+.menu-toggle img{
+
+    width:8px;
+    margin-top:5px;
+    transition:transform .2s;
+
+}
+
+.menu-item,
+.menu-toggle{
+
+    transition:
+        background-color .15s ease,
+        color .15s ease;
+
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 0;
+
+}
+
+.menu-item:hover,
+
+.menu-toggle:hover,
+.menu-item.is-active,
+.menu-toggle.is-active{
+
+    color:#222;
+    background-color: #eeeeee;
+}
+
+.submenu a:hover {
+    color: #222;
+    background-color: #eeeeee;
+}
+
+
+.submenu .more-button:hover {
+    color: #222;
+    background-color: #eeeeee;
+}
+.site-logo-link { display: block; }
+.site-logo-link:focus-visible { outline: 2px solid #668ce0; outline-offset: 5px; border-radius: 4px; }
