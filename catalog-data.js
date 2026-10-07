@@ -7244,7 +7244,7 @@ window.catalogData = {
       "originalTitle": "法螺話",
       "titles": {
         "ja": "法螺話",
-        "ko": "허풍",
+        "ko": "허풍담",
         "en": ""
       },
       "aliases": [],
@@ -15986,7 +15986,7 @@ window.catalogData = {
             "胎児に月はキスをしない",
             "태아에게 달은 키스하지 않아",
             "法螺話",
-            "허풍",
+            "허풍담",
             "Flowering",
             "플라워링",
             "甘美な無法",
