@@ -37,7 +37,7 @@
         tag.classList.add('catalog-artist-color');
         tag.style.setProperty('--artist-color', color);
     }
-    const releaseTypes = new Set(kind === 'albums' ? ['single', 'album'] : ['one-man', 'cover', 'mini', 'etc']);
+    const releaseTypes = new Set(kind === 'albums' ? ['single', 'album', 'ep-cover'] : ['one-man', 'cover', 'mini', 'etc']);
     const sort = document.getElementById('catalog-sort');
     if (sort) sort.addEventListener('change', render);
     function render() {
@@ -46,12 +46,12 @@
         results.replaceChildren(); filter.replaceChildren();
         clear.hidden = !input.value;
         if (selected) {
-            const chip = node('button', 'catalog-tag', `#${artists[selected].names.ko || artists[selected].names.en} ×`);
+            const chip = node('button', 'catalog-tag', `#${artists[selected].tagName || artists[selected].names.ko || artists[selected].names.en} ×`);
             colorArtistTag(chip, selected);
             chip.type = 'button'; chip.setAttribute('aria-label', '아티스트 필터 해제');
             chip.onclick = () => { selected = ''; render(); }; filter.append(chip);
         }
-        status.textContent = !releaseTypes.size ? (kind === 'albums' ? '싱글 또는 앨범을 선택해 주세요.' : '라이브 종류를 하나 이상 선택해 주세요.') : !items.length ? `아직 등록된 ${label}이 없습니다.` : !found.length ? '검색 결과가 없습니다. 다른 이름이나 표기로 검색해 보세요.' : `${found.length}개의 ${label}`;
+        status.textContent = !releaseTypes.size ? (kind === 'albums' ? '음반 종류를 하나 이상 선택해 주세요.' : '라이브 종류를 하나 이상 선택해 주세요.') : !items.length ? `아직 등록된 ${label}이 없습니다.` : !found.length ? '검색 결과가 없습니다. 다른 이름이나 표기로 검색해 보세요.' : `${found.length}개의 ${label}`;
         found.forEach(item => {
             const card = node('article', 'catalog-card');
             const title = item.originalTitle || item.titles?.ja || item.titles?.en || item.titles?.ko || '';
@@ -83,7 +83,7 @@
             const tags = node('div', 'catalog-tags');
             if (kind === 'albums') {
                 const type = item.releaseType || 'album';
-                const category = node('button', 'catalog-tag catalog-release-tag', type === 'single' ? '#싱글' : '#앨범');
+                const category = node('button', 'catalog-tag catalog-release-tag', type === 'single' ? '#싱글' : type === 'ep-cover' ? '#EP/COVER' : '#앨범');
                 category.type = 'button';
                 category.onclick = () => {
                     releaseTypes.clear(); releaseTypes.add(type);
@@ -96,7 +96,7 @@
             }
             orderedArtistIds(item.displayArtistIds || item.artistIds).forEach(id => {
                 if (!artists[id]) return;
-                const tag = node('button', 'catalog-tag', `#${artists[id].names.ko || artists[id].names.en || id}`);
+                const tag = node('button', 'catalog-tag', `#${artists[id].tagName || artists[id].names.ko || artists[id].names.en || id}`);
                 colorArtistTag(tag, id);
                 tag.type = 'button'; tag.onclick = () => { selected = id; render(); }; tags.append(tag);
             });

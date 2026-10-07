@@ -1,4 +1,4 @@
-// Local original covers, verified release dates, searchable aliases. Artist order follows artists.html.
+// Categories follow YouTube Music; cover lives display only their main artist tag.
 window.catalogData = {
   "artists": {
     "kaf": {
@@ -78,9 +78,12 @@ window.catalogData = {
         "en": "kafu"
       },
       "aliases": [
-        "可不"
+        "可不",
+        "가불",
+        "카후(可不)"
       ],
-      "color": "#78a7ff"
+      "color": "#78a7ff",
+      "tagName": "카후(可不)"
     },
     "rime": {
       "names": {
@@ -146,7 +149,9 @@ window.catalogData = {
       },
       "aliases": [
         "CIEL"
-      ]
+      ],
+      "color": "#86d9ff",
+      "tagName": "CIEL"
     },
     "sooda": {
       "names": {
@@ -156,7 +161,9 @@ window.catalogData = {
       },
       "aliases": [
         "Sooda"
-      ]
+      ],
+      "color": "#344b83",
+      "tagName": "Sooda"
     },
     "kuusou": {
       "names": {
@@ -947,7 +954,10 @@ window.catalogData = {
       "youtubeDate": "2026-09-07",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mMbhk9oDbKmZU2NZxZNSl3ZnQBa9OEV-A/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICOaFwNMGEAE=&rs=AOn4CLA4wh46-sbNYi024UCYsoRADSM0nA&v=1785725670"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mMbhk9oDbKmZU2NZxZNSl3ZnQBa9OEV-A/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICOaFwNMGEAE=&rs=AOn4CLA4wh46-sbNYi024UCYsoRADSM0nA&v=1785725670",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mMbhk9oDbKmZU2NZxZNSl3ZnQBa9OEV-A&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mU8qPJdfpEwO1plIyJO5C9oi-arV9EFZ4",
@@ -1130,7 +1140,10 @@ window.catalogData = {
           "videoId": "JampeHiBRlo"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_mU8qPJdfpEwO1plIyJO5C9oi-arV9EFZ4&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_mU8qPJdfpEwO1plIyJO5C9oi-arV9EFZ4&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mU8qPJdfpEwO1plIyJO5C9oi-arV9EFZ4&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_n5xCM9rK3AwbjuSvaQW3xoXlJZDHmDSzA",
@@ -1149,21 +1162,22 @@ window.catalogData = {
         "kaf"
       ],
       "tags": [],
-      "date": "2026-01-14",
-      "releaseType": "album",
+      "date": "2025-08-24",
+      "releaseType": "ep-cover",
       "trackCount": 20,
       "image": "images/albums/youtube-OLAK5uy_n5xCM9rK3AwbjuSvaQW3xoXlJZDHmDSzA.jpg",
       "sourceUrl": "https://www.youtube.com/watch?v=B3_5GQwDuZo&list=OLAK5uy_n5xCM9rK3AwbjuSvaQW3xoXlJZDHmDSzA",
-      "dateSource": "https://kaf.kamitsubaki.jp/news/20251107/1126/",
+      "dateSource": "https://findmestore.thinkr.jp/products/avcd-000-63827",
       "translationStatus": "original",
       "youtubeDate": "2026-07-23",
-      "dateVerifiedOn": "2026-10-06",
-      "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
+      "dateVerifiedOn": "2026-10-07",
+      "dateBasis": "live",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_n5xCM9rK3AwbjuSvaQW3xoXlJZDHmDSzA/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICNjqt8oGEAE=&rs=AOn4CLCDPOAqHBi62HT50-sPSzDDF7PhIg&v=1766716760",
       "tracks": [
         {
           "titles": {
-            "ja": "swim"
+            "ja": "swim",
+            "ko": ""
           },
           "aliases": [
             "swim"
@@ -1172,7 +1186,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "虎視眈々と淡々と"
+            "ja": "虎視眈々と淡々と",
+            "ko": ""
           },
           "aliases": [
             "虎視眈々と淡々と"
@@ -1181,7 +1196,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "鏡面の波"
+            "ja": "鏡面の波",
+            "ko": ""
           },
           "aliases": [
             "鏡面の波",
@@ -1191,7 +1207,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ひこうき雲"
+            "ja": "ひこうき雲",
+            "ko": ""
           },
           "aliases": [
             "ひこうき雲"
@@ -1200,7 +1217,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "new world (feat. ヰ世界情緒)"
+            "ja": "new world (feat. ヰ世界情緒)",
+            "ko": ""
           },
           "aliases": [
             "new world (feat. ヰ世界情緒)"
@@ -1209,7 +1227,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ニウ"
+            "ja": "ニウ",
+            "ko": ""
           },
           "aliases": [
             "ニウ"
@@ -1218,7 +1237,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ふやけた友達"
+            "ja": "ふやけた友達",
+            "ko": ""
           },
           "aliases": [
             "ふやけた友達"
@@ -1227,7 +1247,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "aimai（feat. 鎖那）"
+            "ja": "aimai（feat. 鎖那）",
+            "ko": ""
           },
           "aliases": [
             "aimai（feat. 鎖那）"
@@ -1236,7 +1257,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "行きたくない"
+            "ja": "行きたくない",
+            "ko": ""
           },
           "aliases": [
             "行きたくない"
@@ -1245,7 +1267,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "この星につっぷしながら"
+            "ja": "この星につっぷしながら",
+            "ko": ""
           },
           "aliases": [
             "この星につっぷしながら"
@@ -1254,7 +1277,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "初恋"
+            "ja": "初恋",
+            "ko": ""
           },
           "aliases": [
             "初恋"
@@ -1263,7 +1287,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "異星人と熱帯夜"
+            "ja": "異星人と熱帯夜",
+            "ko": ""
           },
           "aliases": [
             "異星人と熱帯夜"
@@ -1272,7 +1297,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "日本の夏"
+            "ja": "日本の夏",
+            "ko": ""
           },
           "aliases": [
             "日本の夏"
@@ -1281,7 +1307,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "まつり"
+            "ja": "まつり",
+            "ko": ""
           },
           "aliases": [
             "まつり"
@@ -1290,16 +1317,19 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "アダルト (feat. アヴちゃん from 女王蜂 & RYUHEI from BE:FIRST)"
+            "ja": "アダルト feat. アヴちゃん from 女王蜂 & RYUHEI from BE:FIRST",
+            "ko": ""
           },
           "aliases": [
-            "アダルト (feat. アヴちゃん from 女王蜂 & RYUHEI from BE:FIRST)"
+            "アダルト (feat. アヴちゃん from 女王蜂 & RYUHEI from BE:FIRST)",
+            "アダルト feat. アヴちゃん from 女王蜂 & RYUHEI from BE:FIRST"
           ],
           "videoId": "PlE6rHNLCKU"
         },
         {
           "titles": {
-            "ja": "猛暑です e.p ver"
+            "ja": "猛暑です e.p ver",
+            "ko": ""
           },
           "aliases": [
             "猛暑です e.p ver"
@@ -1308,7 +1338,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ルシファー"
+            "ja": "ルシファー",
+            "ko": ""
           },
           "aliases": [
             "ルシファー"
@@ -1317,7 +1348,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "サラウンド"
+            "ja": "サラウンド",
+            "ko": ""
           },
           "aliases": [
             "サラウンド"
@@ -1326,7 +1358,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "渚にまつわるエトセトラ"
+            "ja": "渚にまつわるエトセトラ",
+            "ko": ""
           },
           "aliases": [
             "渚にまつわるエトセトラ"
@@ -1335,7 +1368,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "1984"
+            "ja": "1984",
+            "ko": ""
           },
           "aliases": [
             "1984"
@@ -1343,7 +1377,20 @@ window.catalogData = {
           "videoId": "J1lOWtPQvxk"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_n5xCM9rK3AwbjuSvaQW3xoXlJZDHmDSzA&hl=ja"
+      "trackSource": "https://findmestore.thinkr.jp/products/avcd-000-63827",
+      "youtubeTrackCount": 20,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 20,
+      "albumReleaseDate": "2026-01-14",
+      "albumReleaseDateSource": "https://kaf.kamitsubaki.jp/news/20251107/1126/",
+      "liveDate": "2025-08-24",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_n5xCM9rK3AwbjuSvaQW3xoXlJZDHmDSzA&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "kaf"
+      ]
     },
     {
       "id": "youtube-OLAK5uy_lp0be953zDnNc1e-x2nzGbNrg9BG0yHfw",
@@ -1509,7 +1556,10 @@ window.catalogData = {
           "videoId": "7hK-tpLWQYE"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lp0be953zDnNc1e-x2nzGbNrg9BG0yHfw&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lp0be953zDnNc1e-x2nzGbNrg9BG0yHfw&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lp0be953zDnNc1e-x2nzGbNrg9BG0yHfw&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_k2MZF7Xwo6tcKSTeN20B1I3stLCPyWxJU",
@@ -1698,7 +1748,10 @@ window.catalogData = {
           "videoId": "qXWYqxc4pXY"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_k2MZF7Xwo6tcKSTeN20B1I3stLCPyWxJU&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_k2MZF7Xwo6tcKSTeN20B1I3stLCPyWxJU&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_k2MZF7Xwo6tcKSTeN20B1I3stLCPyWxJU&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nrCTkna1hhaSGAE8OWDmVbpkHkXzYO9wk",
@@ -1717,21 +1770,22 @@ window.catalogData = {
         "kaf"
       ],
       "tags": [],
-      "date": "2024-10-30",
-      "releaseType": "album",
+      "date": "2024-08-29",
+      "releaseType": "ep-cover",
       "trackCount": 21,
       "image": "images/albums/youtube-OLAK5uy_nrCTkna1hhaSGAE8OWDmVbpkHkXzYO9wk.jpg",
       "sourceUrl": "https://www.youtube.com/watch?v=Ud3GA7YFVuI&list=OLAK5uy_nrCTkna1hhaSGAE8OWDmVbpkHkXzYO9wk&pp=0gcJCQ4DOCosWNin",
-      "dateSource": "https://music.amazon.co.uk/albums/B0DK4J4N53",
+      "dateSource": "https://findmestore.thinkr.jp/products/ktr-000-0170",
       "translationStatus": "original",
       "youtubeDate": "2025-09-24",
-      "dateVerifiedOn": "2026-10-06",
-      "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
+      "dateVerifiedOn": "2026-10-07",
+      "dateBasis": "live",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nrCTkna1hhaSGAE8OWDmVbpkHkXzYO9wk/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICNLtt70GEAE=&rs=AOn4CLBi1xiOeovryMLu2u1srPzE-wyX-w&v=1739454162",
       "tracks": [
         {
           "titles": {
-            "ja": "アイラ"
+            "ja": "アイラ",
+            "ko": ""
           },
           "aliases": [
             "【歌ってみた】アイラ covered by 花譜",
@@ -1741,7 +1795,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "青のすみか"
+            "ja": "青のすみか",
+            "ko": ""
           },
           "aliases": [
             "青のすみか at I SCREAM LIVE3 (Cover)",
@@ -1751,17 +1806,20 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "あなたは煙草　私はシャボン"
+            "ja": "あなたは煙草 私はシャボン",
+            "ko": ""
           },
           "aliases": [
             "あなたは煙草　私はシャボン at I SCREAM LIVE3 (Cover)",
-            "あなたは煙草　私はシャボン"
+            "あなたは煙草　私はシャボン",
+            "あなたは煙草 私はシャボン"
           ],
           "videoId": "oqtZZoCxSqg"
         },
         {
           "titles": {
-            "ja": "look at the sea"
+            "ja": "look at the sea",
+            "ko": ""
           },
           "aliases": [
             "look at the sea at I SCREAM LIVE3 (Cover)",
@@ -1771,7 +1829,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "エメラルド"
+            "ja": "エメラルド",
+            "ko": ""
           },
           "aliases": [
             "エメラルド at I SCREAM LIVE3 (Cover)",
@@ -1781,7 +1840,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "靴の花火"
+            "ja": "靴の花火",
+            "ko": ""
           },
           "aliases": [
             "靴の花火 at I SCREAM LIVE3 (Cover)",
@@ -1791,7 +1851,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "美貌の青空"
+            "ja": "美貌の青空",
+            "ko": ""
           },
           "aliases": [
             "美貌の青空 at I SCREAM LIVE3 (Cover)",
@@ -1801,7 +1862,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "BATACO"
+            "ja": "BATACO",
+            "ko": ""
           },
           "aliases": [
             "BATACO at I SCREAM LIVE3 (Cover)",
@@ -1811,7 +1873,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "Gemini"
+            "ja": "Gemini",
+            "ko": ""
           },
           "aliases": [
             "Gemini at I SCREAM LIVE3 (Cover)",
@@ -1821,7 +1884,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "水面に、アイス"
+            "ja": "水面に、アイス",
+            "ko": ""
           },
           "aliases": [
             "水面に、アイス at I SCREAM LIVE3 (Cover)",
@@ -1831,7 +1895,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "9月になること"
+            "ja": "9月になること",
+            "ko": ""
           },
           "aliases": [
             "9月になること at I SCREAM LIVE3 (Cover)",
@@ -1841,7 +1906,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "生kill the time 4 you、、❤︎"
+            "ja": "生kill the time 4 you、、❤︎",
+            "ko": ""
           },
           "aliases": [
             "生kill the time 4 you、、❤︎ at I SCREAM LIVE3 (Cover)",
@@ -1851,27 +1917,32 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "PLACEBO"
+            "ja": "PLACEBO feat.理芽",
+            "ko": ""
           },
           "aliases": [
             "【歌ってみた】PLACEBO covered by 花譜＋理芽",
-            "PLACEBO"
+            "PLACEBO",
+            "PLACEBO feat.理芽"
           ],
           "videoId": "52FERmWzEUs"
         },
         {
           "titles": {
-            "ja": "不便な可愛げ"
+            "ja": "不便な可愛げ feat.理芽",
+            "ko": ""
           },
           "aliases": [
             "不便な可愛げ at I SCREAM LIVE3 (Cover)",
-            "不便な可愛げ"
+            "不便な可愛げ",
+            "不便な可愛げ feat.理芽"
           ],
           "videoId": "cpXsJjBjw_Q"
         },
         {
           "titles": {
-            "ja": "むちっ"
+            "ja": "むちっ",
+            "ko": ""
           },
           "aliases": [
             "むちっ at I SCREAM LIVE3 (Cover)",
@@ -1881,7 +1952,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "八月は僕の名前"
+            "ja": "八月は僕の名前",
+            "ko": ""
           },
           "aliases": [
             "八月は僕の名前 at I SCREAM LIVE3 (Cover)",
@@ -1891,7 +1963,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "サークルゲーム"
+            "ja": "サークルゲーム",
+            "ko": ""
           },
           "aliases": [
             "サークルゲーム at I SCREAM LIVE3 (Cover)",
@@ -1901,7 +1974,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "スパークル"
+            "ja": "スパークル",
+            "ko": ""
           },
           "aliases": [
             "スパークル at I SCREAM LIVE3 (Cover)",
@@ -1911,7 +1985,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "言わないけどね。"
+            "ja": "言わないけどね。",
+            "ko": ""
           },
           "aliases": [
             "言わないけどね。 at I SCREAM LIVE3 (Cover)",
@@ -1921,7 +1996,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "BLUE SOULS"
+            "ja": "BLUE SOULS",
+            "ko": ""
           },
           "aliases": [
             "BLUE SOULS at I SCREAM LIVE3 (Cover)",
@@ -1931,7 +2007,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "恋は永遠"
+            "ja": "恋は永遠",
+            "ko": ""
           },
           "aliases": [
             "恋は永遠 at I SCREAM LIVE3 (Cover)",
@@ -1940,7 +2017,20 @@ window.catalogData = {
           "videoId": "i5lFmGuh8xg"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nrCTkna1hhaSGAE8OWDmVbpkHkXzYO9wk&hl=ja"
+      "trackSource": "https://findmestore.thinkr.jp/products/ktr-000-0170",
+      "youtubeTrackCount": 21,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 21,
+      "albumReleaseDate": "2024-10-30",
+      "albumReleaseDateSource": "https://music.amazon.co.uk/albums/B0DK4J4N53",
+      "liveDate": "2024-08-29",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nrCTkna1hhaSGAE8OWDmVbpkHkXzYO9wk&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "kaf"
+      ]
     },
     {
       "id": "youtube-OLAK5uy_npTWtDRQFmmSR-keqDapC4jDyt-IJ3b6I",
@@ -2120,7 +2210,10 @@ window.catalogData = {
           "videoId": "pHOxRGZvZrM"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_npTWtDRQFmmSR-keqDapC4jDyt-IJ3b6I&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_npTWtDRQFmmSR-keqDapC4jDyt-IJ3b6I&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_npTWtDRQFmmSR-keqDapC4jDyt-IJ3b6I&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_k1D6iCOauSuWZOfHhZigGc5djt4wjj6vQ",
@@ -2139,32 +2232,36 @@ window.catalogData = {
         "kaf"
       ],
       "tags": [],
-      "date": "2023-09-27",
-      "releaseType": "album",
+      "date": "2023-01-28",
+      "releaseType": "ep-cover",
       "trackCount": 31,
       "image": "images/albums/youtube-OLAK5uy_k1D6iCOauSuWZOfHhZigGc5djt4wjj6vQ.jpg",
       "sourceUrl": "https://www.youtube.com/watch?v=WmsHJWoPcWw&list=OLAK5uy_k1D6iCOauSuWZOfHhZigGc5djt4wjj6vQ",
-      "dateSource": "https://en.wikipedia.org/wiki/Kaf_(singer)",
+      "dateSource": "https://findmestore.thinkr.jp/products/ktr-000-0115",
       "translationStatus": "original",
       "youtubeDate": "2025-09-23",
-      "dateVerifiedOn": "2026-10-06",
-      "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
+      "dateVerifiedOn": "2026-10-07",
+      "dateBasis": "live",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_k1D6iCOauSuWZOfHhZigGc5djt4wjj6vQ/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICOzRzL0GEAE=&rs=AOn4CLBUte27Htf1S2KZtFRdAg71uLSFuQ&v=1739794668",
       "tracks": [
         {
           "titles": {
-            "ja": "MC1"
+            "ja": "MC1",
+            "ko": ""
           },
           "aliases": [
             "MC1 at I SCREAM LIVE2",
             "MC1",
-            "MC1 at I SCREAM LIVE"
+            "MC1 at I SCREAM LIVE",
+            "MC1 (Live)",
+            "MC1（Live）"
           ],
           "videoId": "WmsHJWoPcWw"
         },
         {
           "titles": {
-            "ja": "水星"
+            "ja": "水星",
+            "ko": ""
           },
           "aliases": [
             "水星 at I SCREAM LIVE2 (Cover)",
@@ -2174,7 +2271,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "わたしは人類"
+            "ja": "わたしは人類",
+            "ko": ""
           },
           "aliases": [
             "わたしは人類 at I SCREAM LIVE2 (Cover)",
@@ -2184,7 +2282,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ひらいて"
+            "ja": "ひらいて",
+            "ko": ""
           },
           "aliases": [
             "ひらいて at I SCREAM LIVE2 (Cover)",
@@ -2194,18 +2293,22 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC2"
+            "ja": "MC2",
+            "ko": ""
           },
           "aliases": [
             "MC2 at I SCREAM LIVE2",
             "MC2",
-            "MC2 at I SCREAM LIVE"
+            "MC2 at I SCREAM LIVE",
+            "MC2 (Live)",
+            "MC2（Live）"
           ],
           "videoId": "_nrEkDD1Efw"
         },
         {
           "titles": {
-            "ja": "猫とアレルギー"
+            "ja": "猫とアレルギー",
+            "ko": ""
           },
           "aliases": [
             "猫とアレルギー at I SCREAM LIVE2 (Cover)",
@@ -2215,7 +2318,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "忘れっぽい天使"
+            "ja": "忘れっぽい天使",
+            "ko": ""
           },
           "aliases": [
             "忘れっぽい天使 at I SCREAM LIVE2 (Cover)",
@@ -2225,7 +2329,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "偽りのシンパシー"
+            "ja": "偽りのシンパシー",
+            "ko": ""
           },
           "aliases": [
             "偽りのシンパシー at I SCREAM LIVE2 (Cover)",
@@ -2235,18 +2340,22 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC3"
+            "ja": "MC3",
+            "ko": ""
           },
           "aliases": [
             "MC3 at I SCREAM LIVE2",
             "MC3",
-            "MC3 at I SCREAM LIVE"
+            "MC3 at I SCREAM LIVE",
+            "MC3 (Live)",
+            "MC3（Live）"
           ],
           "videoId": "isCJ9IitSKA"
         },
         {
           "titles": {
-            "ja": "The Story"
+            "ja": "The Story",
+            "ko": ""
           },
           "aliases": [
             "The Story at I SCREAM LIVE2 (Cover)",
@@ -2256,7 +2365,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "I Don't Wanna Dance In This Squall"
+            "ja": "I Don't Wanna Dance In This Squall",
+            "ko": ""
           },
           "aliases": [
             "I Don't Wanna Dance In This Squall at I SCREAM LIVE2 (Cover)",
@@ -2266,7 +2376,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ユニ"
+            "ja": "ユニ",
+            "ko": ""
           },
           "aliases": [
             "ユニ at I SCREAM LIVE2 (Cover)",
@@ -2276,18 +2387,22 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC4"
+            "ja": "MC4",
+            "ko": ""
           },
           "aliases": [
             "MC4 at I SCREAM LIVE2",
             "MC4",
-            "MC4 at I SCREAM LIVE"
+            "MC4 at I SCREAM LIVE",
+            "MC4 (Live)",
+            "MC4（Live）"
           ],
           "videoId": "2eYXlOPHOWQ"
         },
         {
           "titles": {
-            "ja": "青"
+            "ja": "青",
+            "ko": ""
           },
           "aliases": [
             "青 at I SCREAM LIVE2 (Cover)",
@@ -2297,27 +2412,33 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "戦争を知らない大人たち (Cover)"
+            "ja": "戦争を知らない大人たち",
+            "ko": ""
           },
           "aliases": [
-            "戦争を知らない大人たち (Cover)"
+            "戦争を知らない大人たち (Cover)",
+            "戦争を知らない大人たち"
           ],
           "videoId": "t26I62EA9GM"
         },
         {
           "titles": {
-            "ja": "MC5"
+            "ja": "MC5",
+            "ko": ""
           },
           "aliases": [
             "MC5 at I SCREAM LIVE2",
             "MC5",
-            "MC5 at I SCREAM LIVE"
+            "MC5 at I SCREAM LIVE",
+            "MC5 (Live)",
+            "MC5（Live）"
           ],
           "videoId": "CLaKakxaRmc"
         },
         {
           "titles": {
-            "ja": "チクタクボーイ"
+            "ja": "チクタクボーイ",
+            "ko": ""
           },
           "aliases": [
             "チクタクボーイ at I SCREAM LIVE2 (Cover)",
@@ -2328,7 +2449,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "こんな夜でもいいじゃないか"
+            "ja": "こんな夜でもいいじゃないか",
+            "ko": ""
           },
           "aliases": [
             "こんな夜でもいいじゃないか at I SCREAM LIVE2 (Cover)",
@@ -2338,18 +2460,22 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC6"
+            "ja": "MC6",
+            "ko": ""
           },
           "aliases": [
             "MC6 at I SCREAM LIVE2",
             "MC6",
-            "MC6 at I SCREAM LIVE"
+            "MC6 at I SCREAM LIVE",
+            "MC6 (Live)",
+            "MC6（Live）"
           ],
           "videoId": "n84M1zENO5Q"
         },
         {
           "titles": {
-            "ja": "抱きしめたって、近過ぎて"
+            "ja": "抱きしめたって、近過ぎて",
+            "ko": ""
           },
           "aliases": [
             "抱きしめたって、近過ぎて at I SCREAM LIVE2 (Cover)",
@@ -2359,7 +2485,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "真夜中のドア"
+            "ja": "真夜中のドア",
+            "ko": ""
           },
           "aliases": [
             "真夜中のドア at I SCREAM LIVE2 (Cover)",
@@ -2369,7 +2496,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "TREK TRUNK"
+            "ja": "TREK TRUNK",
+            "ko": ""
           },
           "aliases": [
             "TREK TRUNK at I SCREAM LIVE2 (Cover)",
@@ -2379,18 +2507,22 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC7"
+            "ja": "MC7",
+            "ko": ""
           },
           "aliases": [
             "MC7 at I SCREAM LIVE2",
             "MC7",
-            "MC7 at I SCREAM LIVE"
+            "MC7 at I SCREAM LIVE",
+            "MC7 (Live)",
+            "MC7（Live）"
           ],
           "videoId": "vnJMVMzRENA"
         },
         {
           "titles": {
-            "ja": "今夜はブギー・バック feat.春猿火"
+            "ja": "今夜はブギー・バック feat.春猿火",
+            "ko": ""
           },
           "aliases": [
             "今夜はブギー・バック feat.春猿火 at I SCREAM LIVE2 (Cover)",
@@ -2400,7 +2532,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ODDTAXI feat.春猿火"
+            "ja": "ODDTAXI feat.春猿火",
+            "ko": ""
           },
           "aliases": [
             "ODDTAXI feat.春猿火 at I SCREAM LIVE2 (Cover)",
@@ -2410,18 +2543,22 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC8"
+            "ja": "MC8",
+            "ko": ""
           },
           "aliases": [
             "MC8 at I SCREAM LIVE2",
             "MC8",
-            "MC8 at I SCREAM LIVE"
+            "MC8 at I SCREAM LIVE",
+            "MC8 (Live)",
+            "MC8（Live）"
           ],
           "videoId": "o7AEWlsRIjs"
         },
         {
           "titles": {
-            "ja": "ラムのラブソング"
+            "ja": "ラムのラブソング",
+            "ko": ""
           },
           "aliases": [
             "ラムのラブソング at I SCREAM LIVE2 (Cover)",
@@ -2431,7 +2568,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "宇宙は大ヘンだ!"
+            "ja": "宇宙は大ヘンだ!",
+            "ko": ""
           },
           "aliases": [
             "宇宙は大ヘンだ! at I SCREAM LIVE2 (Cover)",
@@ -2441,7 +2579,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "トウキョウ・シャンディ・ランデヴ"
+            "ja": "トウキョウ・シャンディ・ランデヴ",
+            "ko": ""
           },
           "aliases": [
             "トウキョウ・シャンディ・ランデヴ at I SCREAM LIVE2 (Cover Live ver.)",
@@ -2451,18 +2590,22 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC9"
+            "ja": "MC9",
+            "ko": ""
           },
           "aliases": [
             "MC9 at I SCREAM LIVE2",
             "MC9",
-            "MC9 at I SCREAM LIVE"
+            "MC9 at I SCREAM LIVE",
+            "MC9 (Live)",
+            "MC9（Live）"
           ],
           "videoId": "ND5uR8jPu_A"
         },
         {
           "titles": {
-            "ja": "ネトカノ"
+            "ja": "ネトカノ",
+            "ko": ""
           },
           "aliases": [
             "ネトカノ at I SCREAM LIVE2 (Cover)",
@@ -2471,7 +2614,20 @@ window.catalogData = {
           "videoId": "SaBrPNFhplI"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_k1D6iCOauSuWZOfHhZigGc5djt4wjj6vQ&hl=ja"
+      "trackSource": "https://findmestore.thinkr.jp/products/ktr-000-0115",
+      "youtubeTrackCount": 31,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 31,
+      "albumReleaseDate": "2023-09-27",
+      "albumReleaseDateSource": "https://en.wikipedia.org/wiki/Kaf_(singer)",
+      "liveDate": "2023-01-28",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_k1D6iCOauSuWZOfHhZigGc5djt4wjj6vQ&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "kaf"
+      ]
     },
     {
       "id": "youtube-OLAK5uy_lYLGg4k_wr7yGFQ3LuHViZG2DhyjWZ_C8",
@@ -2669,7 +2825,10 @@ window.catalogData = {
         }
       ],
       "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lYLGg4k_wr7yGFQ3LuHViZG2DhyjWZ_C8&hl=ja",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lYLGg4k_wr7yGFQ3LuHViZG2DhyjWZ_C8/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICNPsnL0GEAE=&rs=AOn4CLDxpO8A-CIUg_8KGNzV_bCjPex9mA&v=1739011667"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lYLGg4k_wr7yGFQ3LuHViZG2DhyjWZ_C8/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICNPsnL0GEAE=&rs=AOn4CLDxpO8A-CIUg_8KGNzV_bCjPex9mA&v=1739011667",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lYLGg4k_wr7yGFQ3LuHViZG2DhyjWZ_C8&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mq9ibSs4kCX_s-Zp6vHHe52uV29y54UvM",
@@ -2856,7 +3015,10 @@ window.catalogData = {
           "videoId": "0bEmLE7JrQQ"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_mq9ibSs4kCX_s-Zp6vHHe52uV29y54UvM&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_mq9ibSs4kCX_s-Zp6vHHe52uV29y54UvM&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mq9ibSs4kCX_s-Zp6vHHe52uV29y54UvM&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_k1fr83vinxGEBsAdYtF0M_PV_DMoWK6CA",
@@ -3064,7 +3226,10 @@ window.catalogData = {
         }
       ],
       "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_k1fr83vinxGEBsAdYtF0M_PV_DMoWK6CA&hl=ja",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_k1fr83vinxGEBsAdYtF0M_PV_DMoWK6CA/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICOuUzb0GEAE=&rs=AOn4CLBt5nGB5soVlg-F2PPEYWI0rnmjyg&v=1739803243"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_k1fr83vinxGEBsAdYtF0M_PV_DMoWK6CA/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICOuUzb0GEAE=&rs=AOn4CLBt5nGB5soVlg-F2PPEYWI0rnmjyg&v=1739803243",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_k1fr83vinxGEBsAdYtF0M_PV_DMoWK6CA&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nHZf0-sgRS9lIJAc8SMLBCqquV4TwkH2Q",
@@ -3083,32 +3248,36 @@ window.catalogData = {
         "kaf"
       ],
       "tags": [],
-      "date": "2020-08-19",
-      "releaseType": "album",
+      "date": "2020-06-14",
+      "releaseType": "ep-cover",
       "trackCount": 43,
       "image": "images/albums/youtube-OLAK5uy_nHZf0-sgRS9lIJAc8SMLBCqquV4TwkH2Q.jpg",
       "sourceUrl": "https://www.youtube.com/watch?v=Pf3N2TxPtTE&list=OLAK5uy_nHZf0-sgRS9lIJAc8SMLBCqquV4TwkH2Q",
-      "dateSource": "https://kaf.kamitsubaki.jp/discography/",
+      "dateSource": "https://findmestore.thinkr.jp/products/%E8%8A%B1%E8%AD%9C-cover-live-album-i-scream-live",
       "translationStatus": "original",
       "youtubeDate": "2025-09-22",
-      "dateVerifiedOn": "2026-10-06",
-      "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
+      "dateVerifiedOn": "2026-10-07",
+      "dateBasis": "live",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nHZf0-sgRS9lIJAc8SMLBCqquV4TwkH2Q/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICI_Zpb0GEAE=&rs=AOn4CLBinsIXzPhSk8cdBcgZf2I-5rn-EA&v=1739156623",
       "tracks": [
         {
           "titles": {
-            "ja": "MC1"
+            "ja": "MC1",
+            "ko": ""
           },
           "aliases": [
             "MC1 at I SCREAM LIVE",
             "MC1",
-            "MC1 at I SCREAM LIVE2"
+            "MC1 at I SCREAM LIVE2",
+            "MC1 (Live)",
+            "MC1（Live）"
           ],
           "videoId": "Pf3N2TxPtTE"
         },
         {
           "titles": {
-            "ja": "さよならミッドナイト"
+            "ja": "さよならミッドナイト",
+            "ko": ""
           },
           "aliases": [
             "さよならミッドナイト at I SCREAM LIVE (Cover)",
@@ -3118,7 +3287,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "少女レイ"
+            "ja": "少女レイ",
+            "ko": ""
           },
           "aliases": [
             "少女レイ at I SCREAM LIVE (Cover)",
@@ -3129,7 +3299,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "猛独が襲う"
+            "ja": "猛独が襲う",
+            "ko": ""
           },
           "aliases": [
             "猛独が襲う at I SCREAM LIVE (Cover)",
@@ -3139,7 +3310,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "美しく、闇"
+            "ja": "美しく、闇",
+            "ko": ""
           },
           "aliases": [
             "美しく、闇 at I SCREAM LIVE (Cover)",
@@ -3149,18 +3321,22 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC2"
+            "ja": "MC2",
+            "ko": ""
           },
           "aliases": [
             "MC2 at I SCREAM LIVE",
             "MC2",
-            "MC2 at I SCREAM LIVE2"
+            "MC2 at I SCREAM LIVE2",
+            "MC2 (Live)",
+            "MC2（Live）"
           ],
           "videoId": "WYZA9m69gZ4"
         },
         {
           "titles": {
-            "ja": "回る空うさぎ"
+            "ja": "回る空うさぎ",
+            "ko": ""
           },
           "aliases": [
             "回る空うさぎ at I SCREAM LIVE (Cover)",
@@ -3170,7 +3346,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "雨き声残響"
+            "ja": "雨き声残響",
+            "ko": ""
           },
           "aliases": [
             "雨き声残響 at I SCREAM LIVE (Cover)",
@@ -3180,7 +3357,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "イヤホンと蝉時雨"
+            "ja": "イヤホンと蝉時雨",
+            "ko": ""
           },
           "aliases": [
             "イヤホンと蝉時雨 at I SCREAM LIVE (Cover)",
@@ -3190,18 +3368,22 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC3"
+            "ja": "MC3",
+            "ko": ""
           },
           "aliases": [
             "MC3 at I SCREAM LIVE",
             "MC3",
-            "MC3 at I SCREAM LIVE2"
+            "MC3 at I SCREAM LIVE2",
+            "MC3 (Live)",
+            "MC3（Live）"
           ],
           "videoId": "HAi-l9R0jiU"
         },
         {
           "titles": {
-            "ja": "死んでしまったのだろうか"
+            "ja": "死んでしまったのだろうか",
+            "ko": ""
           },
           "aliases": [
             "死んでしまったのだろうか at I SCREAM LIVE (Cover)",
@@ -3211,7 +3393,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "忘れたいことばっかだ"
+            "ja": "忘れたいことばっかだ",
+            "ko": ""
           },
           "aliases": [
             "忘れたいことばっかだ at I SCREAM LIVE (Cover)",
@@ -3221,7 +3404,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "LAZY"
+            "ja": "LAZY",
+            "ko": ""
           },
           "aliases": [
             "LAZY at I SCREAM LIVE (Cover)",
@@ -3231,18 +3415,22 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC4"
+            "ja": "MC4",
+            "ko": ""
           },
           "aliases": [
             "MC4 at I SCREAM LIVE",
             "MC4",
-            "MC4 at I SCREAM LIVE2"
+            "MC4 at I SCREAM LIVE2",
+            "MC4 (Live)",
+            "MC4（Live）"
           ],
           "videoId": "_yuqySTZJoY"
         },
         {
           "titles": {
-            "ja": "五月雨"
+            "ja": "五月雨",
+            "ko": ""
           },
           "aliases": [
             "五月雨 at I SCREAM LIVE (Cover)",
@@ -3252,18 +3440,22 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC5"
+            "ja": "MC5",
+            "ko": ""
           },
           "aliases": [
             "MC5 at I SCREAM LIVE",
             "MC5",
-            "MC5 at I SCREAM LIVE2"
+            "MC5 at I SCREAM LIVE2",
+            "MC5 (Live)",
+            "MC5（Live）"
           ],
           "videoId": "os_SztlNL1g"
         },
         {
           "titles": {
-            "ja": "死神"
+            "ja": "死神",
+            "ko": ""
           },
           "aliases": [
             "死神 at I SCREAM LIVE (Cover)",
@@ -3273,7 +3465,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ミッドナイト清純異性交遊"
+            "ja": "ミッドナイト清純異性交遊",
+            "ko": ""
           },
           "aliases": [
             "ミッドナイト清純異性交遊 at I SCREAM LIVE (Cover)",
@@ -3283,18 +3476,22 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC6"
+            "ja": "MC6",
+            "ko": ""
           },
           "aliases": [
             "MC6 at I SCREAM LIVE",
             "MC6",
-            "MC6 at I SCREAM LIVE2"
+            "MC6 at I SCREAM LIVE2",
+            "MC6 (Live)",
+            "MC6（Live）"
           ],
           "videoId": "QSYttjSMykk"
         },
         {
           "titles": {
-            "ja": "プラスティック・ラブ"
+            "ja": "プラスティック・ラブ",
+            "ko": ""
           },
           "aliases": [
             "プラスティック・ラブ at I SCREAM LIVE (Cover)",
@@ -3304,7 +3501,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ダンスが僕の恋人"
+            "ja": "ダンスが僕の恋人",
+            "ko": ""
           },
           "aliases": [
             "ダンスが僕の恋人 at I SCREAM LIVE (Cover)",
@@ -3314,7 +3512,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "宙ぶらりん"
+            "ja": "宙ぶらりん",
+            "ko": ""
           },
           "aliases": [
             "宙ぶらりん at I SCREAM LIVE (Cover)",
@@ -3324,7 +3523,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "電話をするよ"
+            "ja": "電話をするよ",
+            "ko": ""
           },
           "aliases": [
             "電話をするよ at I SCREAM LIVE (Cover)",
@@ -3334,18 +3534,22 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC7"
+            "ja": "MC7",
+            "ko": ""
           },
           "aliases": [
             "MC7 at I SCREAM LIVE",
             "MC7",
-            "MC7 at I SCREAM LIVE2"
+            "MC7 at I SCREAM LIVE2",
+            "MC7 (Live)",
+            "MC7（Live）"
           ],
           "videoId": "xOQBk3cnJLo"
         },
         {
           "titles": {
-            "ja": "明けない夜のリリィ"
+            "ja": "明けない夜のリリィ",
+            "ko": ""
           },
           "aliases": [
             "明けない夜のリリィ at I SCREAM LIVE (Cover)",
@@ -3355,7 +3559,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "あなたの夜が明けるまで"
+            "ja": "あなたの夜が明けるまで",
+            "ko": ""
           },
           "aliases": [
             "あなたの夜が明けるまで at I SCREAM LIVE (Cover)",
@@ -3365,29 +3570,36 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC8"
+            "ja": "MC8",
+            "ko": ""
           },
           "aliases": [
             "MC8 at I SCREAM LIVE",
             "MC8",
-            "MC8 at I SCREAM LIVE2"
+            "MC8 at I SCREAM LIVE2",
+            "MC8 (Live)",
+            "MC8（Live）"
           ],
           "videoId": "L-8j00E3qKM"
         },
         {
           "titles": {
-            "ja": "MC9"
+            "ja": "MC9",
+            "ko": ""
           },
           "aliases": [
             "MC9 at I SCREAM LIVE",
             "MC9",
-            "MC9 at I SCREAM LIVE2"
+            "MC9 at I SCREAM LIVE2",
+            "MC9 (Live)",
+            "MC9（Live）"
           ],
           "videoId": "BYVFug5rOFY"
         },
         {
           "titles": {
-            "ja": "Fall In Loveに恋してるっ♪"
+            "ja": "Fall In Loveに恋してるっ♪",
+            "ko": ""
           },
           "aliases": [
             "Fall In Loveに恋してるっ♪ at I SCREAM LIVE (Cover)",
@@ -3397,7 +3609,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "銀河"
+            "ja": "銀河",
+            "ko": ""
           },
           "aliases": [
             "銀河 at I SCREAM LIVE (Cover)",
@@ -3407,7 +3620,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "the MIRACLE"
+            "ja": "the MIRACLE",
+            "ko": ""
           },
           "aliases": [
             "the MIRACLE at I SCREAM LIVE (Cover)",
@@ -3417,7 +3631,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ビームが撃てたらいいのに"
+            "ja": "ビームが撃てたらいいのに",
+            "ko": ""
           },
           "aliases": [
             "ビームが撃てたらいいのに at I SCREAM LIVE (Cover)",
@@ -3427,17 +3642,20 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC10"
+            "ja": "MC10",
+            "ko": ""
           },
           "aliases": [
             "MC10 at I SCREAM LIVE",
-            "MC10"
+            "MC10",
+            "MC10 (Live)"
           ],
           "videoId": "WFHdVCjDb8w"
         },
         {
           "titles": {
-            "ja": "愛にできることはまだあるかい"
+            "ja": "愛にできることはまだあるかい",
+            "ko": ""
           },
           "aliases": [
             "愛にできることはまだあるかい at I SCREAM LIVE (Cover)",
@@ -3447,7 +3665,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "おやすみ泣き声、さよなら歌姫"
+            "ja": "おやすみ泣き声、さよなら歌姫",
+            "ko": ""
           },
           "aliases": [
             "おやすみ泣き声、さよなら歌姫 at I SCREAM LIVE (Cover)",
@@ -3458,7 +3677,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ロックンロールは鳴り止まないっ"
+            "ja": "ロックンロールは鳴り止まないっ",
+            "ko": ""
           },
           "aliases": [
             "ロックンロールは鳴り止まないっ at I SCREAM LIVE (Cover)",
@@ -3468,7 +3688,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "今夜がおわらない"
+            "ja": "今夜がおわらない",
+            "ko": ""
           },
           "aliases": [
             "今夜がおわらない at I SCREAM LIVE (Cover)",
@@ -3478,7 +3699,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC11"
+            "ja": "MC11",
+            "ko": ""
           },
           "aliases": [
             "MC11 at I SCREAM LIVE",
@@ -3488,7 +3710,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "命に嫌われている"
+            "ja": "命に嫌われている",
+            "ko": ""
           },
           "aliases": [
             "命に嫌われている at I SCREAM LIVE (Cover)",
@@ -3498,37 +3721,47 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "MC12I SCREAM LIVE"
+            "ja": "MC12",
+            "ko": ""
           },
           "aliases": [
-            "MC12I SCREAM LIVE"
+            "MC12I SCREAM LIVE",
+            "MC12"
           ],
           "videoId": "kUFQOyn4FL8"
         },
         {
           "titles": {
-            "ja": "まほう feat. 理芽"
+            "ja": "魔法 feat.理芽",
+            "ko": ""
           },
           "aliases": [
             "まほう feat. 理芽 at I SCREAM LIVE",
             "まほう feat. 理芽",
             "まほう (MIMI Remix)",
-            "まほう"
+            "まほう",
+            "魔法 feat.理芽",
+            "魔法",
+            "마법",
+            "KAF"
           ],
           "videoId": "qm_QXVEHmpU"
         },
         {
           "titles": {
-            "ja": "MC13I SCREAM LIVE"
+            "ja": "MC13",
+            "ko": ""
           },
           "aliases": [
-            "MC13I SCREAM LIVE"
+            "MC13I SCREAM LIVE",
+            "MC13"
           ],
           "videoId": "3IEp5B5q4Fo"
         },
         {
           "titles": {
-            "ja": "空洞です"
+            "ja": "空洞です",
+            "ko": ""
           },
           "aliases": [
             "空洞です at I SCREAM LIVE (Cover)",
@@ -3537,7 +3770,20 @@ window.catalogData = {
           "videoId": "XJZonx0dlto"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nHZf0-sgRS9lIJAc8SMLBCqquV4TwkH2Q&hl=ja"
+      "trackSource": "https://findmestore.thinkr.jp/products/%E8%8A%B1%E8%AD%9C-cover-live-album-i-scream-live",
+      "youtubeTrackCount": 43,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 43,
+      "albumReleaseDate": "2020-08-19",
+      "albumReleaseDateSource": "https://kaf.kamitsubaki.jp/discography/",
+      "liveDate": "2020-06-14",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nHZf0-sgRS9lIJAc8SMLBCqquV4TwkH2Q&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "kaf"
+      ]
     },
     {
       "id": "youtube-OLAK5uy_mRqN8l890GeU0w6wDEEQO6blVVNY7nLDA",
@@ -3754,7 +4000,10 @@ window.catalogData = {
           "videoId": "Bbg_jrsOT-8"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_mRqN8l890GeU0w6wDEEQO6blVVNY7nLDA&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_mRqN8l890GeU0w6wDEEQO6blVVNY7nLDA&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mRqN8l890GeU0w6wDEEQO6blVVNY7nLDA&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nmWOXOOub8_kU937HEllhN1ddgf6UCI0E",
@@ -3989,7 +4238,10 @@ window.catalogData = {
         }
       ],
       "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nmWOXOOub8_kU937HEllhN1ddgf6UCI0E&hl=ja",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nmWOXOOub8_kU937HEllhN1ddgf6UCI0E/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICLqR1r0GEAE=&rs=AOn4CLDJ4enoLMY2inmR9b8xkNmzaCpfvA&v=1739950266"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nmWOXOOub8_kU937HEllhN1ddgf6UCI0E/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICLqR1r0GEAE=&rs=AOn4CLDJ4enoLMY2inmR9b8xkNmzaCpfvA&v=1739950266",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nmWOXOOub8_kU937HEllhN1ddgf6UCI0E&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nJx_QvgT_eaB3Lg0Fc3iC-hog97h_xE8g",
@@ -4008,7 +4260,7 @@ window.catalogData = {
       ],
       "tags": [],
       "date": "2020-09-23",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 4,
       "image": "images/albums/youtube-OLAK5uy_nJx_QvgT_eaB3Lg0Fc3iC-hog97h_xE8g.jpg",
       "sourceUrl": "https://www.youtube.com/watch?v=yinuk-jX8fM&list=OLAK5uy_nJx_QvgT_eaB3Lg0Fc3iC-hog97h_xE8g",
@@ -4062,7 +4314,10 @@ window.catalogData = {
           "videoId": "-zpzlssRcJE"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nJx_QvgT_eaB3Lg0Fc3iC-hog97h_xE8g&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nJx_QvgT_eaB3Lg0Fc3iC-hog97h_xE8g&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nJx_QvgT_eaB3Lg0Fc3iC-hog97h_xE8g&hl=en",
+      "youtubeMusicType": "EP",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nxxedekI2hYWvWD3T9tg0ZExs1uuQ2kPE",
@@ -4080,7 +4335,7 @@ window.catalogData = {
       ],
       "tags": [],
       "date": "2019-06-28",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 4,
       "image": "images/albums/youtube-OLAK5uy_nxxedekI2hYWvWD3T9tg0ZExs1uuQ2kPE.jpg",
       "sourceUrl": "https://www.youtube.com/watch?v=dledRqPTNT8&list=OLAK5uy_nxxedekI2hYWvWD3T9tg0ZExs1uuQ2kPE",
@@ -4149,7 +4404,10 @@ window.catalogData = {
           "videoId": "WVUAM9hEc5c"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nxxedekI2hYWvWD3T9tg0ZExs1uuQ2kPE&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nxxedekI2hYWvWD3T9tg0ZExs1uuQ2kPE&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nxxedekI2hYWvWD3T9tg0ZExs1uuQ2kPE&hl=en",
+      "youtubeMusicType": "EP",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kqGxcngXlxFi5o6WWpzbMKRgzTWFdJoXU",
@@ -4167,7 +4425,7 @@ window.catalogData = {
       ],
       "tags": [],
       "date": "2020-06-10",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 5,
       "image": "images/albums/youtube-OLAK5uy_kqGxcngXlxFi5o6WWpzbMKRgzTWFdJoXU.jpg",
       "sourceUrl": "https://www.youtube.com/watch?v=3Dr91z1-Iug&list=OLAK5uy_kqGxcngXlxFi5o6WWpzbMKRgzTWFdJoXU&pp=0gcJCbwFa94AFGB0",
@@ -4264,7 +4522,10 @@ window.catalogData = {
           "videoId": "tKg4DQqfADE"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_kqGxcngXlxFi5o6WWpzbMKRgzTWFdJoXU&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_kqGxcngXlxFi5o6WWpzbMKRgzTWFdJoXU&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kqGxcngXlxFi5o6WWpzbMKRgzTWFdJoXU&hl=en",
+      "youtubeMusicType": "EP",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kA91YeX4NlyRco45d6anT2kvJ9jWDccMk",
@@ -4292,7 +4553,10 @@ window.catalogData = {
       "youtubeDate": "2026-07-26",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kA91YeX4NlyRco45d6anT2kvJ9jWDccMk/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICK6vp84GEAE=&rs=AOn4CLDctoKJrwuhCgZ2eQE7YOL6tesRzg&v=1774835630"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kA91YeX4NlyRco45d6anT2kvJ9jWDccMk/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICK6vp84GEAE=&rs=AOn4CLDctoKJrwuhCgZ2eQE7YOL6tesRzg&v=1774835630",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kA91YeX4NlyRco45d6anT2kvJ9jWDccMk&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mMzVSDYRkPSWl7RbNWg79VH2HXVjx7H8o",
@@ -4319,7 +4583,10 @@ window.catalogData = {
       "youtubeDate": "2026-09-14",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mMzVSDYRkPSWl7RbNWg79VH2HXVjx7H8o/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICMTplM0GEAE=&rs=AOn4CLCzbDcM6mOKBxTaYNg59dJiEgcy6g&v=1772434628"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mMzVSDYRkPSWl7RbNWg79VH2HXVjx7H8o/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICMTplM0GEAE=&rs=AOn4CLCzbDcM6mOKBxTaYNg59dJiEgcy6g&v=1772434628",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mMzVSDYRkPSWl7RbNWg79VH2HXVjx7H8o&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mk-jFuNQygW2Alx2DGE-GcKth3uJT0Euo",
@@ -4346,7 +4613,10 @@ window.catalogData = {
       "youtubeDate": "2026-07-26",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mk-jFuNQygW2Alx2DGE-GcKth3uJT0Euo/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICPSR3MsGEAE=&rs=AOn4CLDl7sPnOfWXieOZpoONa8pEUg_Tew&v=1769408756"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mk-jFuNQygW2Alx2DGE-GcKth3uJT0Euo/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICPSR3MsGEAE=&rs=AOn4CLDl7sPnOfWXieOZpoONa8pEUg_Tew&v=1769408756",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mk-jFuNQygW2Alx2DGE-GcKth3uJT0Euo&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lhgMdovw06l03wfbfFlgR6SYibJc47wkw",
@@ -4366,7 +4636,7 @@ window.catalogData = {
       ],
       "tags": [],
       "date": "2026-02-11",
-      "releaseType": "album",
+      "releaseType": "single",
       "trackCount": 2,
       "image": "images/albums/youtube-OLAK5uy_lhgMdovw06l03wfbfFlgR6SYibJc47wkw.jpg",
       "sourceUrl": "https://www.youtube.com/watch?v=l0sFUlyp1Dw&list=OLAK5uy_lhgMdovw06l03wfbfFlgR6SYibJc47wkw&pp=0gcJCQ4DOCosWNin",
@@ -4399,7 +4669,10 @@ window.catalogData = {
           "videoId": "Iw_WaDKjhiY"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lhgMdovw06l03wfbfFlgR6SYibJc47wkw&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lhgMdovw06l03wfbfFlgR6SYibJc47wkw&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lhgMdovw06l03wfbfFlgR6SYibJc47wkw&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kCNdezFZasfcw-yC2XHVHWJHhtECL0ZzU",
@@ -4426,7 +4699,10 @@ window.catalogData = {
       "youtubeDate": "2026-07-26",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kCNdezFZasfcw-yC2XHVHWJHhtECL0ZzU/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICNmYossGEAE=&rs=AOn4CLBBMxmuiPnSZwQDY5FICHq1KKNmgQ&v=1768459353"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kCNdezFZasfcw-yC2XHVHWJHhtECL0ZzU/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICNmYossGEAE=&rs=AOn4CLBBMxmuiPnSZwQDY5FICHq1KKNmgQ&v=1768459353",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kCNdezFZasfcw-yC2XHVHWJHhtECL0ZzU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mlSOTQJPp0RJBfbckzy05F3oNlohifz5k",
@@ -4455,7 +4731,10 @@ window.catalogData = {
       "youtubeDate": "2026-07-22",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mlSOTQJPp0RJBfbckzy05F3oNlohifz5k/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICIyYossGEAE=&rs=AOn4CLBlZI359ELHQD9VoleWz8VXXZYfjw&v=1768459276"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mlSOTQJPp0RJBfbckzy05F3oNlohifz5k/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICIyYossGEAE=&rs=AOn4CLBlZI359ELHQD9VoleWz8VXXZYfjw&v=1768459276",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mlSOTQJPp0RJBfbckzy05F3oNlohifz5k&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_m9mD8F1g8bmPi6FepQKImbV6Z3QgyeiuY",
@@ -4483,7 +4762,10 @@ window.catalogData = {
       "youtubeDate": "2026-07-23",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_m9mD8F1g8bmPi6FepQKImbV6Z3QgyeiuY/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICLfBgMgGEAE=&rs=AOn4CLBAHnqerAbrMvjdmmLW9bY7k4IFQA&v=1761616055"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_m9mD8F1g8bmPi6FepQKImbV6Z3QgyeiuY/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICLfBgMgGEAE=&rs=AOn4CLBAHnqerAbrMvjdmmLW9bY7k4IFQA&v=1761616055",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_m9mD8F1g8bmPi6FepQKImbV6Z3QgyeiuY&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mlJQei0QFptLnCdHTqTZIzqqiEOoZubiU",
@@ -4511,7 +4793,10 @@ window.catalogData = {
       "youtubeDate": "2025-10-28",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mlJQei0QFptLnCdHTqTZIzqqiEOoZubiU/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICI3TmMcGEAE=&rs=AOn4CLCGQD0E9jsrBoC3PFM372GT67woOA&v=1759914381"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mlJQei0QFptLnCdHTqTZIzqqiEOoZubiU/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICI3TmMcGEAE=&rs=AOn4CLCGQD0E9jsrBoC3PFM372GT67woOA&v=1759914381",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mlJQei0QFptLnCdHTqTZIzqqiEOoZubiU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nIoe9XGnRNhO8sbjvRhBBkjDlnFJYVROs",
@@ -4538,7 +4823,10 @@ window.catalogData = {
       "youtubeDate": "2026-07-23",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nIoe9XGnRNhO8sbjvRhBBkjDlnFJYVROs/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICM6NzcYGEAE=&rs=AOn4CLCdeqwthkq9BLTKu4kAYpERzZvvAQ&v=1758676686"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nIoe9XGnRNhO8sbjvRhBBkjDlnFJYVROs/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICM6NzcYGEAE=&rs=AOn4CLCdeqwthkq9BLTKu4kAYpERzZvvAQ&v=1758676686",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nIoe9XGnRNhO8sbjvRhBBkjDlnFJYVROs&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_miezxAgTB4k9KBRJJHPCwyN31gw6uCGx4",
@@ -4567,7 +4855,10 @@ window.catalogData = {
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
       "collaborationSource": "https://kaf.kamitsubaki.jp/discography/20250901/1084/",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_miezxAgTB4k9KBRJJHPCwyN31gw6uCGx4/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICNKRjMUGEAE=&rs=AOn4CLADbKaXsg5xna4fEc0jZIaMMZSAVA&v=1755515090"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_miezxAgTB4k9KBRJJHPCwyN31gw6uCGx4/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICNKRjMUGEAE=&rs=AOn4CLADbKaXsg5xna4fEc0jZIaMMZSAVA&v=1755515090",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_miezxAgTB4k9KBRJJHPCwyN31gw6uCGx4&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kj_yyexhhpRkmKI3Zq2S9n8aRYzkHY7gQ",
@@ -4594,7 +4885,10 @@ window.catalogData = {
       "youtubeDate": "2026-07-26",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kj_yyexhhpRkmKI3Zq2S9n8aRYzkHY7gQ/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICPHyxsQGEAE=&rs=AOn4CLB5KQvX-pBhDgP0p08vDS3kVs6ptg&v=1754380657"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kj_yyexhhpRkmKI3Zq2S9n8aRYzkHY7gQ/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICPHyxsQGEAE=&rs=AOn4CLB5KQvX-pBhDgP0p08vDS3kVs6ptg&v=1754380657",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kj_yyexhhpRkmKI3Zq2S9n8aRYzkHY7gQ&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lUIB3Nrr5JCgvZEZZHCl2E2jP1fcchfuo",
@@ -4623,7 +4917,10 @@ window.catalogData = {
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
       "collaborationSource": "https://kaf.kamitsubaki.jp/discography/20250625/986/",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lUIB3Nrr5JCgvZEZZHCl2E2jP1fcchfuo/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICKngh8gGEAE=&rs=AOn4CLDpBWNpuPZo0HJWFRqORJciOr7Pzg&v=1761734697"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lUIB3Nrr5JCgvZEZZHCl2E2jP1fcchfuo/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICKngh8gGEAE=&rs=AOn4CLDpBWNpuPZo0HJWFRqORJciOr7Pzg&v=1761734697",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lUIB3Nrr5JCgvZEZZHCl2E2jP1fcchfuo&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nr4z5ptfTGcvOPZ3BNuVSUleo6e50EowE",
@@ -4654,7 +4951,10 @@ window.catalogData = {
       "youtubeDate": "2025-09-23",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nr4z5ptfTGcvOPZ3BNuVSUleo6e50EowE/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICI_6tcEGEAE=&rs=AOn4CLDhSUVIBeDL-LcvOrX0xoUTBiJbOg&v=1747811599"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nr4z5ptfTGcvOPZ3BNuVSUleo6e50EowE/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICI_6tcEGEAE=&rs=AOn4CLDhSUVIBeDL-LcvOrX0xoUTBiJbOg&v=1747811599",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nr4z5ptfTGcvOPZ3BNuVSUleo6e50EowE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kCYIWKZ_cKv3gVq24HMs7DiIM1SoRGWMI",
@@ -4681,7 +4981,10 @@ window.catalogData = {
       "youtubeDate": "2025-09-26",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kCYIWKZ_cKv3gVq24HMs7DiIM1SoRGWMI/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICL2Mq8EGEAE=&rs=AOn4CLDd9zR_oxtwnPl61Qzjj3GHzQ8J6g&v=1747633725"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kCYIWKZ_cKv3gVq24HMs7DiIM1SoRGWMI/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICL2Mq8EGEAE=&rs=AOn4CLDd9zR_oxtwnPl61Qzjj3GHzQ8J6g&v=1747633725",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kCYIWKZ_cKv3gVq24HMs7DiIM1SoRGWMI&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mx99cBjuLXTa99bD-xCEwpb2CNMrhh0-A",
@@ -4711,7 +5014,10 @@ window.catalogData = {
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
       "collaborationSource": "https://kaf.kamitsubaki.jp/discography/20250129/919/",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mx99cBjuLXTa99bD-xCEwpb2CNMrhh0-A/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICIqUnL0GEAE=&rs=AOn4CLC2DTSL5kfii_oiT9rNxOecYQH66w&v=1739000330"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mx99cBjuLXTa99bD-xCEwpb2CNMrhh0-A/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICIqUnL0GEAE=&rs=AOn4CLC2DTSL5kfii_oiT9rNxOecYQH66w&v=1739000330",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mx99cBjuLXTa99bD-xCEwpb2CNMrhh0-A&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_m5brWcFINNZDcqfWx7NAdcOlAnBFLdBqI",
@@ -4739,7 +5045,10 @@ window.catalogData = {
       "youtubeDate": "2026-06-03",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_m5brWcFINNZDcqfWx7NAdcOlAnBFLdBqI/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICJOX0b0GEAE=&rs=AOn4CLA9L6UHIbgHAJ13Sw26Sky7bM3ryQ&v=1739869075"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_m5brWcFINNZDcqfWx7NAdcOlAnBFLdBqI/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICJOX0b0GEAE=&rs=AOn4CLA9L6UHIbgHAJ13Sw26Sky7bM3ryQ&v=1739869075",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_m5brWcFINNZDcqfWx7NAdcOlAnBFLdBqI&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kiel7eZZeNMPCbt2WE0uLjSr0m76R9pYw",
@@ -4767,7 +5076,10 @@ window.catalogData = {
       "youtubeDate": "2025-09-23",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kiel7eZZeNMPCbt2WE0uLjSr0m76R9pYw/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICIqktr0GEAE=&rs=AOn4CLCKO18wzRbfZFt196CirAr39fSQvg&v=1739428362"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kiel7eZZeNMPCbt2WE0uLjSr0m76R9pYw/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICIqktr0GEAE=&rs=AOn4CLCKO18wzRbfZFt196CirAr39fSQvg&v=1739428362",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kiel7eZZeNMPCbt2WE0uLjSr0m76R9pYw&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lJKgLjc76qNrJv9hTUrcbiHenTu5RKIuY",
@@ -4797,7 +5109,10 @@ window.catalogData = {
       "youtubeDate": "2025-09-28",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lJKgLjc76qNrJv9hTUrcbiHenTu5RKIuY/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICJido70GEAE=&rs=AOn4CLAbwUnd8WaezZD7bUcXS9AA3is-5g&v=1739116184"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lJKgLjc76qNrJv9hTUrcbiHenTu5RKIuY/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICJido70GEAE=&rs=AOn4CLAbwUnd8WaezZD7bUcXS9AA3is-5g&v=1739116184",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lJKgLjc76qNrJv9hTUrcbiHenTu5RKIuY&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_ksz9gbG-eK9EBsCE48DYBLYs49Y-iLzqE",
@@ -4825,7 +5140,10 @@ window.catalogData = {
       "youtubeDate": "2025-09-27",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_ksz9gbG-eK9EBsCE48DYBLYs49Y-iLzqE/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICMXppr0GEAE=&rs=AOn4CLBuv7sRIpqd7qUbR1f331t6wJhw5Q&v=1739175109"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_ksz9gbG-eK9EBsCE48DYBLYs49Y-iLzqE/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICMXppr0GEAE=&rs=AOn4CLBuv7sRIpqd7qUbR1f331t6wJhw5Q&v=1739175109",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_ksz9gbG-eK9EBsCE48DYBLYs49Y-iLzqE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lcBfT_FPEzGBR_u5bKphSUrBkn0RXr_dw",
@@ -4853,7 +5171,10 @@ window.catalogData = {
       "youtubeDate": "2025-09-22",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lcBfT_FPEzGBR_u5bKphSUrBkn0RXr_dw/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICPDCyr0GEAE=&rs=AOn4CLCj2396NVVSPDF9XpB3MeP5_K8T6w&v=1739759984"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lcBfT_FPEzGBR_u5bKphSUrBkn0RXr_dw/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICPDCyr0GEAE=&rs=AOn4CLCj2396NVVSPDF9XpB3MeP5_K8T6w&v=1739759984",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lcBfT_FPEzGBR_u5bKphSUrBkn0RXr_dw&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_k_a4zgqcO_W_HS4tw4TPK3ZzwkJCnyNrE",
@@ -4872,7 +5193,7 @@ window.catalogData = {
       ],
       "tags": [],
       "date": "2024-05-22",
-      "releaseType": "album",
+      "releaseType": "single",
       "trackCount": 3,
       "image": "images/albums/youtube-OLAK5uy_k_a4zgqcO_W_HS4tw4TPK3ZzwkJCnyNrE.jpg",
       "sourceUrl": "https://www.youtube.com/watch?v=ac6ImT50j9s&list=OLAK5uy_k_a4zgqcO_W_HS4tw4TPK3ZzwkJCnyNrE",
@@ -4921,7 +5242,10 @@ window.catalogData = {
           "videoId": "eEiMPYiNZAo"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_k_a4zgqcO_W_HS4tw4TPK3ZzwkJCnyNrE&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_k_a4zgqcO_W_HS4tw4TPK3ZzwkJCnyNrE&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_k_a4zgqcO_W_HS4tw4TPK3ZzwkJCnyNrE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kb-L4whZswXS7v-c6zJyt_RiMhKETh52U",
@@ -4950,7 +5274,10 @@ window.catalogData = {
       "youtubeDate": "2025-12-02",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kb-L4whZswXS7v-c6zJyt_RiMhKETh52U/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICLHIr70GEAE=&rs=AOn4CLA-JpAdujuFwfjN5ZDmTWsYD9OZlg&v=1739318321"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kb-L4whZswXS7v-c6zJyt_RiMhKETh52U/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICLHIr70GEAE=&rs=AOn4CLA-JpAdujuFwfjN5ZDmTWsYD9OZlg&v=1739318321",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kb-L4whZswXS7v-c6zJyt_RiMhKETh52U&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lXAJCUwGRXqPR7fYQK8YGks1LqEHcROQo",
@@ -4978,7 +5305,10 @@ window.catalogData = {
       "youtubeDate": "2025-12-02",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lXAJCUwGRXqPR7fYQK8YGks1LqEHcROQo/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICPqnvsEGEAE=&rs=AOn4CLA-ju2tmRJCN7G7Yhuess4Z5tHmNg&v=1747948538"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lXAJCUwGRXqPR7fYQK8YGks1LqEHcROQo/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICPqnvsEGEAE=&rs=AOn4CLA-ju2tmRJCN7G7Yhuess4Z5tHmNg&v=1747948538",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lXAJCUwGRXqPR7fYQK8YGks1LqEHcROQo&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nPg_MEvLHmYMr_p8oyVnyvCg9Jaybon2M",
@@ -5006,7 +5336,10 @@ window.catalogData = {
       "youtubeDate": "2025-09-25",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nPg_MEvLHmYMr_p8oyVnyvCg9Jaybon2M/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICJ7rur0GEAE=&rs=AOn4CLCB0pnEpeiBnObx5ktxg4lBU8Cx2g&v=1739503006"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nPg_MEvLHmYMr_p8oyVnyvCg9Jaybon2M/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICJ7rur0GEAE=&rs=AOn4CLCB0pnEpeiBnObx5ktxg4lBU8Cx2g&v=1739503006",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nPg_MEvLHmYMr_p8oyVnyvCg9Jaybon2M&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kyT_MHXlyxlSDWPH_2DA5Ljjzfj8zeDpU",
@@ -5034,7 +5367,10 @@ window.catalogData = {
       "youtubeDate": "2026-07-24",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kyT_MHXlyxlSDWPH_2DA5Ljjzfj8zeDpU/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICPa7mr0GEAE=&rs=AOn4CLA68js-pEzo5NL1V287mXoDoBcPEg&v=1738972662"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kyT_MHXlyxlSDWPH_2DA5Ljjzfj8zeDpU/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICPa7mr0GEAE=&rs=AOn4CLA68js-pEzo5NL1V287mXoDoBcPEg&v=1738972662",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kyT_MHXlyxlSDWPH_2DA5Ljjzfj8zeDpU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kPLd40Je3qCuvRKAGYtw9n61-hTZIEPH0",
@@ -5054,7 +5390,7 @@ window.catalogData = {
       ],
       "tags": [],
       "date": "2022-11-03",
-      "releaseType": "album",
+      "releaseType": "single",
       "trackCount": 3,
       "image": "images/albums/youtube-OLAK5uy_kPLd40Je3qCuvRKAGYtw9n61-hTZIEPH0.jpg",
       "sourceUrl": "https://www.youtube.com/watch?v=EcWwooadwe8&list=OLAK5uy_kPLd40Je3qCuvRKAGYtw9n61-hTZIEPH0",
@@ -5093,7 +5429,10 @@ window.catalogData = {
           "videoId": "G4PuQwiNVNw"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_kPLd40Je3qCuvRKAGYtw9n61-hTZIEPH0&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_kPLd40Je3qCuvRKAGYtw9n61-hTZIEPH0&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kPLd40Je3qCuvRKAGYtw9n61-hTZIEPH0&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lDkKEEd4FhgUD6tduGo01zWM_-aIx5sCE",
@@ -5122,7 +5461,10 @@ window.catalogData = {
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
       "collaborationSource": "https://kaf.kamitsubaki.jp/discography/20220323/135/",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lDkKEEd4FhgUD6tduGo01zWM_-aIx5sCE/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICP33mb0GEAE=&rs=AOn4CLA0Y2NuVB15iDLY4erbW5zqta55cQ&v=1738963965"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lDkKEEd4FhgUD6tduGo01zWM_-aIx5sCE/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICP33mb0GEAE=&rs=AOn4CLA0Y2NuVB15iDLY4erbW5zqta55cQ&v=1738963965",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lDkKEEd4FhgUD6tduGo01zWM_-aIx5sCE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lKQdezvr1h8oIRmbvvKsgiWz118Tt-JPo",
@@ -5150,7 +5492,10 @@ window.catalogData = {
       "youtubeDate": "2026-07-27",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lKQdezvr1h8oIRmbvvKsgiWz118Tt-JPo/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICJuoyr0GEAE=&rs=AOn4CLDbhzAmAzSBXU5yTgxbbIoPzqRxGw&v=1739756571"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lKQdezvr1h8oIRmbvvKsgiWz118Tt-JPo/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICJuoyr0GEAE=&rs=AOn4CLDbhzAmAzSBXU5yTgxbbIoPzqRxGw&v=1739756571",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lKQdezvr1h8oIRmbvvKsgiWz118Tt-JPo&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nfFGevwYMPWD5D0OyBYUnq4-2tkgtB4fI",
@@ -5179,7 +5524,10 @@ window.catalogData = {
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
       "collaborationSource": "https://kaf.kamitsubaki.jp/discography/20211117/131/",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nfFGevwYMPWD5D0OyBYUnq4-2tkgtB4fI/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICMvoj8EGEAE=&rs=AOn4CLBQ83fcW28Zx7tSTg68Pw6amu2Qzw&v=1747186763"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nfFGevwYMPWD5D0OyBYUnq4-2tkgtB4fI/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICMvoj8EGEAE=&rs=AOn4CLBQ83fcW28Zx7tSTg68Pw6amu2Qzw&v=1747186763",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nfFGevwYMPWD5D0OyBYUnq4-2tkgtB4fI&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mM1uU-fBsiCHkz3vT9zlyhEM0USNHCwtk",
@@ -5208,7 +5556,10 @@ window.catalogData = {
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
       "collaborationSource": "https://kaf.kamitsubaki.jp/discography/20211027/130/",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mM1uU-fBsiCHkz3vT9zlyhEM0USNHCwtk/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICI-ay70GEAE=&rs=AOn4CLDB5xNQY63OL0DQe_j41hV3gi0Zcw&v=1739771151"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mM1uU-fBsiCHkz3vT9zlyhEM0USNHCwtk/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICI-ay70GEAE=&rs=AOn4CLDB5xNQY63OL0DQe_j41hV3gi0Zcw&v=1739771151",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mM1uU-fBsiCHkz3vT9zlyhEM0USNHCwtk&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lnRM_JgQVb15n1BFPO_8AZMxy0UHoiTBI",
@@ -5235,7 +5586,10 @@ window.catalogData = {
       "youtubeDate": "2025-09-27",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lnRM_JgQVb15n1BFPO_8AZMxy0UHoiTBI/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICNnep70GEAE=&rs=AOn4CLD6_o-zydoG8E_PkeWAskMPD9QT5g&v=1739190105"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lnRM_JgQVb15n1BFPO_8AZMxy0UHoiTBI/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICNnep70GEAE=&rs=AOn4CLD6_o-zydoG8E_PkeWAskMPD9QT5g&v=1739190105",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lnRM_JgQVb15n1BFPO_8AZMxy0UHoiTBI&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mS4DIH520CQ0pAzviQ9lQn9MD71InDRTU",
@@ -5262,7 +5616,10 @@ window.catalogData = {
       "youtubeDate": "2025-09-22",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mS4DIH520CQ0pAzviQ9lQn9MD71InDRTU/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICJKAsr0GEAE=&rs=AOn4CLDFy9nlh_xwZJXGZJsDgRu8_kwYlg&v=1739358226"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mS4DIH520CQ0pAzviQ9lQn9MD71InDRTU/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICJKAsr0GEAE=&rs=AOn4CLDFy9nlh_xwZJXGZJsDgRu8_kwYlg&v=1739358226",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mS4DIH520CQ0pAzviQ9lQn9MD71InDRTU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_levpqBfDZ6xxbwo4DcJhV4lvsSj0IwVbc",
@@ -5280,7 +5637,7 @@ window.catalogData = {
       ],
       "tags": [],
       "date": "2019-05-15",
-      "releaseType": "album",
+      "releaseType": "single",
       "trackCount": 3,
       "image": "images/albums/youtube-OLAK5uy_levpqBfDZ6xxbwo4DcJhV4lvsSj0IwVbc.jpg",
       "sourceUrl": "https://www.youtube.com/watch?v=3Wtx6k2vInU&list=OLAK5uy_levpqBfDZ6xxbwo4DcJhV4lvsSj0IwVbc",
@@ -5336,7 +5693,10 @@ window.catalogData = {
           "videoId": "hcm1LGOxJbc"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_levpqBfDZ6xxbwo4DcJhV4lvsSj0IwVbc&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_levpqBfDZ6xxbwo4DcJhV4lvsSj0IwVbc&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_levpqBfDZ6xxbwo4DcJhV4lvsSj0IwVbc&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lRICjD5kqew13UqSVi7zqP7dmwFFuC1GA",
@@ -5364,7 +5724,10 @@ window.catalogData = {
       "youtubeDate": "2025-09-26",
       "dateVerifiedOn": "2026-10-06",
       "dateBasis": "Release date of this edition; official discography preferred over YouTube metadata",
-      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lRICjD5kqew13UqSVi7zqP7dmwFFuC1GA/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICND2tb0GEAE=&rs=AOn4CLDnFJeHSzLg2CHiIXFU8PX2vhwRPw&v=1739422544"
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lRICjD5kqew13UqSVi7zqP7dmwFFuC1GA/maxresdefault.jpg?sqp=CJC8k9YGir7X7AMICND2tb0GEAE=&rs=AOn4CLDnFJeHSzLg2CHiIXFU8PX2vhwRPw&v=1739422544",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lRICjD5kqew13UqSVi7zqP7dmwFFuC1GA&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lclDhdXd6vilZNqeCkZLEJetR7k9AZEVw",
@@ -5382,11 +5745,11 @@ window.catalogData = {
         "rim"
       ],
       "tags": [],
-      "date": "2024-02-28",
-      "dateSource": "https://en.wikipedia.org/wiki/Rim_(singer)",
-      "dateVerifiedOn": "2026-10-06",
+      "date": "2023-08-19",
+      "dateSource": "https://findmestore.thinkr.jp/products/ktr-000-0130",
+      "dateVerifiedOn": "2026-10-07",
       "youtubeDate": "2025-09-25",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 20,
       "image": "images/albums/youtube-OLAK5uy_lclDhdXd6vilZNqeCkZLEJetR7k9AZEVw.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lclDhdXd6vilZNqeCkZLEJetR7k9AZEVw/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICNaaqL0GEAE=&rs=AOn4CLA7wFITm7MWX4-FCSnUcFwHj5R7Ig&v=1739197782",
@@ -5395,7 +5758,8 @@ window.catalogData = {
       "tracks": [
         {
           "titles": {
-            "ja": "アスノヨゾラ哨戒班"
+            "ja": "アスノヨゾラ哨戒班",
+            "ko": ""
           },
           "aliases": [
             "アスノヨゾラ哨戒班",
@@ -5405,7 +5769,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "エジソン"
+            "ja": "エジソン",
+            "ko": ""
           },
           "aliases": [
             "エジソン",
@@ -5415,7 +5780,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "Caffeine"
+            "ja": "Caffeine",
+            "ko": ""
           },
           "aliases": [
             "Caffeine"
@@ -5424,7 +5790,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "夏夜のマジック"
+            "ja": "夏夜のマジック",
+            "ko": ""
           },
           "aliases": [
             "夏夜のマジック",
@@ -5434,7 +5801,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "日常革命"
+            "ja": "日常革命",
+            "ko": ""
           },
           "aliases": [
             "日常革命"
@@ -5443,7 +5811,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "1999"
+            "ja": "1999",
+            "ko": ""
           },
           "aliases": [
             "1999"
@@ -5452,7 +5821,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "good job"
+            "ja": "good job",
+            "ko": ""
           },
           "aliases": [
             "good job"
@@ -5461,7 +5831,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "Do you feel"
+            "ja": "Do you feel",
+            "ko": ""
           },
           "aliases": [
             "Do you feel"
@@ -5470,16 +5841,19 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "CHOA"
+            "ja": "CHOA feat. 春猿火",
+            "ko": ""
           },
           "aliases": [
-            "CHOA"
+            "CHOA",
+            "CHOA feat. 春猿火"
           ],
           "videoId": "614EMUh7GME"
         },
         {
           "titles": {
-            "ja": "SUMMER SONG"
+            "ja": "SUMMER SONG",
+            "ko": ""
           },
           "aliases": [
             "SUMMER SONG"
@@ -5488,7 +5862,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ビターチョコデコレーション"
+            "ja": "ビターチョコデコレーション",
+            "ko": ""
           },
           "aliases": [
             "ビターチョコデコレーション"
@@ -5497,16 +5872,19 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "みかんハート"
+            "ja": "みかんハート feat. ヰ世界情緒",
+            "ko": ""
           },
           "aliases": [
-            "みかんハート"
+            "みかんハート",
+            "みかんハート feat. ヰ世界情緒"
           ],
           "videoId": "aAZqhbBiHfM"
         },
         {
           "titles": {
-            "ja": "うろんなひと"
+            "ja": "うろんなひと",
+            "ko": ""
           },
           "aliases": [
             "うろんなひと"
@@ -5515,7 +5893,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ヘビースモーク"
+            "ja": "ヘビースモーク",
+            "ko": ""
           },
           "aliases": [
             "ヘビースモーク"
@@ -5524,16 +5903,19 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ヤングアダルト"
+            "ja": "ヤングアダルト feat. 幸祜",
+            "ko": ""
           },
           "aliases": [
-            "ヤングアダルト"
+            "ヤングアダルト",
+            "ヤングアダルト feat. 幸祜"
           ],
           "videoId": "43obNAhjua4"
         },
         {
           "titles": {
-            "ja": "雫"
+            "ja": "雫",
+            "ko": ""
           },
           "aliases": [
             "雫"
@@ -5542,7 +5924,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "最愛の果て"
+            "ja": "最愛の果て",
+            "ko": ""
           },
           "aliases": [
             "最愛の果て"
@@ -5551,7 +5934,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "結"
+            "ja": "結",
+            "ko": ""
           },
           "aliases": [
             "結"
@@ -5560,16 +5944,19 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "37458"
+            "ja": "37458 feat. 花譜",
+            "ko": ""
           },
           "aliases": [
-            "37458"
+            "37458",
+            "37458 feat. 花譜"
           ],
           "videoId": "LzI2Ylt35xQ"
         },
         {
           "titles": {
-            "ja": "オワリはじまり"
+            "ja": "オワリはじまり",
+            "ko": ""
           },
           "aliases": [
             "オワリはじまり"
@@ -5577,7 +5964,21 @@ window.catalogData = {
           "videoId": "kWahas7Q7fg"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lclDhdXd6vilZNqeCkZLEJetR7k9AZEVw&hl=ja"
+      "trackSource": "https://findmestore.thinkr.jp/products/ktr-000-0130",
+      "youtubeTrackCount": 20,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 20,
+      "albumReleaseDate": "2024-02-28",
+      "albumReleaseDateSource": "https://en.wikipedia.org/wiki/Rim_(singer)",
+      "liveDate": "2023-08-19",
+      "dateBasis": "live",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lclDhdXd6vilZNqeCkZLEJetR7k9AZEVw&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "rim"
+      ]
     },
     {
       "id": "youtube-OLAK5uy_lWgPhZbONjNNFDJVUppRGf0_4PTbfEaIs",
@@ -5759,7 +6160,10 @@ window.catalogData = {
       "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lWgPhZbONjNNFDJVUppRGf0_4PTbfEaIs&hl=ja",
       "excludedArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lWgPhZbONjNNFDJVUppRGf0_4PTbfEaIs&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lBYgG6ULvJrUOGQ7wKsZfq-kqygv4jzAM",
@@ -5786,7 +6190,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lBYgG6ULvJrUOGQ7wKsZfq-kqygv4jzAM.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lBYgG6ULvJrUOGQ7wKsZfq-kqygv4jzAM/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICN2bu9QGEAE=&rs=AOn4CLBqcQ4vWQKkPZrh09qU84UicRYrgg&v=1787743709",
       "sourceUrl": "https://www.youtube.com/watch?v=A0iW2hCcwaE&list=OLAK5uy_lBYgG6ULvJrUOGQ7wKsZfq-kqygv4jzAM",
-      "translationStatus": "user-reviewed"
+      "translationStatus": "user-reviewed",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lBYgG6ULvJrUOGQ7wKsZfq-kqygv4jzAM&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lxEqxiSB3XCD4N1G-Zov8Lx5t8xrdqpd8",
@@ -5977,7 +6384,10 @@ window.catalogData = {
           "videoId": "EGhhBKr4OzY"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lxEqxiSB3XCD4N1G-Zov8Lx5t8xrdqpd8&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lxEqxiSB3XCD4N1G-Zov8Lx5t8xrdqpd8&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lxEqxiSB3XCD4N1G-Zov8Lx5t8xrdqpd8&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_ludfwePxKLzFuflecpWjcAWIxBZKbLXl8",
@@ -6080,7 +6490,10 @@ window.catalogData = {
           "videoId": "7c0NX7y8Sus"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_ludfwePxKLzFuflecpWjcAWIxBZKbLXl8&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_ludfwePxKLzFuflecpWjcAWIxBZKbLXl8&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_ludfwePxKLzFuflecpWjcAWIxBZKbLXl8&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kqOtoIqy8P6JB7P73koNS4tAJ8lTOJdu8",
@@ -6104,7 +6517,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kqOtoIqy8P6JB7P73koNS4tAJ8lTOJdu8.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kqOtoIqy8P6JB7P73koNS4tAJ8lTOJdu8/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICL7IpswGEAE=&rs=AOn4CLA4YEx_TC4WzkQi4gyGWZyT1HvkQg&v=1770628158",
       "sourceUrl": "https://www.youtube.com/watch?v=AkaA3K6tOgg&list=OLAK5uy_kqOtoIqy8P6JB7P73koNS4tAJ8lTOJdu8&pp=0gcJCQ4DOCosWNin",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kqOtoIqy8P6JB7P73koNS4tAJ8lTOJdu8&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kGCBS9VVjo7I1kgy8zR6GzV2ZPTrqv-6c",
@@ -6132,7 +6548,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "excludedArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kGCBS9VVjo7I1kgy8zR6GzV2ZPTrqv-6c&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lbQjRkJOL6jxvGUTz-uONijMmJdQT1EYU",
@@ -6159,7 +6578,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lbQjRkJOL6jxvGUTz-uONijMmJdQT1EYU.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lbQjRkJOL6jxvGUTz-uONijMmJdQT1EYU/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICPy8tcYGEAE=&rs=AOn4CLAtD6D8Rl8Dg_bZwU_nCoeaZq2HbA&v=1758289532",
       "sourceUrl": "https://www.youtube.com/watch?v=gXmRfl0V3es&list=OLAK5uy_lbQjRkJOL6jxvGUTz-uONijMmJdQT1EYU",
-      "translationStatus": "user-reviewed"
+      "translationStatus": "user-reviewed",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lbQjRkJOL6jxvGUTz-uONijMmJdQT1EYU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_l3d-m9_Dk10j_hd6A-kYTbJU9yYqXN9KI",
@@ -6177,11 +6599,11 @@ window.catalogData = {
         "rim"
       ],
       "tags": [],
-      "date": "2026-04-29",
-      "dateSource": "https://music.apple.com/us/album/chocolate-live4/1892255874",
-      "dateVerifiedOn": "2026-10-06",
+      "date": "2026-02-10",
+      "dateSource": "https://www.youtube.com/watch?v=YeUL_sDjXVc",
+      "dateVerifiedOn": "2026-10-07",
       "youtubeDate": "2026-04-28",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 20,
       "image": "images/albums/youtube-OLAK5uy_l3d-m9_Dk10j_hd6A-kYTbJU9yYqXN9KI.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_l3d-m9_Dk10j_hd6A-kYTbJU9yYqXN9KI/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICOPy4c4GEAE=&rs=AOn4CLA5_IgKwazMf0s_1X9qjpTrtpOeHg&v=1775794531",
@@ -6190,191 +6612,245 @@ window.catalogData = {
       "tracks": [
         {
           "titles": {
-            "ja": "Re:Re: (Live Cover)"
+            "ja": "Re:Re:",
+            "ko": ""
           },
           "aliases": [
-            "Re:Re: (Live Cover)"
+            "Re:Re: (Live Cover)",
+            "Re:Re:"
           ],
           "videoId": "r5a4YbIi1QI"
         },
         {
           "titles": {
-            "ja": "Sesame (Live Cover)"
+            "ja": "Sesame",
+            "ko": ""
           },
           "aliases": [
-            "Sesame (Live Cover)"
+            "Sesame (Live Cover)",
+            "Sesame"
           ],
           "videoId": "2jxBu0UpSpA"
         },
         {
           "titles": {
-            "ja": "TRUMAN (Live Cover)"
+            "ja": "TRUMAN",
+            "ko": ""
           },
           "aliases": [
-            "TRUMAN (Live Cover)"
+            "TRUMAN (Live Cover)",
+            "TRUMAN"
           ],
           "videoId": "yg-n5muubAY"
         },
         {
           "titles": {
-            "ja": "Tremolo (Live Cover)"
+            "ja": "Tremolo",
+            "ko": ""
           },
           "aliases": [
-            "Tremolo (Live Cover)"
+            "Tremolo (Live Cover)",
+            "Tremolo"
           ],
           "videoId": "DrgA8dPL2xI"
         },
         {
           "titles": {
-            "ja": "愛をさわれたら (Live Cover)"
+            "ja": "愛をさわれたら",
+            "ko": ""
           },
           "aliases": [
-            "愛をさわれたら (Live Cover)"
+            "愛をさわれたら (Live Cover)",
+            "愛をさわれたら"
           ],
           "videoId": "Lik3W2_r_0Q"
         },
         {
           "titles": {
-            "ja": "あらわれないで (Live Cover)"
+            "ja": "あらわれないで",
+            "ko": ""
           },
           "aliases": [
             "あらわれないで (Live Cover)",
-            "あらわれないで (Live Cover)"
+            "あらわれないで (Live Cover)",
+            "あらわれないで"
           ],
           "videoId": "-Z0N17ZZfr4"
         },
         {
           "titles": {
-            "ja": "READY (Live Cover)"
+            "ja": "READY",
+            "ko": ""
           },
           "aliases": [
-            "READY (Live Cover)"
+            "READY (Live Cover)",
+            "READY"
           ],
           "videoId": "90CN0-zfE9k"
         },
         {
           "titles": {
-            "ja": "Nevermore (Live Cover)"
+            "ja": "Nevermore",
+            "ko": ""
           },
           "aliases": [
-            "Nevermore (Live Cover)"
+            "Nevermore (Live Cover)",
+            "Nevermore"
           ],
           "videoId": "lhXmDw8vm0I"
         },
         {
           "titles": {
-            "ja": "スターラブレイション (Live Cover)"
+            "ja": "スターラブレイション",
+            "ko": ""
           },
           "aliases": [
             "スターラブレイション (Live Cover)",
-            "スターラブレイション (Live Cover)"
+            "スターラブレイション (Live Cover)",
+            "スターラブレイション"
           ],
           "videoId": "UsjkNE-2rnc"
         },
         {
           "titles": {
-            "ja": "情熱 (Live Cover)"
+            "ja": "情熱",
+            "ko": ""
           },
           "aliases": [
-            "情熱 (Live Cover)"
+            "情熱 (Live Cover)",
+            "情熱"
           ],
           "videoId": "cMVD5OaiTg4"
         },
         {
           "titles": {
-            "ja": "ORION (Live Cover)"
+            "ja": "ORION",
+            "ko": ""
           },
           "aliases": [
-            "ORION (Live Cover)"
+            "ORION (Live Cover)",
+            "ORION"
           ],
           "videoId": "5tc4PWt5G-g"
         },
         {
           "titles": {
-            "ja": "瞳を閉じて (Live Cover)"
+            "ja": "瞳をとじて",
+            "ko": ""
           },
           "aliases": [
             "瞳を閉じて (Live Cover)",
-            "瞳を閉じて (Live Cover)"
+            "瞳を閉じて (Live Cover)",
+            "瞳をとじて"
           ],
           "videoId": "uzeI2ZTw1P0"
         },
         {
           "titles": {
-            "ja": "ラプソディ (Live Cover)"
+            "ja": "ラプソディ",
+            "ko": ""
           },
           "aliases": [
             "ラプソディ (Live Cover)",
-            "ラプソディ (Live Cover)"
+            "ラプソディ (Live Cover)",
+            "ラプソディ"
           ],
           "videoId": "Z8oNz7D8WUA"
         },
         {
           "titles": {
-            "ja": "L4DY (Live Cover)"
+            "ja": "L4DY",
+            "ko": ""
           },
           "aliases": [
-            "L4DY (Live Cover)"
+            "L4DY (Live Cover)",
+            "L4DY"
           ],
           "videoId": "3xNS6woU9vE"
         },
         {
           "titles": {
-            "ja": "Overdose (Live Cover)"
+            "ja": "Overdose",
+            "ko": ""
           },
           "aliases": [
-            "Overdose (Live Cover)"
+            "Overdose (Live Cover)",
+            "Overdose"
           ],
           "videoId": "MDeRcfb-Ri0"
         },
         {
           "titles": {
-            "ja": "共犯者 (Live Cover)"
+            "ja": "共犯者",
+            "ko": ""
           },
           "aliases": [
-            "共犯者 (Live Cover)"
+            "共犯者 (Live Cover)",
+            "共犯者"
           ],
           "videoId": "RJ-CJx7X4QI"
         },
         {
           "titles": {
-            "ja": "赤橙 (LIve Cover)"
+            "ja": "赤橙",
+            "ko": ""
           },
           "aliases": [
-            "赤橙 (LIve Cover)"
+            "赤橙 (LIve Cover)",
+            "赤橙"
           ],
           "videoId": "JT3TmEpLgxQ"
         },
         {
           "titles": {
-            "ja": "生活 (Live Cover)"
+            "ja": "生活",
+            "ko": ""
           },
           "aliases": [
-            "生活 (Live Cover)"
+            "生活 (Live Cover)",
+            "生活"
           ],
           "videoId": "Jg6zVk703OY"
         },
         {
           "titles": {
-            "ja": "バイタルサイン (Live Cover)"
+            "ja": "バイタルサイン",
+            "ko": ""
           },
           "aliases": [
             "バイタルサイン (Live Cover)",
-            "バイタルサイン (Live Cover)"
+            "バイタルサイン (Live Cover)",
+            "バイタルサイン"
           ],
           "videoId": "lHrgnjTpkoQ"
         },
         {
           "titles": {
-            "ja": "come again (Live Cover)"
+            "ja": "come again",
+            "ko": ""
           },
           "aliases": [
-            "come again (Live Cover)"
+            "come again (Live Cover)",
+            "come again"
           ],
           "videoId": "A52gNmz3kyQ"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_l3d-m9_Dk10j_hd6A-kYTbJU9yYqXN9KI&hl=ja"
+      "trackSource": "https://findmestore.thinkr.jp/products/ktr-000-0237",
+      "youtubeTrackCount": 20,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 20,
+      "albumReleaseDate": "2026-04-29",
+      "albumReleaseDateSource": "https://music.apple.com/us/album/chocolate-live4/1892255874",
+      "liveDate": "2026-02-10",
+      "dateBasis": "live",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_l3d-m9_Dk10j_hd6A-kYTbJU9yYqXN9KI&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "rim"
+      ]
     },
     {
       "id": "youtube-OLAK5uy_kXPh2BZ8UlVyLeGAkmdqC2JpfLVF7-Pg4",
@@ -6399,7 +6875,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kXPh2BZ8UlVyLeGAkmdqC2JpfLVF7-Pg4.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kXPh2BZ8UlVyLeGAkmdqC2JpfLVF7-Pg4/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICPTgyb0GEAE=&rs=AOn4CLDCuBIigFtsCEMhG2ZW_WqVOlBCTQ&v=1739747444",
       "sourceUrl": "https://www.youtube.com/watch?v=P_h9ufrG5bE&list=OLAK5uy_kXPh2BZ8UlVyLeGAkmdqC2JpfLVF7-Pg4",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kXPh2BZ8UlVyLeGAkmdqC2JpfLVF7-Pg4&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mmw1lRbZOhcozxvhVBy0vuw0w9ZpydWYU",
@@ -6424,7 +6903,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mmw1lRbZOhcozxvhVBy0vuw0w9ZpydWYU.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mmw1lRbZOhcozxvhVBy0vuw0w9ZpydWYU/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICMXmyL0GEAE=&rs=AOn4CLCUY2XeMTg0yN0EAlWUaI34fXF0-w&v=1739731781",
       "sourceUrl": "https://www.youtube.com/watch?v=p2kvYABrs48&list=OLAK5uy_mmw1lRbZOhcozxvhVBy0vuw0w9ZpydWYU",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mmw1lRbZOhcozxvhVBy0vuw0w9ZpydWYU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_n3SPUmZq_OaVDMqlLmPl7G6kJDlVVfKXE",
@@ -6449,7 +6931,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_n3SPUmZq_OaVDMqlLmPl7G6kJDlVVfKXE.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_n3SPUmZq_OaVDMqlLmPl7G6kJDlVVfKXE/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICP7Iq70GEAE=&rs=AOn4CLC0qHJgDuSx3hY1ZyKAKq6i9EeBnA&v=1739252862",
       "sourceUrl": "https://www.youtube.com/watch?v=nPN2mpKzEDI&list=OLAK5uy_n3SPUmZq_OaVDMqlLmPl7G6kJDlVVfKXE",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_n3SPUmZq_OaVDMqlLmPl7G6kJDlVVfKXE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kRC8iiM06_8tIHN3NDWawp3NXGRBDeQHk",
@@ -6474,7 +6959,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kRC8iiM06_8tIHN3NDWawp3NXGRBDeQHk.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kRC8iiM06_8tIHN3NDWawp3NXGRBDeQHk/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICP7wpr0GEAE=&rs=AOn4CLDefPh4SRpmmbPnJ8VJiclIQFDdNA&v=1739176062",
       "sourceUrl": "https://www.youtube.com/watch?v=yrnMKpGUHIg&list=OLAK5uy_kRC8iiM06_8tIHN3NDWawp3NXGRBDeQHk",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kRC8iiM06_8tIHN3NDWawp3NXGRBDeQHk&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mr2Fl7bEomnOk_eKlwyIzEWDdhH2xbL3s",
@@ -6499,7 +6987,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mr2Fl7bEomnOk_eKlwyIzEWDdhH2xbL3s.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mr2Fl7bEomnOk_eKlwyIzEWDdhH2xbL3s/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICKTJsb0GEAE=&rs=AOn4CLBbxTaGbRZQNvb7N-zWxqJmdgcp9Q&v=1739351204",
       "sourceUrl": "https://www.youtube.com/watch?v=Pu-YwxQyy4A&list=OLAK5uy_mr2Fl7bEomnOk_eKlwyIzEWDdhH2xbL3s&pp=0gcJCbwFa94AFGB0",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mr2Fl7bEomnOk_eKlwyIzEWDdhH2xbL3s&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nnDiTJFikgOt7A-dXdCNp03XUwPNweAtE",
@@ -6524,7 +7015,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nnDiTJFikgOt7A-dXdCNp03XUwPNweAtE.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nnDiTJFikgOt7A-dXdCNp03XUwPNweAtE/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICL_2q70GEAE=&rs=AOn4CLBKhHHJTf_Swno_cHF869OGYTSsxQ&v=1739258687",
       "sourceUrl": "https://www.youtube.com/watch?v=6c-SCdU4rnA&list=OLAK5uy_nnDiTJFikgOt7A-dXdCNp03XUwPNweAtE",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nnDiTJFikgOt7A-dXdCNp03XUwPNweAtE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_n76UaOQaVAskDC7nFGeAR4bEWgu_c9VKc",
@@ -6550,7 +7044,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_n76UaOQaVAskDC7nFGeAR4bEWgu_c9VKc.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_n76UaOQaVAskDC7nFGeAR4bEWgu_c9VKc/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICNzinr0GEAE=&rs=AOn4CLBoUmdL2Ss8D3P4egGNwOSfvwqTqg&v=1739043164",
       "sourceUrl": "https://www.youtube.com/watch?v=QFbZZBdTAwE&list=OLAK5uy_n76UaOQaVAskDC7nFGeAR4bEWgu_c9VKc",
-      "translationStatus": "user-reviewed"
+      "translationStatus": "user-reviewed",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_n76UaOQaVAskDC7nFGeAR4bEWgu_c9VKc&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nkTSHwryPl9YD-iLnlGi-hn3myoA0aLdA",
@@ -6575,7 +7072,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nkTSHwryPl9YD-iLnlGi-hn3myoA0aLdA.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nkTSHwryPl9YD-iLnlGi-hn3myoA0aLdA/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICKHqrL0GEAE=&rs=AOn4CLB3pSX72m59WZzO7w_5sVoqR9TYfQ&v=1739273505",
       "sourceUrl": "https://www.youtube.com/watch?v=sd6DTgsIbrs&list=OLAK5uy_nkTSHwryPl9YD-iLnlGi-hn3myoA0aLdA",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nkTSHwryPl9YD-iLnlGi-hn3myoA0aLdA&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_l-6T3fQpMCTeVliZbk-5fBooB3oq1eJ0A",
@@ -6599,7 +7099,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_l-6T3fQpMCTeVliZbk-5fBooB3oq1eJ0A.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_l-6T3fQpMCTeVliZbk-5fBooB3oq1eJ0A/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICJrSx8EGEAE=&rs=AOn4CLBNqITRFfCNcAS9aSZUZqbrTCx1rg&v=1748101402",
       "sourceUrl": "https://www.youtube.com/watch?v=TB9qe4ahzac&list=OLAK5uy_l-6T3fQpMCTeVliZbk-5fBooB3oq1eJ0A",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_l-6T3fQpMCTeVliZbk-5fBooB3oq1eJ0A&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mMabZrN4-kQoBCyI1ixm5JZHL1t4XK5mk",
@@ -6623,7 +7126,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mMabZrN4-kQoBCyI1ixm5JZHL1t4XK5mk.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mMabZrN4-kQoBCyI1ixm5JZHL1t4XK5mk/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICNebxL0GEAE=&rs=AOn4CLC_gnqdx3orSJZ-7ZjH4AquWd4POg&v=1739656663",
       "sourceUrl": "https://www.youtube.com/watch?v=QhP2Ko2wEjY&list=OLAK5uy_mMabZrN4-kQoBCyI1ixm5JZHL1t4XK5mk",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mMabZrN4-kQoBCyI1ixm5JZHL1t4XK5mk&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_m0VgH5AidsRYX0zEh06PW_kxQX_pB7hyE",
@@ -6647,7 +7153,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_m0VgH5AidsRYX0zEh06PW_kxQX_pB7hyE.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_m0VgH5AidsRYX0zEh06PW_kxQX_pB7hyE/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICPbCq70GEAE=&rs=AOn4CLACed4COUCrfFpU0EPEWGEzlNeuTQ&v=1739252086",
       "sourceUrl": "https://www.youtube.com/watch?v=RoZRMSIdZ6U&list=OLAK5uy_m0VgH5AidsRYX0zEh06PW_kxQX_pB7hyE",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_m0VgH5AidsRYX0zEh06PW_kxQX_pB7hyE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lbp8uRNuZmZzzo9YDW7NgGQQcEiNRVXcM",
@@ -6671,7 +7180,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lbp8uRNuZmZzzo9YDW7NgGQQcEiNRVXcM.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lbp8uRNuZmZzzo9YDW7NgGQQcEiNRVXcM/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICJDNn70GEAE=&rs=AOn4CLCM4Wu4u2-5gbWyP454vZnNTl05_Q&v=1739056784",
       "sourceUrl": "https://www.youtube.com/watch?v=tXpdOr7mx7U&list=OLAK5uy_lbp8uRNuZmZzzo9YDW7NgGQQcEiNRVXcM",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lbp8uRNuZmZzzo9YDW7NgGQQcEiNRVXcM&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_m7EWrLSbLOa8Ydb0cqfXri7ETBzbFic8M",
@@ -6695,7 +7207,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_m7EWrLSbLOa8Ydb0cqfXri7ETBzbFic8M.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_m7EWrLSbLOa8Ydb0cqfXri7ETBzbFic8M/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICLbFpb0GEAE=&rs=AOn4CLAUmNJcOxW9sYFGXwMXEWjx6HFHiw&v=1739154102",
       "sourceUrl": "https://www.youtube.com/watch?v=EGhhBKr4OzY&list=OLAK5uy_m7EWrLSbLOa8Ydb0cqfXri7ETBzbFic8M&pp=0gcJCQ4DOCosWNin",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_m7EWrLSbLOa8Ydb0cqfXri7ETBzbFic8M&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lu9f6jc3DUQytILfD7ALACIdgrfQfEbjc",
@@ -6719,7 +7234,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lu9f6jc3DUQytILfD7ALACIdgrfQfEbjc.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lu9f6jc3DUQytILfD7ALACIdgrfQfEbjc/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICK7Gw70GEAE=&rs=AOn4CLA2KTCHq18LswDCtkjBWEDS6Okfjg&v=1739645742",
       "sourceUrl": "https://www.youtube.com/watch?v=-dAz7Se-umM&list=OLAK5uy_lu9f6jc3DUQytILfD7ALACIdgrfQfEbjc",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lu9f6jc3DUQytILfD7ALACIdgrfQfEbjc&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mNJ4xwer_x8FJc5sB_PALpLb_sdBfCvVM",
@@ -6744,7 +7262,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mNJ4xwer_x8FJc5sB_PALpLb_sdBfCvVM.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mNJ4xwer_x8FJc5sB_PALpLb_sdBfCvVM/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICIHxkMEGEAE=&rs=AOn4CLCUlFW5k_oLlA2z-_FYlhAYEoSn4w&v=1747204225",
       "sourceUrl": "https://www.youtube.com/watch?v=EAW1zjldjO4&list=OLAK5uy_mNJ4xwer_x8FJc5sB_PALpLb_sdBfCvVM&pp=0gcJCQ4DOCosWNin",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mNJ4xwer_x8FJc5sB_PALpLb_sdBfCvVM&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mAGZALJsFwB5NY5eUWZLnRtgqjzrDEems",
@@ -6771,7 +7292,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mAGZALJsFwB5NY5eUWZLnRtgqjzrDEems.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mAGZALJsFwB5NY5eUWZLnRtgqjzrDEems/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICI7gksEGEAE=&rs=AOn4CLDoCF00eTtVsSqP1Msv-3zUVwrX4A&v=1747234830",
       "sourceUrl": "https://www.youtube.com/watch?v=z1Nxc4UyQfQ&list=OLAK5uy_mAGZALJsFwB5NY5eUWZLnRtgqjzrDEems",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mAGZALJsFwB5NY5eUWZLnRtgqjzrDEems&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nkN9Q1FisiPD1UNThg4cuI9iLZF7nQIxI",
@@ -6795,7 +7319,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nkN9Q1FisiPD1UNThg4cuI9iLZF7nQIxI.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nkN9Q1FisiPD1UNThg4cuI9iLZF7nQIxI/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICMnKxL0GEAE=&rs=AOn4CLAKZT61xOrn_79qu5vGC-IMEkD6Hg&v=1739662665",
       "sourceUrl": "https://www.youtube.com/watch?v=VIR94m89mk0&list=OLAK5uy_nkN9Q1FisiPD1UNThg4cuI9iLZF7nQIxI",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nkN9Q1FisiPD1UNThg4cuI9iLZF7nQIxI&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nWPlwIO3l94tc3Pef94WmJtF6FVdByXsM",
@@ -6819,7 +7346,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nWPlwIO3l94tc3Pef94WmJtF6FVdByXsM.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nWPlwIO3l94tc3Pef94WmJtF6FVdByXsM/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICNGWwL0GEAE=&rs=AOn4CLBNEsH_MUR_2ScySe_EPsPOx0NSpQ&v=1739590481",
       "sourceUrl": "https://www.youtube.com/watch?v=cUqQRAYEtKg&list=OLAK5uy_nWPlwIO3l94tc3Pef94WmJtF6FVdByXsM",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nWPlwIO3l94tc3Pef94WmJtF6FVdByXsM&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nMyqZ5qYBcHF-yNBpi0xsCLmCSEHLMDJk",
@@ -6843,7 +7373,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nMyqZ5qYBcHF-yNBpi0xsCLmCSEHLMDJk.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nMyqZ5qYBcHF-yNBpi0xsCLmCSEHLMDJk/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICOyrzb0GEAE=&rs=AOn4CLCZuiCkl3aAwP17LgEXiDzZjPAoGQ&v=1739806188",
       "sourceUrl": "https://www.youtube.com/watch?v=YZxHTW5sJu4&list=OLAK5uy_nMyqZ5qYBcHF-yNBpi0xsCLmCSEHLMDJk",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nMyqZ5qYBcHF-yNBpi0xsCLmCSEHLMDJk&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lj4x_nhl-YT_0ds0nICTFi-aIofaQ3GY0",
@@ -6867,7 +7400,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lj4x_nhl-YT_0ds0nICTFi-aIofaQ3GY0.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lj4x_nhl-YT_0ds0nICTFi-aIofaQ3GY0/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICO3jpr0GEAE=&rs=AOn4CLD4Gh_01vR0JvlcTCVlju9Ixla10A&v=1739174381",
       "sourceUrl": "https://www.youtube.com/watch?v=OHvvN4XktQk&list=OLAK5uy_lj4x_nhl-YT_0ds0nICTFi-aIofaQ3GY0",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lj4x_nhl-YT_0ds0nICTFi-aIofaQ3GY0&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kNQw3a9yQhsswwvCasvhNgvU2vKD529UY",
@@ -6891,7 +7427,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kNQw3a9yQhsswwvCasvhNgvU2vKD529UY.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kNQw3a9yQhsswwvCasvhNgvU2vKD529UY/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICPqE5sIGEAE=&rs=AOn4CLAp2YAdNxap_i4eG6rthm8FyhmUWw&v=1750696570",
       "sourceUrl": "https://www.youtube.com/watch?v=LYnF2X_mnBI&list=OLAK5uy_kNQw3a9yQhsswwvCasvhNgvU2vKD529UY&pp=0gcJCbwFa94AFGB0",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kNQw3a9yQhsswwvCasvhNgvU2vKD529UY&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_m6VnqqJIhL6pvxuRDHUjKK0IeD8a6ZHm8",
@@ -6909,11 +7448,11 @@ window.catalogData = {
         "rim"
       ],
       "tags": [],
-      "date": "2025-04-23",
-      "dateSource": "https://en.wikipedia.org/wiki/Rim_(singer)",
-      "dateVerifiedOn": "2026-10-06",
+      "date": "2025-02-14",
+      "dateSource": "https://findmestore.thinkr.jp/products/ktr-000-0194",
+      "dateVerifiedOn": "2026-10-07",
       "youtubeDate": "2025-09-26",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 22,
       "image": "images/albums/youtube-OLAK5uy_m6VnqqJIhL6pvxuRDHUjKK0IeD8a6ZHm8.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_m6VnqqJIhL6pvxuRDHUjKK0IeD8a6ZHm8/maxresdefault.jpg?sqp=CLy-k9YGir7X7AMICObm4r8GEAE=&rs=AOn4CLCdMdm_EktC9bzCXjMHDnLxsmmA8A&v=1744352102",
@@ -6922,7 +7461,8 @@ window.catalogData = {
       "tracks": [
         {
           "titles": {
-            "ja": "らしさ"
+            "ja": "らしさ",
+            "ko": ""
           },
           "aliases": [
             "らしさ"
@@ -6931,7 +7471,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "私以外私じゃないの"
+            "ja": "私以外私じゃないの",
+            "ko": ""
           },
           "aliases": [
             "私以外私じゃないの"
@@ -6940,7 +7481,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ノックブーツ"
+            "ja": "ノックブーツ",
+            "ko": ""
           },
           "aliases": [
             "ノックブーツ"
@@ -6949,7 +7491,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "全方向美少女"
+            "ja": "全方向美少女",
+            "ko": ""
           },
           "aliases": [
             "全方向美少女"
@@ -6958,16 +7501,19 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "好 -じょし-"
+            "ja": "好-じょし-",
+            "ko": ""
           },
           "aliases": [
-            "好 -じょし-"
+            "好 -じょし-",
+            "好-じょし-"
           ],
           "videoId": "7wyxnx-cXgA"
         },
         {
           "titles": {
-            "ja": "No.5"
+            "ja": "No.5",
+            "ko": ""
           },
           "aliases": [
             "No.5"
@@ -6976,7 +7522,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "Maybe"
+            "ja": "Maybe",
+            "ko": ""
           },
           "aliases": [
             "Maybe"
@@ -6985,7 +7532,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "Heart Shakes"
+            "ja": "Heart Shakes",
+            "ko": ""
           },
           "aliases": [
             "Heart Shakes"
@@ -6994,7 +7542,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "SAPPORO TOKYO"
+            "ja": "SAPPORO TOKYO",
+            "ko": ""
           },
           "aliases": [
             "SAPPORO TOKYO"
@@ -7003,7 +7552,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "Namidairo"
+            "ja": "Namidairo",
+            "ko": ""
           },
           "aliases": [
             "Namidairo"
@@ -7012,7 +7562,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "藍"
+            "ja": "藍",
+            "ko": ""
           },
           "aliases": [
             "藍"
@@ -7021,7 +7572,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "マスカラまつげ"
+            "ja": "マスカラまつげ",
+            "ko": ""
           },
           "aliases": [
             "マスカラまつげ"
@@ -7030,7 +7582,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "NAO"
+            "ja": "NAO",
+            "ko": ""
           },
           "aliases": [
             "NAO"
@@ -7039,7 +7592,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "缶ビール"
+            "ja": "缶ビール",
+            "ko": ""
           },
           "aliases": [
             "缶ビール"
@@ -7048,7 +7602,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "惑星"
+            "ja": "惑星",
+            "ko": ""
           },
           "aliases": [
             "惑星"
@@ -7057,7 +7612,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "真白"
+            "ja": "真白",
+            "ko": ""
           },
           "aliases": [
             "真白"
@@ -7066,7 +7622,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "センチメンタル・キス"
+            "ja": "センチメンタル・キス",
+            "ko": ""
           },
           "aliases": [
             "センチメンタル・キス"
@@ -7075,7 +7632,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "Chronicle A"
+            "ja": "Chronicle A",
+            "ko": ""
           },
           "aliases": [
             "Chronicle A"
@@ -7084,7 +7642,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "スーパーヒーロー"
+            "ja": "スーパーヒーロー",
+            "ko": ""
           },
           "aliases": [
             "スーパーヒーロー"
@@ -7093,7 +7652,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "かいか"
+            "ja": "かいか",
+            "ko": ""
           },
           "aliases": [
             "かいか"
@@ -7102,7 +7662,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "大迷惑星。"
+            "ja": "大迷惑星。",
+            "ko": ""
           },
           "aliases": [
             "大迷惑星。"
@@ -7111,7 +7672,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ナイトオンザプラネット"
+            "ja": "ナイトオンザプラネット",
+            "ko": ""
           },
           "aliases": [
             "ナイトオンザプラネット"
@@ -7119,7 +7681,21 @@ window.catalogData = {
           "videoId": "w54lssb0dpI"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_m6VnqqJIhL6pvxuRDHUjKK0IeD8a6ZHm8&hl=ja"
+      "trackSource": "https://findmestore.thinkr.jp/products/ktr-000-0194",
+      "youtubeTrackCount": 22,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 22,
+      "albumReleaseDate": "2025-04-23",
+      "albumReleaseDateSource": "https://en.wikipedia.org/wiki/Rim_(singer)",
+      "liveDate": "2025-02-14",
+      "dateBasis": "live",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_m6VnqqJIhL6pvxuRDHUjKK0IeD8a6ZHm8&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "rim"
+      ]
     },
     {
       "id": "youtube-OLAK5uy_nzsYy0_8Rq8YRsvOvj0RU5SE5StUyy-dc",
@@ -7137,11 +7713,11 @@ window.catalogData = {
         "harusaruhi"
       ],
       "tags": [],
-      "date": "2025-09-24",
-      "dateSource": "https://kamitsubaki.jp/discography/?at=harusaruhi",
-      "dateVerifiedOn": "2026-10-06",
+      "date": "2025-07-21",
+      "dateSource": "https://findmestore.thinkr.jp/products/ktr-000-0208",
+      "dateVerifiedOn": "2026-10-07",
       "youtubeDate": "2025-09-23",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 20,
       "image": "images/albums/youtube-OLAK5uy_nzsYy0_8Rq8YRsvOvj0RU5SE5StUyy-dc.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nzsYy0_8Rq8YRsvOvj0RU5SE5StUyy-dc/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICLzK-8QGEAE=&rs=AOn4CLAhZ0Yn3sZmKpPrh3XUTRJ9OaD-hw&v=1755243836",
@@ -7150,52 +7726,63 @@ window.catalogData = {
       "tracks": [
         {
           "titles": {
-            "ja": "キラーボール (Cover Live)"
+            "ja": "キラーボール",
+            "ko": ""
           },
           "aliases": [
-            "キラーボール (Cover Live)"
+            "キラーボール (Cover Live)",
+            "キラーボール"
           ],
           "videoId": "oUKJNe9spMs"
         },
         {
           "titles": {
-            "ja": "SAYONARA MAYBE (Cover Live)"
+            "ja": "SAYONARA MAYBE",
+            "ko": ""
           },
           "aliases": [
-            "SAYONARA MAYBE (Cover Live)"
+            "SAYONARA MAYBE (Cover Live)",
+            "SAYONARA MAYBE"
           ],
           "videoId": "aoMb-Ow2LUU"
         },
         {
           "titles": {
-            "ja": "花に亡霊 (Cover Live)"
+            "ja": "花に亡霊",
+            "ko": ""
           },
           "aliases": [
-            "花に亡霊 (Cover Live)"
+            "花に亡霊 (Cover Live)",
+            "花に亡霊"
           ],
           "videoId": "jNMrjRan0Nc"
         },
         {
           "titles": {
-            "ja": "ターミナル (Cover Live)"
+            "ja": "ターミナル",
+            "ko": ""
           },
           "aliases": [
-            "ターミナル (Cover Live)"
+            "ターミナル (Cover Live)",
+            "ターミナル"
           ],
           "videoId": "ZoQ0_KwrgK8"
         },
         {
           "titles": {
-            "ja": "弔花 (Cover Live)"
+            "ja": "弔花",
+            "ko": ""
           },
           "aliases": [
-            "弔花 (Cover Live)"
+            "弔花 (Cover Live)",
+            "弔花"
           ],
           "videoId": "9gikKVDa3U0"
         },
         {
           "titles": {
-            "ja": "NEUROMANCE (Cover Live)"
+            "ja": "NEUROMANCE",
+            "ko": ""
           },
           "aliases": [
             "NEUROMANCE (Cover Live)",
@@ -7206,64 +7793,80 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "空想少女 (Cover Live)"
+            "ja": "空想少女",
+            "ko": "공상소녀"
           },
           "aliases": [
-            "空想少女 (Cover Live)"
+            "空想少女 (Cover Live)",
+            "空想少女",
+            "공상소녀",
+            "Kusou Shoujo",
+            "【オリジナルMV】空想少女  / CIEL #17"
           ],
           "videoId": "L__SBtvrOuY"
         },
         {
           "titles": {
-            "ja": "天照ダウン (Cover Live)"
+            "ja": "天照ダウン",
+            "ko": ""
           },
           "aliases": [
             "天照ダウン (Cover Live)",
             "天照ダウン feat. 春猿火 / 獅子志司 MV",
-            "Amaterasu down feat. Harusaruhi"
+            "Amaterasu down feat. Harusaruhi",
+            "天照ダウン"
           ],
           "videoId": "gjZM0nFw8ok"
         },
         {
           "titles": {
-            "ja": "チルドレンレコード / じん"
+            "ja": "チルドレンレコード",
+            "ko": ""
           },
           "aliases": [
             "【歌ってみた】「チルドレンレコード / じん」 covered by 春猿火 with 梓川 (from CREAM PUFF LIVE 4 2025.7.21)",
-            "チルドレンレコード / じん"
+            "チルドレンレコード / じん",
+            "チルドレンレコード"
           ],
           "videoId": "LiSY38K61w8"
         },
         {
           "titles": {
-            "ja": "Drop (Cover Live)"
+            "ja": "drop",
+            "ko": ""
           },
           "aliases": [
-            "Drop (Cover Live)"
+            "Drop (Cover Live)",
+            "drop"
           ],
           "videoId": "iHTI7hkO_EQ"
         },
         {
           "titles": {
-            "ja": "Season (Cover Live)"
+            "ja": "Season",
+            "ko": ""
           },
           "aliases": [
-            "Season (Cover Live)"
+            "Season (Cover Live)",
+            "Season"
           ],
           "videoId": "QdUnUieFGeY"
         },
         {
           "titles": {
-            "ja": "曖昧なBEACH (Cover Live)"
+            "ja": "曖昧なBEACH",
+            "ko": ""
           },
           "aliases": [
-            "曖昧なBEACH (Cover Live)"
+            "曖昧なBEACH (Cover Live)",
+            "曖昧なBEACH"
           ],
           "videoId": "_zQFgTGGCRk"
         },
         {
           "titles": {
-            "ja": "夏夜のマジック (Cover Live)"
+            "ja": "夏夜のマジック",
+            "ko": ""
           },
           "aliases": [
             "夏夜のマジック (Cover Live)",
@@ -7273,16 +7876,19 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ソラニン (Cover Live)"
+            "ja": "ソラニン",
+            "ko": ""
           },
           "aliases": [
-            "ソラニン (Cover Live)"
+            "ソラニン (Cover Live)",
+            "ソラニン"
           ],
           "videoId": "M6ZKQAC1ewA"
         },
         {
           "titles": {
-            "ja": "おやすみ泣き声、さよなら歌姫 (Cover Live)"
+            "ja": "おやすみ泣き声、さよなら歌姫",
+            "ko": ""
           },
           "aliases": [
             "おやすみ泣き声、さよなら歌姫 (Cover Live)",
@@ -7293,52 +7899,76 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "当事者 (Cover Live)"
+            "ja": "当事者",
+            "ko": ""
           },
           "aliases": [
-            "当事者 (Cover Live)"
+            "当事者 (Cover Live)",
+            "当事者"
           ],
           "videoId": "vLlMPFiWwn4"
         },
         {
           "titles": {
-            "ja": "絶蝶 (Cover Live)"
+            "ja": "絶蝶",
+            "ko": ""
           },
           "aliases": [
-            "絶蝶 (Cover Live)"
+            "絶蝶 (Cover Live)",
+            "絶蝶"
           ],
           "videoId": "YRucYTffbec"
         },
         {
           "titles": {
-            "ja": "カワルミライ / Choucho"
+            "ja": "カワルミライ",
+            "ko": ""
           },
           "aliases": [
             "【歌ってみた】「カワルミライ / Choucho」covered by 春猿火 (from CREAM PUFF LIVE 4 2025.7.21)",
-            "カワルミライ / Choucho"
+            "カワルミライ / Choucho",
+            "カワルミライ"
           ],
           "videoId": "rr8ImMOf3QI"
         },
         {
           "titles": {
-            "ja": "積乱雲グラフィティ (Cover Live)"
+            "ja": "積乱雲グラフィティ",
+            "ko": ""
           },
           "aliases": [
-            "積乱雲グラフィティ (Cover Live)"
+            "積乱雲グラフィティ (Cover Live)",
+            "積乱雲グラフィティ"
           ],
           "videoId": "QL-58Uxsd4U"
         },
         {
           "titles": {
-            "ja": "Yeah! Yeah! Yeah! (Cover Live)"
+            "ja": "Yeah!Yeah!Yeah!",
+            "ko": ""
           },
           "aliases": [
-            "Yeah! Yeah! Yeah! (Cover Live)"
+            "Yeah! Yeah! Yeah! (Cover Live)",
+            "Yeah!Yeah!Yeah!"
           ],
           "videoId": "HS_9CJ2XD5k"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nzsYy0_8Rq8YRsvOvj0RU5SE5StUyy-dc&hl=ja"
+      "trackSource": "https://findmestore.thinkr.jp/products/ktr-000-0208",
+      "youtubeTrackCount": 20,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 20,
+      "albumReleaseDate": "2025-09-24",
+      "albumReleaseDateSource": "https://kamitsubaki.jp/discography/?at=harusaruhi",
+      "liveDate": "2025-07-21",
+      "dateBasis": "live",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nzsYy0_8Rq8YRsvOvj0RU5SE5StUyy-dc&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "harusaruhi"
+      ]
     },
     {
       "id": "youtube-OLAK5uy_lxZ2GH3wBoEwxeJmmlvBnca2soazqI6Jo",
@@ -7364,7 +7994,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lxZ2GH3wBoEwxeJmmlvBnca2soazqI6Jo.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lxZ2GH3wBoEwxeJmmlvBnca2soazqI6Jo/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICL34pdMGEAE=&rs=AOn4CLCvGFFT1eEgKYNo43ettkdbIW1CgQ&v=1785297981",
       "sourceUrl": "https://www.youtube.com/watch?v=lC_NZymvR4g&list=OLAK5uy_lxZ2GH3wBoEwxeJmmlvBnca2soazqI6Jo",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lxZ2GH3wBoEwxeJmmlvBnca2soazqI6Jo&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mC2cIAx-Muihp1Hic86mOL35wxmWkkUio",
@@ -7539,7 +8172,10 @@ window.catalogData = {
           "videoId": "qtVGC5Erdic"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_mC2cIAx-Muihp1Hic86mOL35wxmWkkUio&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_mC2cIAx-Muihp1Hic86mOL35wxmWkkUio&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mC2cIAx-Muihp1Hic86mOL35wxmWkkUio&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kKdDsX4V1xME4JjSgDtjmrQ_8Qaz3ZW5o",
@@ -7651,7 +8287,10 @@ window.catalogData = {
           "videoId": "GAyc0hXIECk"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_kKdDsX4V1xME4JjSgDtjmrQ_8Qaz3ZW5o&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_kKdDsX4V1xME4JjSgDtjmrQ_8Qaz3ZW5o&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kKdDsX4V1xME4JjSgDtjmrQ_8Qaz3ZW5o&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kFf5lbmmrwnRV1Upc9sDjz0IberBuvYCk",
@@ -7861,7 +8500,10 @@ window.catalogData = {
           "videoId": "jMqP7oCe8qY"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_kFf5lbmmrwnRV1Upc9sDjz0IberBuvYCk&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_kFf5lbmmrwnRV1Upc9sDjz0IberBuvYCk&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kFf5lbmmrwnRV1Upc9sDjz0IberBuvYCk&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lamTKgfPF8Da8ZMNGD5SF0vM14sRmoFwE",
@@ -7977,7 +8619,10 @@ window.catalogData = {
           "videoId": "KXD2pi9ehRQ"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lamTKgfPF8Da8ZMNGD5SF0vM14sRmoFwE&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lamTKgfPF8Da8ZMNGD5SF0vM14sRmoFwE&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lamTKgfPF8Da8ZMNGD5SF0vM14sRmoFwE&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kbfDVY474h1xy_oPPbCIn7k8HWaEIjPd8",
@@ -7995,11 +8640,11 @@ window.catalogData = {
         "harusaruhi"
       ],
       "tags": [],
-      "date": "2022-10-05",
-      "dateSource": "https://kamitsubaki.jp/discography/?at=harusaruhi",
-      "dateVerifiedOn": "2026-10-06",
+      "date": "2022-08-06",
+      "dateSource": "https://findmestore.thinkr.jp/products/harusaruhi_cd_creampuff2",
+      "dateVerifiedOn": "2026-10-07",
       "youtubeDate": "2025-09-23",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 30,
       "image": "images/albums/youtube-OLAK5uy_kbfDVY474h1xy_oPPbCIn7k8HWaEIjPd8.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kbfDVY474h1xy_oPPbCIn7k8HWaEIjPd8/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICMPQqr0GEAE=&rs=AOn4CLDEdB7qHnhZNbSoD3SuJDO8tuy6VA&v=1739237443",
@@ -8186,7 +8831,7 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "Hug (Original Ver.)"
+            "ja": "Hug feat. kojikoji"
           },
           "aliases": [
             "Hug (Original Ver.)"
@@ -8303,7 +8948,21 @@ window.catalogData = {
           "videoId": "WijOxEhYX3w"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_kbfDVY474h1xy_oPPbCIn7k8HWaEIjPd8&hl=ja"
+      "trackSource": "https://findmestore.thinkr.jp/products/harusaruhi_cd_creampuff2",
+      "youtubeTrackCount": 30,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 20,
+      "albumReleaseDate": "2022-10-05",
+      "albumReleaseDateSource": "https://kamitsubaki.jp/discography/?at=harusaruhi",
+      "liveDate": "2022-08-06",
+      "dateBasis": "live",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kbfDVY474h1xy_oPPbCIn7k8HWaEIjPd8&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "harusaruhi"
+      ]
     },
     {
       "id": "youtube-OLAK5uy_m3qaus3EzmLQ-v6nWm1jwP4HofoITRJ2Q",
@@ -8321,11 +8980,11 @@ window.catalogData = {
         "harusaruhi"
       ],
       "tags": [],
-      "date": "2023-10-18",
-      "dateSource": "https://kamitsubaki.jp/discography/?at=harusaruhi",
-      "dateVerifiedOn": "2026-10-06",
+      "date": "2023-08-06",
+      "dateSource": "https://findmestore.thinkr.jp/products/ktr-000-0118",
+      "dateVerifiedOn": "2026-10-07",
       "youtubeDate": "2025-09-24",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 20,
       "image": "images/albums/youtube-OLAK5uy_m3qaus3EzmLQ-v6nWm1jwP4HofoITRJ2Q.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_m3qaus3EzmLQ-v6nWm1jwP4HofoITRJ2Q/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICOa-vsEGEAE=&rs=AOn4CLDsw3QybpFswyV_gZN0BEeiZMl9sg&v=1747951462",
@@ -8334,7 +8993,8 @@ window.catalogData = {
       "tracks": [
         {
           "titles": {
-            "ja": "フロントメモリー"
+            "ja": "フロントメモリー",
+            "ko": ""
           },
           "aliases": [
             "フロントメモリー at CREAM PUFF LIVE 3 (Cover)",
@@ -8344,7 +9004,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "青と夏"
+            "ja": "青と夏",
+            "ko": ""
           },
           "aliases": [
             "青と夏 at CREAM PUFF LIVE 3 (Cover)",
@@ -8354,7 +9015,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "今さらサレンダー"
+            "ja": "今さらサレンダー",
+            "ko": ""
           },
           "aliases": [
             "今さらサレンダー at CREAM PUFF LIVE 3 (Cover)",
@@ -8364,7 +9026,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "STAY TUNE"
+            "ja": "STAY TUNE",
+            "ko": ""
           },
           "aliases": [
             "【歌ってみた】「STAY TUNE / Suchmos」 covered by 春猿火 (from CREAM PUFF LIVE 3  2023.8.6)",
@@ -8374,7 +9037,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "ミラージュコード"
+            "ja": "ミラージュコード",
+            "ko": ""
           },
           "aliases": [
             "ミラージュコード at CREAM PUFF LIVE 3 (Cover)",
@@ -8387,7 +9051,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "食虫植物"
+            "ja": "食虫植物",
+            "ko": ""
           },
           "aliases": [
             "食虫植物 at CREAM PUFF LIVE 3 (Cover)",
@@ -8399,20 +9064,28 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "魔女 (真)"
+            "ja": "魔女(真)",
+            "ko": ""
           },
           "aliases": [
             "魔女 (真) at CREAM PUFF LIVE 3 (Cover)",
             "魔女 (真)",
             "魔女(真)",
             "마녀(진)",
-            "【Original MV】魔女(真) / V.W.P #8【系譜曲】"
+            "【Original MV】魔女(真) / V.W.P #8【系譜曲】",
+            "魔女",
+            "花譜　#11　「魔女」 【オリジナルMV】",
+            "KAF",
+            "KAF #11 - Witch [Music Video]",
+            "카후　#11 「마녀」 【오리지널 뮤직 비디오】",
+            "마녀"
           ],
           "videoId": "yWrBYXeUNKw"
         },
         {
           "titles": {
-            "ja": "バレリーコ"
+            "ja": "バレリーコ",
+            "ko": ""
           },
           "aliases": [
             "バレリーコ at CREAM PUFF LIVE 3 (Cover)",
@@ -8422,7 +9095,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "Just Be Friends"
+            "ja": "Just Be Friends",
+            "ko": ""
           },
           "aliases": [
             "Just Be Friends at CREAM PUFF LIVE 3 (Cover)",
@@ -8432,7 +9106,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "メルト"
+            "ja": "メルト",
+            "ko": ""
           },
           "aliases": [
             "メルト at CREAM PUFF LIVE 3 (Cover)",
@@ -8442,7 +9117,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "グミ超うめぇ"
+            "ja": "グミ超うめぇ",
+            "ko": ""
           },
           "aliases": [
             "グミ超うめぇ at CREAM PUFF LIVE 3 (Cover)",
@@ -8452,7 +9128,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "Revenge"
+            "ja": "Revenge",
+            "ko": ""
           },
           "aliases": [
             "Revenge at CREAM PUFF LIVE 3 (Cover)",
@@ -8462,7 +9139,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "エジソン"
+            "ja": "エジソン",
+            "ko": ""
           },
           "aliases": [
             "エジソン at CREAM PUFF LIVE 3 (Cover)",
@@ -8472,7 +9150,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "明日はくる"
+            "ja": "明日はくる",
+            "ko": ""
           },
           "aliases": [
             "明日はくる at CREAM PUFF LIVE 3 (Cover)",
@@ -8482,7 +9161,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "気分上々↑↑"
+            "ja": "気分上々↑↑",
+            "ko": ""
           },
           "aliases": [
             "気分上々↑↑ at CREAM PUFF LIVE 3 (Cover)",
@@ -8492,7 +9172,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "今夜だけ間違いじゃないことにしてあげる"
+            "ja": "今夜だけ間違いじゃないことにしてあげる",
+            "ko": ""
           },
           "aliases": [
             "今夜だけ間違いじゃないことにしてあげる at CREAM PUFF LIVE 3 (Cover)",
@@ -8502,7 +9183,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "季節は次々死んでいく"
+            "ja": "季節は次々死んでいく",
+            "ko": ""
           },
           "aliases": [
             "【歌ってみた】「季節は次々死んでいく / amazarashi」 covered by 春猿火 (from CREAM PUFF LIVE 3  2023.8.6)",
@@ -8512,7 +9194,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "LA・LA・LA LOVE SONG"
+            "ja": "LA・LA・LA LOVE SONG",
+            "ko": ""
           },
           "aliases": [
             "【歌ってみた】「LA・LA・LA LOVE SONG / 久保田利伸」 covered by 春猿火 (from CREAM PUFF LIVE 3  2023.8.6)",
@@ -8522,7 +9205,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "快晴"
+            "ja": "快晴",
+            "ko": ""
           },
           "aliases": [
             "快晴 at CREAM PUFF LIVE 3 (Cover)",
@@ -8532,7 +9216,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "君と夏フェス"
+            "ja": "君と夏フェス",
+            "ko": ""
           },
           "aliases": [
             "君と夏フェス at CREAM PUFF LIVE 3 (Cover)",
@@ -8541,9 +9226,23 @@ window.catalogData = {
           "videoId": "-C947UAMOzA"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_m3qaus3EzmLQ-v6nWm1jwP4HofoITRJ2Q&hl=ja",
+      "trackSource": "https://findmestore.thinkr.jp/products/ktr-000-0118",
       "excludedArtistIds": [
         "vwp"
+      ],
+      "youtubeTrackCount": 20,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 20,
+      "albumReleaseDate": "2023-10-18",
+      "albumReleaseDateSource": "https://kamitsubaki.jp/discography/?at=harusaruhi",
+      "liveDate": "2023-08-06",
+      "dateBasis": "live",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_m3qaus3EzmLQ-v6nWm1jwP4HofoITRJ2Q&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "harusaruhi"
       ]
     },
     {
@@ -8571,7 +9270,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kU47bZWkkKvYNcsNIBMBigtHZ3J7EF064.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kU47bZWkkKvYNcsNIBMBigtHZ3J7EF064/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICLGKzM8GEAE=&rs=AOn4CLCXoDoKVFSvnSlpNAj31B5a8znsNg&v=1777534257",
       "sourceUrl": "https://www.youtube.com/watch?v=M5WeWkUR0Gw&list=OLAK5uy_kU47bZWkkKvYNcsNIBMBigtHZ3J7EF064",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kU47bZWkkKvYNcsNIBMBigtHZ3J7EF064&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_n0zzlY_K7jcTZjkdJUpWbJ2W8KV79m1Mk",
@@ -8597,7 +9299,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_n0zzlY_K7jcTZjkdJUpWbJ2W8KV79m1Mk.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_n0zzlY_K7jcTZjkdJUpWbJ2W8KV79m1Mk/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICKrfq84GEAE=&rs=AOn4CLDTy9vh1ZnLKOYverQuSKDlkjUCRQ&v=1774907306",
       "sourceUrl": "https://www.youtube.com/watch?v=pI8stbN6wJA&list=OLAK5uy_n0zzlY_K7jcTZjkdJUpWbJ2W8KV79m1Mk",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_n0zzlY_K7jcTZjkdJUpWbJ2W8KV79m1Mk&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lmwd24Ol7ZSmFwUcmm5oHnmA8OSVsPBM4",
@@ -8756,7 +9461,10 @@ window.catalogData = {
           "videoId": "u3MXKAMgD_I"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lmwd24Ol7ZSmFwUcmm5oHnmA8OSVsPBM4&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lmwd24Ol7ZSmFwUcmm5oHnmA8OSVsPBM4&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lmwd24Ol7ZSmFwUcmm5oHnmA8OSVsPBM4&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_ks6GJW9Fqqqver3ju_sLRUCLbheECFSWo",
@@ -8784,7 +9492,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_ks6GJW9Fqqqver3ju_sLRUCLbheECFSWo.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_ks6GJW9Fqqqver3ju_sLRUCLbheECFSWo/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICO35yckGEAE=&rs=AOn4CLDuyAD-oFx-ONh_DzM4JUJYuRwAgA&v=1764916461",
       "sourceUrl": "https://www.youtube.com/watch?v=9UOZfI-WbVM&list=OLAK5uy_ks6GJW9Fqqqver3ju_sLRUCLbheECFSWo",
-      "translationStatus": "user-reviewed"
+      "translationStatus": "user-reviewed",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_ks6GJW9Fqqqver3ju_sLRUCLbheECFSWo&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lcZyIKbC4_WkEqzgn5vTljdgZaeL44QLE",
@@ -8812,7 +9523,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lcZyIKbC4_WkEqzgn5vTljdgZaeL44QLE.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lcZyIKbC4_WkEqzgn5vTljdgZaeL44QLE/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICJXJ-8QGEAE=&rs=AOn4CLDbyRxgJLa8q1iRB3Jd1Kn1hKfEtw&v=1755243669",
       "sourceUrl": "https://www.youtube.com/watch?v=2QCSQPC829g&list=OLAK5uy_lcZyIKbC4_WkEqzgn5vTljdgZaeL44QLE",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lcZyIKbC4_WkEqzgn5vTljdgZaeL44QLE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kToBmjKOzkzpuAJe2TynDDxDsQl5SWTQo",
@@ -8836,7 +9550,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kToBmjKOzkzpuAJe2TynDDxDsQl5SWTQo.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kToBmjKOzkzpuAJe2TynDDxDsQl5SWTQo/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICPrU3sMGEAE=&rs=AOn4CLA23fdeLw4CbvmvnNQkpE8IhCAqpA&v=1752672890",
       "sourceUrl": "https://www.youtube.com/watch?v=pn-4lkMEjUQ&list=OLAK5uy_kToBmjKOzkzpuAJe2TynDDxDsQl5SWTQo",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kToBmjKOzkzpuAJe2TynDDxDsQl5SWTQo&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mDN7xgwsl9Xn9t7H7N0iAPK_UEvRCZvfw",
@@ -8862,7 +9579,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mDN7xgwsl9Xn9t7H7N0iAPK_UEvRCZvfw.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mDN7xgwsl9Xn9t7H7N0iAPK_UEvRCZvfw/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICIbDnsEGEAE=&rs=AOn4CLD1N2tcwJ1dlqS4bJgqLzjcdhGRxQ&v=1747427718",
       "sourceUrl": "https://www.youtube.com/watch?v=T8uRRWGvJwY&list=OLAK5uy_mDN7xgwsl9Xn9t7H7N0iAPK_UEvRCZvfw&pp=0gcJCQ4DOCosWNin",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mDN7xgwsl9Xn9t7H7N0iAPK_UEvRCZvfw&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nXUnThmPQ5MMUmujlwCCMFy3V08nHt2Ok",
@@ -8888,7 +9608,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nXUnThmPQ5MMUmujlwCCMFy3V08nHt2Ok.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nXUnThmPQ5MMUmujlwCCMFy3V08nHt2Ok/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICN-GrMQGEAE=&rs=AOn4CLBhJdK9bwq66yz1Jp4aBVL5oVn31Q&v=1753940831",
       "sourceUrl": "https://www.youtube.com/watch?v=LmgVcNNBM-4&list=OLAK5uy_nXUnThmPQ5MMUmujlwCCMFy3V08nHt2Ok&pp=0gcJCbwFa94AFGB0",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nXUnThmPQ5MMUmujlwCCMFy3V08nHt2Ok&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nY137Mjo7K22nslVSzgX_EXkXzh9LVGdc",
@@ -8914,7 +9637,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nY137Mjo7K22nslVSzgX_EXkXzh9LVGdc.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nY137Mjo7K22nslVSzgX_EXkXzh9LVGdc/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICPOSmsEGEAE=&rs=AOn4CLDI4iIEQB6b_ma8jtm0wQfZrSr38A&v=1747356019",
       "sourceUrl": "https://www.youtube.com/watch?v=8Gq3aOjdQnM&list=OLAK5uy_nY137Mjo7K22nslVSzgX_EXkXzh9LVGdc",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nY137Mjo7K22nslVSzgX_EXkXzh9LVGdc&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_m0qrK1yW-iCVFLL6_tewDMSdY8479yxBo",
@@ -8940,7 +9666,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_m0qrK1yW-iCVFLL6_tewDMSdY8479yxBo.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_m0qrK1yW-iCVFLL6_tewDMSdY8479yxBo/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICJnbosAGEAE=&rs=AOn4CLBhl73lGdtJrTdEoMgWq0VMsv8Nfg&v=1745399193",
       "sourceUrl": "https://www.youtube.com/watch?v=AkYcfWGcsZk&list=OLAK5uy_m0qrK1yW-iCVFLL6_tewDMSdY8479yxBo",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_m0qrK1yW-iCVFLL6_tewDMSdY8479yxBo&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kXUC_ZfXri8ndc-uh8tyEHH09WaiYizgg",
@@ -8964,7 +9693,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kXUC_ZfXri8ndc-uh8tyEHH09WaiYizgg.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kXUC_ZfXri8ndc-uh8tyEHH09WaiYizgg/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICJmNq8EGEAE=&rs=AOn4CLDD9XwOpGWhfMhQCLc6hQJhYbHGqA&v=1747633817",
       "sourceUrl": "https://www.youtube.com/watch?v=kiW6lgLIqlw&list=OLAK5uy_kXUC_ZfXri8ndc-uh8tyEHH09WaiYizgg&pp=0gcJCbwFa94AFGB0",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kXUC_ZfXri8ndc-uh8tyEHH09WaiYizgg&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_k5HLlRZlMaYl99ZWwWyAgiu6Y06sZehdI",
@@ -8988,7 +9720,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_k5HLlRZlMaYl99ZWwWyAgiu6Y06sZehdI.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_k5HLlRZlMaYl99ZWwWyAgiu6Y06sZehdI/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICP-_zL0GEAE=&rs=AOn4CLCYwGSbYAeyGyHBrn4bkenNmAJK6A&v=1739792383",
       "sourceUrl": "https://www.youtube.com/watch?v=KpFJoM6JnF0&list=OLAK5uy_k5HLlRZlMaYl99ZWwWyAgiu6Y06sZehdI",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_k5HLlRZlMaYl99ZWwWyAgiu6Y06sZehdI&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_m7S_Fns-_2g3C6wTVULyhohItsrRUV7-o",
@@ -9014,7 +9749,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_m7S_Fns-_2g3C6wTVULyhohItsrRUV7-o.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_m7S_Fns-_2g3C6wTVULyhohItsrRUV7-o/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICMSlzsEGEAE=&rs=AOn4CLAQXSj1e2DbZSJ3sw0VenbwJhNtwg&v=1748210372",
       "sourceUrl": "https://www.youtube.com/watch?v=eGMRKNQQnyA&list=OLAK5uy_m7S_Fns-_2g3C6wTVULyhohItsrRUV7-o",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_m7S_Fns-_2g3C6wTVULyhohItsrRUV7-o&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mxREQT1W9-i6JaITaFvuGajs9-hRRz_GU",
@@ -9039,7 +9777,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mxREQT1W9-i6JaITaFvuGajs9-hRRz_GU.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mxREQT1W9-i6JaITaFvuGajs9-hRRz_GU/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICKqJqb0GEAE=&rs=AOn4CLBD2-hp-sghQZVtNjB756zJcmzZ1A&v=1739211946",
       "sourceUrl": "https://www.youtube.com/watch?v=5FoVSbCI4CM&list=OLAK5uy_mxREQT1W9-i6JaITaFvuGajs9-hRRz_GU&pp=0gcJCQ4DOCosWNin",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mxREQT1W9-i6JaITaFvuGajs9-hRRz_GU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_k8xVssxiYsNycfVyA8Nv_x6NUWQrm4R5E",
@@ -9063,7 +9804,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_k8xVssxiYsNycfVyA8Nv_x6NUWQrm4R5E.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_k8xVssxiYsNycfVyA8Nv_x6NUWQrm4R5E/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICPDF0r0GEAE=&rs=AOn4CLB955GZadOCmGKMzQrRT6FK_2tNmQ&v=1739891440",
       "sourceUrl": "https://www.youtube.com/watch?v=ACjL0xfiljM&list=OLAK5uy_k8xVssxiYsNycfVyA8Nv_x6NUWQrm4R5E&pp=0gcJCbwFa94AFGB0",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_k8xVssxiYsNycfVyA8Nv_x6NUWQrm4R5E&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nlnZ-WdpmF2yvC_BH71tZ0BTSwiUF7yEY",
@@ -9087,7 +9831,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nlnZ-WdpmF2yvC_BH71tZ0BTSwiUF7yEY.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nlnZ-WdpmF2yvC_BH71tZ0BTSwiUF7yEY/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICIm4zL0GEAE=&rs=AOn4CLAfsmUAzqSogJBFWMLEJapYIaG2wA&v=1739791369",
       "sourceUrl": "https://www.youtube.com/watch?v=Mv_BZd1YLD4&list=OLAK5uy_nlnZ-WdpmF2yvC_BH71tZ0BTSwiUF7yEY",
-      "translationStatus": "user-reviewed"
+      "translationStatus": "user-reviewed",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nlnZ-WdpmF2yvC_BH71tZ0BTSwiUF7yEY&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kzMfLu4kkgK21bjupNGdJVpqY9di8N034",
@@ -9111,7 +9858,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kzMfLu4kkgK21bjupNGdJVpqY9di8N034.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kzMfLu4kkgK21bjupNGdJVpqY9di8N034/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICOeqor0GEAE=&rs=AOn4CLCHaNAvs7s9yYFSd_SQ1dqJPFSzsA&v=1739101543",
       "sourceUrl": "https://www.youtube.com/watch?v=PH4a1V5ClVM&list=OLAK5uy_kzMfLu4kkgK21bjupNGdJVpqY9di8N034",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kzMfLu4kkgK21bjupNGdJVpqY9di8N034&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kw5BIR3HV14Gz7W_GYFTgQgllqmTNzxkU",
@@ -9135,7 +9885,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kw5BIR3HV14Gz7W_GYFTgQgllqmTNzxkU.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kw5BIR3HV14Gz7W_GYFTgQgllqmTNzxkU/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICIHJq70GEAE=&rs=AOn4CLDw2rVAaT7BeoS_FRna35DLSYxt4g&v=1739252865",
       "sourceUrl": "https://www.youtube.com/watch?v=CV14whfZ7xw&list=OLAK5uy_kw5BIR3HV14Gz7W_GYFTgQgllqmTNzxkU",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kw5BIR3HV14Gz7W_GYFTgQgllqmTNzxkU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lxmOXiXqQsW5QSVt2mGNItZVaaSXgJ0K0",
@@ -9159,7 +9912,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lxmOXiXqQsW5QSVt2mGNItZVaaSXgJ0K0.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lxmOXiXqQsW5QSVt2mGNItZVaaSXgJ0K0/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICMbWvL0GEAE=&rs=AOn4CLDe5eiM_UQdBrhdUbJ_X0ahlkhU2A&v=1739533126",
       "sourceUrl": "https://www.youtube.com/watch?v=wlN_S9jy6Cw&list=OLAK5uy_lxmOXiXqQsW5QSVt2mGNItZVaaSXgJ0K0",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lxmOXiXqQsW5QSVt2mGNItZVaaSXgJ0K0&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_l3qBqVqPjI7oAqFdt_omxTGa8WkxNdx2Q",
@@ -9183,7 +9939,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_l3qBqVqPjI7oAqFdt_omxTGa8WkxNdx2Q.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_l3qBqVqPjI7oAqFdt_omxTGa8WkxNdx2Q/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICODvzr0GEAE=&rs=AOn4CLB6XxZtqLcwavWzz1B0v17at41ijw&v=1739831264",
       "sourceUrl": "https://www.youtube.com/watch?v=Jz7wtEWcjlo&list=OLAK5uy_l3qBqVqPjI7oAqFdt_omxTGa8WkxNdx2Q",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_l3qBqVqPjI7oAqFdt_omxTGa8WkxNdx2Q&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kzJcPRcKKSV5zqfXQaJPjwd_KnHk99ORU",
@@ -9207,7 +9966,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kzJcPRcKKSV5zqfXQaJPjwd_KnHk99ORU.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kzJcPRcKKSV5zqfXQaJPjwd_KnHk99ORU/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICLHkpr0GEAE=&rs=AOn4CLDbzgBt7GRT0aWGsHHmPP8EDZKKdQ&v=1739174449",
       "sourceUrl": "https://www.youtube.com/watch?v=w83rx2V-WaQ&list=OLAK5uy_kzJcPRcKKSV5zqfXQaJPjwd_KnHk99ORU&pp=0gcJCbwFa94AFGB0",
-      "translationStatus": "user-reviewed"
+      "translationStatus": "user-reviewed",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kzJcPRcKKSV5zqfXQaJPjwd_KnHk99ORU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lWI9WSTw8lO_pV-UkQ8Kp31HSTavp8gSc",
@@ -9233,7 +9995,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lWI9WSTw8lO_pV-UkQ8Kp31HSTavp8gSc.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lWI9WSTw8lO_pV-UkQ8Kp31HSTavp8gSc/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICPDiqL0GEAE=&rs=AOn4CLCjbFiVuyYHOGaUwh0e7_1rv6EP6A&v=1739207024",
       "sourceUrl": "https://www.youtube.com/watch?v=PZgW9ZmB150&list=OLAK5uy_lWI9WSTw8lO_pV-UkQ8Kp31HSTavp8gSc",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lWI9WSTw8lO_pV-UkQ8Kp31HSTavp8gSc&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_ll1CCG_LmwCJlr3lHEbjReUEsZb5Npeec",
@@ -9257,7 +10022,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_ll1CCG_LmwCJlr3lHEbjReUEsZb5Npeec.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_ll1CCG_LmwCJlr3lHEbjReUEsZb5Npeec/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICLrypL0GEAE=&rs=AOn4CLBykRdwbLd5Z-AjAuy4CfF6pwR1rQ&v=1739143482",
       "sourceUrl": "https://www.youtube.com/watch?v=3MDyGPhxFBo&list=OLAK5uy_ll1CCG_LmwCJlr3lHEbjReUEsZb5Npeec",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_ll1CCG_LmwCJlr3lHEbjReUEsZb5Npeec&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kZPHXDNUhTFD71C5q3tr96_zB4-qhjQMA",
@@ -9281,7 +10049,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kZPHXDNUhTFD71C5q3tr96_zB4-qhjQMA.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kZPHXDNUhTFD71C5q3tr96_zB4-qhjQMA/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICO-ft70GEAE=&rs=AOn4CLDidbaW_3mjg5KZoJh7XiUh4oLmfA&v=1739444207",
       "sourceUrl": "https://www.youtube.com/watch?v=-weEAWMKRdQ&list=OLAK5uy_kZPHXDNUhTFD71C5q3tr96_zB4-qhjQMA",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kZPHXDNUhTFD71C5q3tr96_zB4-qhjQMA&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kgSTcgslgWKpKDhF7DTJeU8OvfJDTtfrs",
@@ -9305,7 +10076,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kgSTcgslgWKpKDhF7DTJeU8OvfJDTtfrs.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kgSTcgslgWKpKDhF7DTJeU8OvfJDTtfrs/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICJ7ryL0GEAE=&rs=AOn4CLDtgcRWLC3Z3rT7nUKRFbKOfHBtKg&v=1739732382",
       "sourceUrl": "https://www.youtube.com/watch?v=ZZldiI-3a7U&list=OLAK5uy_kgSTcgslgWKpKDhF7DTJeU8OvfJDTtfrs",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kgSTcgslgWKpKDhF7DTJeU8OvfJDTtfrs&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mg0aXAx6u-WxiTysQ-uwFM35iFZKfiQ28",
@@ -9330,7 +10104,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mg0aXAx6u-WxiTysQ-uwFM35iFZKfiQ28.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mg0aXAx6u-WxiTysQ-uwFM35iFZKfiQ28/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICLbPzb0GEAE=&rs=AOn4CLB9q4SJXbutWKd68kSgF7FRlOa91w&v=1739810742",
       "sourceUrl": "https://www.youtube.com/watch?v=pd5--dCzfhw&list=OLAK5uy_mg0aXAx6u-WxiTysQ-uwFM35iFZKfiQ28",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mg0aXAx6u-WxiTysQ-uwFM35iFZKfiQ28&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_km1pk_tC_ihZy_WtYc0MJSL1U5F99v-D8",
@@ -9354,7 +10131,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_km1pk_tC_ihZy_WtYc0MJSL1U5F99v-D8.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_km1pk_tC_ihZy_WtYc0MJSL1U5F99v-D8/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICLiVur0GEAE=&rs=AOn4CLAQTc3wWhyMVuEnxIyjhFhXNpEUKw&v=1739492024",
       "sourceUrl": "https://www.youtube.com/watch?v=wpLOq_728dk&list=OLAK5uy_km1pk_tC_ihZy_WtYc0MJSL1U5F99v-D8",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_km1pk_tC_ihZy_WtYc0MJSL1U5F99v-D8&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nG-dvUV_wZloWHtTwHLwibJgZ5wukeCI0",
@@ -9381,7 +10161,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nG-dvUV_wZloWHtTwHLwibJgZ5wukeCI0.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nG-dvUV_wZloWHtTwHLwibJgZ5wukeCI0/maxresdefault.jpg?sqp=COjAk9YGir7X7AMICJSOwNAGEAE=&rs=AOn4CLB7QBtG-C1f_BQ5K993IHg6Gee6EA&v=1779435284",
       "sourceUrl": "https://www.youtube.com/watch?v=6PUp2xdj2SE&list=OLAK5uy_nG-dvUV_wZloWHtTwHLwibJgZ5wukeCI0",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nG-dvUV_wZloWHtTwHLwibJgZ5wukeCI0&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mWIlTfPGyxH_qSP_f2WmNoDxLau2niGJ4",
@@ -9405,7 +10188,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mWIlTfPGyxH_qSP_f2WmNoDxLau2niGJ4.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mWIlTfPGyxH_qSP_f2WmNoDxLau2niGJ4/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICOr9ktIGEAE=&rs=AOn4CLB60NnpgbdSxKLOJKP5OL3Df6TS7g&v=1782890218",
       "sourceUrl": "https://www.youtube.com/watch?v=gJnOOfMJyqk&list=OLAK5uy_mWIlTfPGyxH_qSP_f2WmNoDxLau2niGJ4",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mWIlTfPGyxH_qSP_f2WmNoDxLau2niGJ4&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mxOcDB5_6Fr194KTrNYGN6OtzWWE3hhwI",
@@ -9422,11 +10208,11 @@ window.catalogData = {
         "isekaijoucho"
       ],
       "tags": [],
-      "date": "2025-12-10",
-      "dateSource": "https://kamitsubaki.jp/discography/?at=isekaijoucho",
-      "dateVerifiedOn": "2026-10-06",
+      "date": "2025-10-11",
+      "dateSource": "https://findmestore.thinkr.jp/products/ktr-000-0217",
+      "dateVerifiedOn": "2026-10-07",
       "youtubeDate": "2025-12-23",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 21,
       "image": "images/albums/youtube-OLAK5uy_mxOcDB5_6Fr194KTrNYGN6OtzWWE3hhwI.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mxOcDB5_6Fr194KTrNYGN6OtzWWE3hhwI/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICPP19cgGEAE=&rs=AOn4CLDu2r3Uvg36KSjIMXQomLON-yIjZg&v=1763539699",
@@ -9435,16 +10221,19 @@ window.catalogData = {
       "tracks": [
         {
           "titles": {
-            "ja": "Calc. (Cover Live)"
+            "ja": "Calc.",
+            "ko": ""
           },
           "aliases": [
-            "Calc. (Cover Live)"
+            "Calc. (Cover Live)",
+            "Calc."
           ],
           "videoId": "lRRpbKZVCrQ"
         },
         {
           "titles": {
-            "ja": "アスノヨゾラ哨戒班 (Cover Live)"
+            "ja": "アスノヨゾラ哨戒班",
+            "ko": ""
           },
           "aliases": [
             "アスノヨゾラ哨戒班 (Cover Live)",
@@ -9454,52 +10243,63 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "砂の惑星 (Cover Live)"
+            "ja": "砂の惑星",
+            "ko": ""
           },
           "aliases": [
-            "砂の惑星 (Cover Live)"
+            "砂の惑星 (Cover Live)",
+            "砂の惑星"
           ],
           "videoId": "8aITCzC5LVc"
         },
         {
           "titles": {
-            "ja": "きゅうくらりん (Cover Live)"
+            "ja": "きゅうくらりん",
+            "ko": ""
           },
           "aliases": [
-            "きゅうくらりん (Cover Live)"
+            "きゅうくらりん (Cover Live)",
+            "きゅうくらりん"
           ],
           "videoId": "5Pl0cB431BE"
         },
         {
           "titles": {
-            "ja": "ビビビビ (Cover Live)"
+            "ja": "ビビビビ",
+            "ko": ""
           },
           "aliases": [
-            "ビビビビ (Cover Live)"
+            "ビビビビ (Cover Live)",
+            "ビビビビ"
           ],
           "videoId": "Zqcksgmk9c8"
         },
         {
           "titles": {
-            "ja": "non-reflection (Cover Live)"
+            "ja": "non-reflection",
+            "ko": ""
           },
           "aliases": [
-            "non-reflection (Cover Live)"
+            "non-reflection (Cover Live)",
+            "non-reflection"
           ],
           "videoId": "v98zDdT9BcU"
         },
         {
           "titles": {
-            "ja": "深海のリトルクライ (Cover Live)"
+            "ja": "深海のリトルクライ",
+            "ko": ""
           },
           "aliases": [
-            "深海のリトルクライ (Cover Live)"
+            "深海のリトルクライ (Cover Live)",
+            "深海のリトルクライ"
           ],
           "videoId": "ISa0nRxk-Pw"
         },
         {
           "titles": {
-            "ja": "コネクト (Cover Live)"
+            "ja": "コネクト",
+            "ko": ""
           },
           "aliases": [
             "コネクト (Cover Live)",
@@ -9509,70 +10309,85 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "God knows... (Cover Live)"
+            "ja": "God knows...",
+            "ko": ""
           },
           "aliases": [
-            "God knows... (Cover Live)"
+            "God knows... (Cover Live)",
+            "God knows..."
           ],
           "videoId": "umaLSOwaEfc"
         },
         {
           "titles": {
-            "ja": "ファンサ (Cover Live)"
+            "ja": "ファンサ",
+            "ko": ""
           },
           "aliases": [
-            "ファンサ (Cover Live)"
+            "ファンサ (Cover Live)",
+            "ファンサ"
           ],
           "videoId": "s5kZDgxNAK0"
         },
         {
           "titles": {
-            "ja": "芝居の終焉 (Cover Live)"
+            "ja": "芝居の終焉",
+            "ko": ""
           },
           "aliases": [
-            "芝居の終焉 (Cover Live)"
+            "芝居の終焉 (Cover Live)",
+            "芝居の終焉"
           ],
           "videoId": "804gGns-xjw"
         },
         {
           "titles": {
-            "ja": "僕は依存症 (Cover Live)"
+            "ja": "僕は依存症",
+            "ko": ""
           },
           "aliases": [
-            "僕は依存症 (Cover Live)"
+            "僕は依存症 (Cover Live)",
+            "僕は依存症"
           ],
           "videoId": "Z6okLKnhLAU"
         },
         {
           "titles": {
-            "ja": "rose (Cover Live)"
+            "ja": "rose",
+            "ko": ""
           },
           "aliases": [
-            "rose (Cover Live)"
+            "rose (Cover Live)",
+            "rose"
           ],
           "videoId": "cisn082ND2U"
         },
         {
           "titles": {
-            "ja": "月曜日戦争 (Cover Live)"
+            "ja": "月曜日戦争",
+            "ko": ""
           },
           "aliases": [
-            "月曜日戦争 (Cover Live)"
+            "月曜日戦争 (Cover Live)",
+            "月曜日戦争"
           ],
           "videoId": "70susZJWlM0"
         },
         {
           "titles": {
-            "ja": "Buffer (Cover Live)"
+            "ja": "Buffer",
+            "ko": ""
           },
           "aliases": [
-            "Buffer (Cover Live)"
+            "Buffer (Cover Live)",
+            "Buffer"
           ],
           "videoId": "c5FJnhHlA3Y"
         },
         {
           "titles": {
-            "ja": "愛のまま (Cover Live)"
+            "ja": "愛のまま",
+            "ko": ""
           },
           "aliases": [
             "愛のまま (Cover Live)",
@@ -9584,34 +10399,41 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "本当の音 (Cover Live)"
+            "ja": "本当の音",
+            "ko": ""
           },
           "aliases": [
-            "本当の音 (Cover Live)"
+            "本当の音 (Cover Live)",
+            "本当の音"
           ],
           "videoId": "PXyQtJSmzbo"
         },
         {
           "titles": {
-            "ja": "All Alone With You (Cover Live)"
+            "ja": "All Alone With You",
+            "ko": ""
           },
           "aliases": [
-            "All Alone With You (Cover Live)"
+            "All Alone With You (Cover Live)",
+            "All Alone With You"
           ],
           "videoId": "fvuk9XZ1twE"
         },
         {
           "titles": {
-            "ja": "奏（かなで） (Cover Live)"
+            "ja": "奏（かなで）",
+            "ko": ""
           },
           "aliases": [
-            "奏（かなで） (Cover Live)"
+            "奏（かなで） (Cover Live)",
+            "奏（かなで）"
           ],
           "videoId": "3Q2pq899FNo"
         },
         {
           "titles": {
-            "ja": "鏡面の波 (Cover Live)"
+            "ja": "鏡面の波",
+            "ko": ""
           },
           "aliases": [
             "鏡面の波 (Cover Live)",
@@ -9621,7 +10443,8 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "君の知らない物語"
+            "ja": "君の知らない物語",
+            "ko": ""
           },
           "aliases": [
             "【歌ってみた】君の知らない物語 / covered by ヰ世界情緒",
@@ -9630,7 +10453,21 @@ window.catalogData = {
           "videoId": "FggMtVBLric"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_mxOcDB5_6Fr194KTrNYGN6OtzWWE3hhwI&hl=ja"
+      "trackSource": "https://findmestore.thinkr.jp/products/ktr-000-0217",
+      "youtubeTrackCount": 21,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 21,
+      "albumReleaseDate": "2025-12-10",
+      "albumReleaseDateSource": "https://kamitsubaki.jp/discography/?at=isekaijoucho",
+      "liveDate": "2025-10-11",
+      "dateBasis": "live",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mxOcDB5_6Fr194KTrNYGN6OtzWWE3hhwI&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "isekaijoucho"
+      ]
     },
     {
       "id": "youtube-OLAK5uy_nBc-tm3Z4Rsx5Nu7GkHA6k8YvMwBYQu4I",
@@ -9825,7 +10662,10 @@ window.catalogData = {
           "videoId": "3xwlX6s26eo"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nBc-tm3Z4Rsx5Nu7GkHA6k8YvMwBYQu4I&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nBc-tm3Z4Rsx5Nu7GkHA6k8YvMwBYQu4I&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nBc-tm3Z4Rsx5Nu7GkHA6k8YvMwBYQu4I&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_krG3GWEKmkcVvR7f8YG19b5j4SPircpbs",
@@ -9843,11 +10683,11 @@ window.catalogData = {
         "isekaijoucho"
       ],
       "tags": [],
-      "date": "2023-03-29",
-      "dateSource": "https://kamitsubaki.jp/discography/?at=isekaijoucho",
-      "dateVerifiedOn": "2026-10-06",
+      "date": "2023-01-14",
+      "dateSource": "https://kamitsubaki.jp/news/2022/12/11/1754/",
+      "dateVerifiedOn": "2026-10-07",
       "youtubeDate": "2025-09-23",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 20,
       "image": "images/albums/youtube-OLAK5uy_krG3GWEKmkcVvR7f8YG19b5j4SPircpbs.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_krG3GWEKmkcVvR7f8YG19b5j4SPircpbs/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICNDlur0GEAE=&rs=AOn4CLB2YExhaZCpfxgHYKVX0Nl6lUz-2g&v=1739502288",
@@ -9856,79 +10696,97 @@ window.catalogData = {
       "tracks": [
         {
           "titles": {
-            "ja": "夜顔の告白 (Live)"
+            "ja": "夜顔の告白",
+            "ko": ""
           },
           "aliases": [
-            "夜顔の告白 (Live)"
+            "夜顔の告白 (Live)",
+            "夜顔の告白"
           ],
           "videoId": "VRIFSgpF7f8"
         },
         {
           "titles": {
-            "ja": "アンノウン・マザーグース (Live)"
+            "ja": "アンノウン・マザーグース",
+            "ko": ""
           },
           "aliases": [
-            "アンノウン・マザーグース (Live)"
+            "アンノウン・マザーグース (Live)",
+            "アンノウン・マザーグース"
           ],
           "videoId": "ZsWMNF-Y3xI"
         },
         {
           "titles": {
-            "ja": "ラグトレイン (Live)"
+            "ja": "ラグトレイン",
+            "ko": ""
           },
           "aliases": [
-            "ラグトレイン (Live)"
+            "ラグトレイン (Live)",
+            "ラグトレイン"
           ],
           "videoId": "JbIb0r1E6Hw"
         },
         {
           "titles": {
-            "ja": "悪魔の踊り方 (Live)"
+            "ja": "悪魔の踊り方",
+            "ko": ""
           },
           "aliases": [
-            "悪魔の踊り方 (Live)"
+            "悪魔の踊り方 (Live)",
+            "悪魔の踊り方"
           ],
           "videoId": "74xMZZGomTE"
         },
         {
           "titles": {
-            "ja": "ラブカ？ (Live)"
+            "ja": "ラブカ？",
+            "ko": ""
           },
           "aliases": [
-            "ラブカ？ (Live)"
+            "ラブカ？ (Live)",
+            "ラブカ？"
           ],
           "videoId": "uxgwEMEEYbI"
         },
         {
           "titles": {
-            "ja": "マトリョシカ (Live)"
+            "ja": "マトリョシカ",
+            "ko": ""
           },
           "aliases": [
-            "マトリョシカ (Live)"
+            "マトリョシカ (Live)",
+            "マトリョシカ"
           ],
           "videoId": "0qIDkB2_tvc"
         },
         {
           "titles": {
-            "ja": "CH4NGE (Live)"
+            "ja": "CH4NGE",
+            "ko": ""
           },
           "aliases": [
-            "CH4NGE (Live)"
+            "CH4NGE (Live)",
+            "CH4NGE",
+            "CH4NGE（Live）"
           ],
           "videoId": "wfoc7QYyFqA"
         },
         {
           "titles": {
-            "ja": "Hello, Worker (Live)"
+            "ja": "Hello, Worker",
+            "ko": ""
           },
           "aliases": [
-            "Hello, Worker (Live)"
+            "Hello, Worker (Live)",
+            "Hello, Worker"
           ],
           "videoId": "RR0jYKSt1bc"
         },
         {
           "titles": {
-            "ja": "quiz (Live)"
+            "ja": "quiz",
+            "ko": ""
           },
           "aliases": [
             "quiz (Live)",
@@ -9944,34 +10802,41 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "from Y to Y (Live)"
+            "ja": "from Y to Y",
+            "ko": ""
           },
           "aliases": [
-            "from Y to Y (Live)"
+            "from Y to Y (Live)",
+            "from Y to Y"
           ],
           "videoId": "T-1ZloB3ejA"
         },
         {
           "titles": {
-            "ja": "ココロ (Live)"
+            "ja": "ココロ",
+            "ko": ""
           },
           "aliases": [
-            "ココロ (Live)"
+            "ココロ (Live)",
+            "ココロ"
           ],
           "videoId": "ZWh3E40yM9E"
         },
         {
           "titles": {
-            "ja": "桜の子 (Live)"
+            "ja": "桜の子 feat.花譜",
+            "ko": ""
           },
           "aliases": [
-            "桜の子 (Live)"
+            "桜の子 (Live)",
+            "桜の子 feat.花譜"
           ],
           "videoId": "SRTSE71vf-I"
         },
         {
           "titles": {
-            "ja": "グレートフィルター (Live)"
+            "ja": "グレートフィルター",
+            "ko": ""
           },
           "aliases": [
             "グレートフィルター (Live)",
@@ -9981,61 +10846,74 @@ window.catalogData = {
         },
         {
           "titles": {
-            "ja": "遠心力 (Live)"
+            "ja": "遠心力",
+            "ko": ""
           },
           "aliases": [
-            "遠心力 (Live)"
+            "遠心力 (Live)",
+            "遠心力"
           ],
           "videoId": "dAMYjyPMtkA"
         },
         {
           "titles": {
-            "ja": "月 (Live)"
+            "ja": "月",
+            "ko": ""
           },
           "aliases": [
-            "月 (Live)"
+            "月 (Live)",
+            "月"
           ],
           "videoId": "-WhGvIrEuxk"
         },
         {
           "titles": {
-            "ja": "ラビリンス (Live)"
+            "ja": "ラビリンス",
+            "ko": ""
           },
           "aliases": [
-            "ラビリンス (Live)"
+            "ラビリンス (Live)",
+            "ラビリンス"
           ],
           "videoId": "57IfPQ_hQP8"
         },
         {
           "titles": {
-            "ja": "ミューズ (Live)"
+            "ja": "ミューズ",
+            "ko": ""
           },
           "aliases": [
-            "ミューズ (Live)"
+            "ミューズ (Live)",
+            "ミューズ"
           ],
           "videoId": "N0WlveC5nEg"
         },
         {
           "titles": {
-            "ja": "古いSF映画 (Live)"
+            "ja": "古いSF映画",
+            "ko": ""
           },
           "aliases": [
-            "古いSF映画 (Live)"
+            "古いSF映画 (Live)",
+            "古いSF映画"
           ],
           "videoId": "3Ow1tTSK84s"
         },
         {
           "titles": {
-            "ja": "雪の華 (Live)"
+            "ja": "雪の華",
+            "ko": ""
           },
           "aliases": [
-            "雪の華 (Live)"
+            "雪の華 (Live)",
+            "雪の華"
           ],
           "videoId": "8y_ebiUc9Lk"
         },
         {
           "titles": {
-            "ja": "変わらないもの"
+            "ja": "変わらないもの",
+            "ko": ""
           },
           "aliases": [
             "【歌ってみた】変わらないもの / covered by ヰ世界情緒",
@@ -10044,7 +10922,21 @@ window.catalogData = {
           "videoId": "Xj3Frg6BpEA"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_krG3GWEKmkcVvR7f8YG19b5j4SPircpbs&hl=ja"
+      "trackSource": "https://findmestore.thinkr.jp/products/ktr-000-0093",
+      "youtubeTrackCount": 20,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 20,
+      "albumReleaseDate": "2023-03-29",
+      "albumReleaseDateSource": "https://kamitsubaki.jp/discography/?at=isekaijoucho",
+      "liveDate": "2023-01-14",
+      "dateBasis": "live",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_krG3GWEKmkcVvR7f8YG19b5j4SPircpbs&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "isekaijoucho"
+      ]
     },
     {
       "id": "youtube-OLAK5uy_n2bfiWUErLEcXx9kCyypij4oaxYYhnM1U",
@@ -10246,7 +11138,10 @@ window.catalogData = {
           "videoId": "KMvUdCyIVxw"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_n2bfiWUErLEcXx9kCyypij4oaxYYhnM1U&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_n2bfiWUErLEcXx9kCyypij4oaxYYhnM1U&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_n2bfiWUErLEcXx9kCyypij4oaxYYhnM1U&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lYJPm-y3Pw8FmWkDddI5_g8edk_bqbxbE",
@@ -10270,7 +11165,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lYJPm-y3Pw8FmWkDddI5_g8edk_bqbxbE.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lYJPm-y3Pw8FmWkDddI5_g8edk_bqbxbE/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICITr8s4GEAE=&rs=AOn4CLD_vRvszCmTvtv8y5VfDo_RjiURyw&v=1776072068",
       "sourceUrl": "https://www.youtube.com/watch?v=25h5UW0vVck&list=OLAK5uy_lYJPm-y3Pw8FmWkDddI5_g8edk_bqbxbE",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lYJPm-y3Pw8FmWkDddI5_g8edk_bqbxbE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kEqzQTNB49URXI0Ss2dbzSiyVEA_tjhZA",
@@ -10297,7 +11195,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kEqzQTNB49URXI0Ss2dbzSiyVEA_tjhZA.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kEqzQTNB49URXI0Ss2dbzSiyVEA_tjhZA/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICPj3k84GEAE=&rs=AOn4CLAAmmc0T7K29IbKY6CMquaCnDtUww&v=1774517240",
       "sourceUrl": "https://www.youtube.com/watch?v=210ewj_MOD8&list=OLAK5uy_kEqzQTNB49URXI0Ss2dbzSiyVEA_tjhZA",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kEqzQTNB49URXI0Ss2dbzSiyVEA_tjhZA&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lbvDDSXVyuYhBaE8dlo2mvfmr2UgV3CbI",
@@ -10316,7 +11217,7 @@ window.catalogData = {
       "dateSource": "https://kamitsubaki.jp/discography/?at=isekaijoucho",
       "dateVerifiedOn": "2026-10-06",
       "youtubeDate": "2026-04-22",
-      "releaseType": "album",
+      "releaseType": "single",
       "trackCount": 3,
       "image": "images/albums/youtube-OLAK5uy_lbvDDSXVyuYhBaE8dlo2mvfmr2UgV3CbI.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lbvDDSXVyuYhBaE8dlo2mvfmr2UgV3CbI/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICMrO9cwGEAE=&rs=AOn4CLCUPy9zIowfdzEw4YZ8-ADqPAl6MQ&v=1771923274",
@@ -10356,7 +11257,10 @@ window.catalogData = {
           "videoId": "DcjOhUltqTo"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lbvDDSXVyuYhBaE8dlo2mvfmr2UgV3CbI&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lbvDDSXVyuYhBaE8dlo2mvfmr2UgV3CbI&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lbvDDSXVyuYhBaE8dlo2mvfmr2UgV3CbI&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lWiVQCRKp2mq6pFKxDbB07eA4d_3O8U0I",
@@ -10382,7 +11286,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lWiVQCRKp2mq6pFKxDbB07eA4d_3O8U0I.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lWiVQCRKp2mq6pFKxDbB07eA4d_3O8U0I/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICKnI7skGEAE=&rs=AOn4CLA6HRO0zgLCzu2anbMpdeIrT7zEXw&v=1765516329",
       "sourceUrl": "https://www.youtube.com/watch?v=egZZpZPaJmo&list=OLAK5uy_lWiVQCRKp2mq6pFKxDbB07eA4d_3O8U0I",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lWiVQCRKp2mq6pFKxDbB07eA4d_3O8U0I&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_njMciV9ZIPG5YgZVQDf2CzEESuYUu4XvA",
@@ -10408,7 +11315,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_njMciV9ZIPG5YgZVQDf2CzEESuYUu4XvA.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_njMciV9ZIPG5YgZVQDf2CzEESuYUu4XvA/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICKD36ckGEAE=&rs=AOn4CLALb9BPekZDsUpgby2eAr1KkMTrWw&v=1765440416",
       "sourceUrl": "https://www.youtube.com/watch?v=cQfaxJevAJE&list=OLAK5uy_njMciV9ZIPG5YgZVQDf2CzEESuYUu4XvA",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_njMciV9ZIPG5YgZVQDf2CzEESuYUu4XvA&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nlmAG6a0WmaItYCbeXXs3MLlhjJaYZ2Us",
@@ -10434,7 +11344,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nlmAG6a0WmaItYCbeXXs3MLlhjJaYZ2Us.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nlmAG6a0WmaItYCbeXXs3MLlhjJaYZ2Us/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICJ6G5sIGEAE=&rs=AOn4CLDkIHA_8S7QUMyEPvSQXPCgTMjb6A&v=1750696734",
       "sourceUrl": "https://www.youtube.com/watch?v=2ErDR6ku6UY&list=OLAK5uy_nlmAG6a0WmaItYCbeXXs3MLlhjJaYZ2Us",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nlmAG6a0WmaItYCbeXXs3MLlhjJaYZ2Us&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_k-ANTBCRAzecRQuaKZcWeZCLfnf16pcWM",
@@ -10460,7 +11373,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_k-ANTBCRAzecRQuaKZcWeZCLfnf16pcWM.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_k-ANTBCRAzecRQuaKZcWeZCLfnf16pcWM/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICNaUpMIGEAE=&rs=AOn4CLBAQfrTGa6EcdJ5zMqDwkliEbMNJw&v=1749617238",
       "sourceUrl": "https://www.youtube.com/watch?v=1n7CIIzv8Wk&list=OLAK5uy_k-ANTBCRAzecRQuaKZcWeZCLfnf16pcWM",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_k-ANTBCRAzecRQuaKZcWeZCLfnf16pcWM&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lEC-4mLxAYlLxRKjpbmx0XeeWh7VxWqrs",
@@ -10484,7 +11400,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lEC-4mLxAYlLxRKjpbmx0XeeWh7VxWqrs.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lEC-4mLxAYlLxRKjpbmx0XeeWh7VxWqrs/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICKe48MAGEAE=&rs=AOn4CLDBQoaYot-vL0-c4OllbX51xO0QoQ&v=1746672679",
       "sourceUrl": "https://www.youtube.com/watch?v=b7nbwwm4xrs&list=OLAK5uy_lEC-4mLxAYlLxRKjpbmx0XeeWh7VxWqrs",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lEC-4mLxAYlLxRKjpbmx0XeeWh7VxWqrs&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_l_niTXuxxFvo8Th4GItji3kohPAHO1CAU",
@@ -10508,7 +11427,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_l_niTXuxxFvo8Th4GItji3kohPAHO1CAU.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_l_niTXuxxFvo8Th4GItji3kohPAHO1CAU/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICNelz74GEAE=&rs=AOn4CLDRoX6EKWMnkae97G32JhKgDgCWAQ&v=1741935319",
       "sourceUrl": "https://www.youtube.com/watch?v=NWu9EozfR6M&list=OLAK5uy_l_niTXuxxFvo8Th4GItji3kohPAHO1CAU",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_l_niTXuxxFvo8Th4GItji3kohPAHO1CAU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lsE_J0peoigJm3frb1Jsgp2D9aZ8WRsZM",
@@ -10532,7 +11454,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lsE_J0peoigJm3frb1Jsgp2D9aZ8WRsZM.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lsE_J0peoigJm3frb1Jsgp2D9aZ8WRsZM/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICLu2nsEGEAE=&rs=AOn4CLARp8S3a-F84NzJb62ChZ5B_hRuLw&v=1747426107",
       "sourceUrl": "https://www.youtube.com/watch?v=6xIeChog1jc&list=OLAK5uy_lsE_J0peoigJm3frb1Jsgp2D9aZ8WRsZM",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lsE_J0peoigJm3frb1Jsgp2D9aZ8WRsZM&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_l5zHavDusEjX_i4IykOiAtJ3Bl_qFwo54",
@@ -10556,7 +11481,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_l5zHavDusEjX_i4IykOiAtJ3Bl_qFwo54.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_l5zHavDusEjX_i4IykOiAtJ3Bl_qFwo54/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICJi4mr0GEAE=&rs=AOn4CLBf6AkO50gyCn3-YLRMgxocPHD-Cg&v=1738972184",
       "sourceUrl": "https://www.youtube.com/watch?v=9lxqrgViCXk&list=OLAK5uy_l5zHavDusEjX_i4IykOiAtJ3Bl_qFwo54&pp=0gcJCbwFa94AFGB0",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_l5zHavDusEjX_i4IykOiAtJ3Bl_qFwo54&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_ni5o-XqHflxF8JLrCuleM4P0Qfdls2zIY",
@@ -10580,7 +11508,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_ni5o-XqHflxF8JLrCuleM4P0Qfdls2zIY.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_ni5o-XqHflxF8JLrCuleM4P0Qfdls2zIY/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICPzVob0GEAE=&rs=AOn4CLAOwQfSywdazabZHcT_PXD_Nve-hQ&v=1739090684",
       "sourceUrl": "https://www.youtube.com/watch?v=AFEjGRlezQM&list=OLAK5uy_ni5o-XqHflxF8JLrCuleM4P0Qfdls2zIY",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_ni5o-XqHflxF8JLrCuleM4P0Qfdls2zIY&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mvwbF3andrY2v_qxRw7JkWhZGJzFBj3hg",
@@ -10604,7 +11535,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mvwbF3andrY2v_qxRw7JkWhZGJzFBj3hg.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mvwbF3andrY2v_qxRw7JkWhZGJzFBj3hg/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICLq30b0GEAE=&rs=AOn4CLAFUQqnmfzus7MM5YKOoPkk84QoPQ&v=1739873210",
       "sourceUrl": "https://www.youtube.com/watch?v=kKd5Gi08H5s&list=OLAK5uy_mvwbF3andrY2v_qxRw7JkWhZGJzFBj3hg&pp=0gcJCQ4DOCosWNin",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mvwbF3andrY2v_qxRw7JkWhZGJzFBj3hg&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nm8J6hCEMlyVndM95R7eyjVevWNuMta44",
@@ -10631,7 +11565,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nm8J6hCEMlyVndM95R7eyjVevWNuMta44.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nm8J6hCEMlyVndM95R7eyjVevWNuMta44/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICOHOxb0GEAE=&rs=AOn4CLBQyYN-pz5EMOECsioe_DF7LpTFHg&v=1739679585",
       "sourceUrl": "https://www.youtube.com/watch?v=yDrU5TtPFV4&list=OLAK5uy_nm8J6hCEMlyVndM95R7eyjVevWNuMta44",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nm8J6hCEMlyVndM95R7eyjVevWNuMta44&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kvCgC6EiIQ5W_ALPPjgbYxBl1Q8MFdZD4",
@@ -10655,7 +11592,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kvCgC6EiIQ5W_ALPPjgbYxBl1Q8MFdZD4.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kvCgC6EiIQ5W_ALPPjgbYxBl1Q8MFdZD4/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICO7A0b0GEAE=&rs=AOn4CLBXpeu2R6_78hlC4JtzCz4inkSgsA&v=1739874414",
       "sourceUrl": "https://www.youtube.com/watch?v=inazxJzcq30&list=OLAK5uy_kvCgC6EiIQ5W_ALPPjgbYxBl1Q8MFdZD4",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kvCgC6EiIQ5W_ALPPjgbYxBl1Q8MFdZD4&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_n_kmQN-8DgfMDBbrnuYd1ISpoeYMtYNaY",
@@ -10681,7 +11621,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_n_kmQN-8DgfMDBbrnuYd1ISpoeYMtYNaY.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_n_kmQN-8DgfMDBbrnuYd1ISpoeYMtYNaY/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICP2En70GEAE=&rs=AOn4CLALc9zBQkh7DCNUnjRlR-Mzra_c4w&v=1739047549",
       "sourceUrl": "https://www.youtube.com/watch?v=ls_fmM2-inQ&list=OLAK5uy_n_kmQN-8DgfMDBbrnuYd1ISpoeYMtYNaY&pp=0gcJCbwFa94AFGB0",
-      "translationStatus": "user-reviewed"
+      "translationStatus": "user-reviewed",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_n_kmQN-8DgfMDBbrnuYd1ISpoeYMtYNaY&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_k-KE-WOzxuZfGyKK1_RUJJ_SOlxJvoy7I",
@@ -10706,7 +11649,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_k-KE-WOzxuZfGyKK1_RUJJ_SOlxJvoy7I.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_k-KE-WOzxuZfGyKK1_RUJJ_SOlxJvoy7I/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICM3Rxb0GEAE=&rs=AOn4CLBG1yls1GXD5ljGxpd_JgGzr4Epmg&v=1739679949",
       "sourceUrl": "https://www.youtube.com/watch?v=6x3pXFwI21w&list=OLAK5uy_k-KE-WOzxuZfGyKK1_RUJJ_SOlxJvoy7I",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_k-KE-WOzxuZfGyKK1_RUJJ_SOlxJvoy7I&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kCUC4ps6Zhie5ZRvNSePq14_RwA8k32aY",
@@ -10733,7 +11679,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kCUC4ps6Zhie5ZRvNSePq14_RwA8k32aY.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kCUC4ps6Zhie5ZRvNSePq14_RwA8k32aY/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICMTYmr0GEAE=&rs=AOn4CLAFdOj0fM55YNBTLBMnfJbiYiHhyw&v=1738976324",
       "sourceUrl": "https://www.youtube.com/watch?v=i9ApQA847dM&list=OLAK5uy_kCUC4ps6Zhie5ZRvNSePq14_RwA8k32aY&pp=0gcJCQ4DOCosWNin",
-      "translationStatus": "user-reviewed"
+      "translationStatus": "user-reviewed",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kCUC4ps6Zhie5ZRvNSePq14_RwA8k32aY&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nJ1mVlwiDmwR2i8fhB7BRyj4j1jQLzOPw",
@@ -10758,7 +11707,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nJ1mVlwiDmwR2i8fhB7BRyj4j1jQLzOPw.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nJ1mVlwiDmwR2i8fhB7BRyj4j1jQLzOPw/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICIHOv70GEAE=&rs=AOn4CLAp1eCZP66QXH5Zp-QU5anm2aZX4A&v=1739581185",
       "sourceUrl": "https://www.youtube.com/watch?v=lBZt_ESNC6Q&list=OLAK5uy_nJ1mVlwiDmwR2i8fhB7BRyj4j1jQLzOPw",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nJ1mVlwiDmwR2i8fhB7BRyj4j1jQLzOPw&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kMetovIR1E86hF9eBaIf_jRZbdC_qbazI",
@@ -10783,7 +11735,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kMetovIR1E86hF9eBaIf_jRZbdC_qbazI.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kMetovIR1E86hF9eBaIf_jRZbdC_qbazI/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICN-ypL0GEAE=&rs=AOn4CLCfO_a7v-s4EU_E3PHDzx7012wWUg&v=1739135327",
       "sourceUrl": "https://www.youtube.com/watch?v=kE9YpkWwHIo&list=OLAK5uy_kMetovIR1E86hF9eBaIf_jRZbdC_qbazI",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kMetovIR1E86hF9eBaIf_jRZbdC_qbazI&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mQji7JXNYgOPXNK0V5VyssWncN5Qn4F1g",
@@ -10809,7 +11764,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mQji7JXNYgOPXNK0V5VyssWncN5Qn4F1g.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mQji7JXNYgOPXNK0V5VyssWncN5Qn4F1g/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICNTIp70GEAE=&rs=AOn4CLArr2TtO-jqpYcmyp270Lc1s6QrRA&v=1739187284",
       "sourceUrl": "https://www.youtube.com/watch?v=lhd67CnArlI&list=OLAK5uy_mQji7JXNYgOPXNK0V5VyssWncN5Qn4F1g",
-      "translationStatus": "user-reviewed"
+      "translationStatus": "user-reviewed",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mQji7JXNYgOPXNK0V5VyssWncN5Qn4F1g&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_l2asBmyNutIHHJRyrqTalII8I08o3i2fw",
@@ -10833,7 +11791,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_l2asBmyNutIHHJRyrqTalII8I08o3i2fw.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_l2asBmyNutIHHJRyrqTalII8I08o3i2fw/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICOGPn70GEAE=&rs=AOn4CLBSRNbcZe_nPuEIZwJdQt8OPk44pg&v=1739048929",
       "sourceUrl": "https://www.youtube.com/watch?v=RcWMQCnAafY&list=OLAK5uy_l2asBmyNutIHHJRyrqTalII8I08o3i2fw",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_l2asBmyNutIHHJRyrqTalII8I08o3i2fw&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lcZVAl-lQxO3Dv8951OCRC3E8P53vpjag",
@@ -10857,7 +11818,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lcZVAl-lQxO3Dv8951OCRC3E8P53vpjag.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lcZVAl-lQxO3Dv8951OCRC3E8P53vpjag/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICPv30r0GEAE=&rs=AOn4CLCeOrqf48IG887yxS7bsQzMbKPAKQ&v=1739897851",
       "sourceUrl": "https://www.youtube.com/watch?v=W4Gt1Er5q4Y&list=OLAK5uy_lcZVAl-lQxO3Dv8951OCRC3E8P53vpjag",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lcZVAl-lQxO3Dv8951OCRC3E8P53vpjag&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lGTYKj4pOhsUzearoeUhPEotRD4im8y7I",
@@ -10881,7 +11845,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lGTYKj4pOhsUzearoeUhPEotRD4im8y7I.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lGTYKj4pOhsUzearoeUhPEotRD4im8y7I/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICIqSrr0GEAE=&rs=AOn4CLB-wc8pvvskqTnWIM_SHFAJ8C5X8g&v=1739294986",
       "sourceUrl": "https://www.youtube.com/watch?v=mQz2IA56VCo&list=OLAK5uy_lGTYKj4pOhsUzearoeUhPEotRD4im8y7I",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lGTYKj4pOhsUzearoeUhPEotRD4im8y7I&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mI1K1BY1ZYsoDPC60UgnSAwzFh1xmoXf4",
@@ -10907,7 +11874,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mI1K1BY1ZYsoDPC60UgnSAwzFh1xmoXf4.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mI1K1BY1ZYsoDPC60UgnSAwzFh1xmoXf4/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICJquvL0GEAE=&rs=AOn4CLCwIHOkgXX8UFe75GoB-vJNqyK2ng&v=1739527962",
       "sourceUrl": "https://www.youtube.com/watch?v=EiPZenIQZa0&list=OLAK5uy_mI1K1BY1ZYsoDPC60UgnSAwzFh1xmoXf4",
-      "translationStatus": "user-reviewed"
+      "translationStatus": "user-reviewed",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mI1K1BY1ZYsoDPC60UgnSAwzFh1xmoXf4&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_np0l_Yo2_c3oCrj6RqmpIhkKkvrmp-OHw",
@@ -10931,7 +11901,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_np0l_Yo2_c3oCrj6RqmpIhkKkvrmp-OHw.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_np0l_Yo2_c3oCrj6RqmpIhkKkvrmp-OHw/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICNWytr0GEAE=&rs=AOn4CLDHqiGeJyrCrtgdn7s7iUj6B-p42g&v=1739430229",
       "sourceUrl": "https://www.youtube.com/watch?v=Kz424oVx9_o&list=OLAK5uy_np0l_Yo2_c3oCrj6RqmpIhkKkvrmp-OHw",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_np0l_Yo2_c3oCrj6RqmpIhkKkvrmp-OHw&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lfdgxvJKgVDeibT2jxM7phRWva3IK7Ngc",
@@ -10955,7 +11928,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lfdgxvJKgVDeibT2jxM7phRWva3IK7Ngc.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lfdgxvJKgVDeibT2jxM7phRWva3IK7Ngc/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICPfR1L0GEAE=&rs=AOn4CLDazWLW4gcOHlqCcBB4ZPbEgMFNoA&v=1739925751",
       "sourceUrl": "https://www.youtube.com/watch?v=ftCqxjpxdc8&list=OLAK5uy_lfdgxvJKgVDeibT2jxM7phRWva3IK7Ngc&pp=0gcJCQ4DOCosWNin",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lfdgxvJKgVDeibT2jxM7phRWva3IK7Ngc&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_khdfeJFZA9IFinzlM4AeUgB3CClwqUmsE",
@@ -10979,7 +11955,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_khdfeJFZA9IFinzlM4AeUgB3CClwqUmsE.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_khdfeJFZA9IFinzlM4AeUgB3CClwqUmsE/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICJax3tQGEAE=&rs=AOn4CLBllU-M3loqJ8ZbrEbczCE59aoQVw&v=1788319894",
       "sourceUrl": "https://www.youtube.com/watch?v=OlLVFCdK7eI&list=OLAK5uy_khdfeJFZA9IFinzlM4AeUgB3CClwqUmsE",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_khdfeJFZA9IFinzlM4AeUgB3CClwqUmsE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nKY-cIh2E0LrCJGFr7JnoshPxFbwXc4dQ",
@@ -11179,7 +12158,10 @@ window.catalogData = {
           "videoId": "B21l_ukkIQg"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nKY-cIh2E0LrCJGFr7JnoshPxFbwXc4dQ&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nKY-cIh2E0LrCJGFr7JnoshPxFbwXc4dQ&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nKY-cIh2E0LrCJGFr7JnoshPxFbwXc4dQ&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nyQpR4CJZMnS5j_HBNA3bod5cArwBcy30",
@@ -11353,7 +12335,10 @@ window.catalogData = {
           "videoId": "UFcJNRWPa9A"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nyQpR4CJZMnS5j_HBNA3bod5cArwBcy30&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nyQpR4CJZMnS5j_HBNA3bod5cArwBcy30&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nyQpR4CJZMnS5j_HBNA3bod5cArwBcy30&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nm1fytARO8hwvGsHzBg4zGXQt0iVCU5wQ",
@@ -11695,7 +12680,10 @@ window.catalogData = {
           "videoId": "mabFr7M5ogU"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nm1fytARO8hwvGsHzBg4zGXQt0iVCU5wQ&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nm1fytARO8hwvGsHzBg4zGXQt0iVCU5wQ&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nm1fytARO8hwvGsHzBg4zGXQt0iVCU5wQ&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lbnLJ-VasCX3Vhd-g-ya5BEzo9usvRQWo",
@@ -11721,7 +12709,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lbnLJ-VasCX3Vhd-g-ya5BEzo9usvRQWo.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lbnLJ-VasCX3Vhd-g-ya5BEzo9usvRQWo/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICOWcvc4GEAE=&rs=AOn4CLAHHwCAgWbreTDpiZ8e356h1Athng&v=1775193701",
       "sourceUrl": "https://www.youtube.com/watch?v=G-z9Rfln_UQ&list=OLAK5uy_lbnLJ-VasCX3Vhd-g-ya5BEzo9usvRQWo",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lbnLJ-VasCX3Vhd-g-ya5BEzo9usvRQWo&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mj7s1PqzjdXNEJXbogtemb_s-mKChlZog",
@@ -11743,7 +12734,7 @@ window.catalogData = {
       "dateSource": "https://www.shazam.com/ja-jp/song/1857604520/",
       "dateVerifiedOn": "2026-10-06",
       "youtubeDate": "2025-12-07",
-      "releaseType": "album",
+      "releaseType": "single",
       "trackCount": 3,
       "image": "images/albums/youtube-OLAK5uy_mj7s1PqzjdXNEJXbogtemb_s-mKChlZog.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mj7s1PqzjdXNEJXbogtemb_s-mKChlZog/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICNLrtckGEAE=&rs=AOn4CLD6IxBBHkKdcZFAXGKo1_yoFXWwWA&v=1764586962",
@@ -11796,7 +12787,10 @@ window.catalogData = {
           "videoId": "nMkVp30pC5s"
         }
       ],
-      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_mj7s1PqzjdXNEJXbogtemb_s-mKChlZog&hl=ja"
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_mj7s1PqzjdXNEJXbogtemb_s-mKChlZog&hl=ja",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mj7s1PqzjdXNEJXbogtemb_s-mKChlZog&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lunHRCK_dY_EGD0MPE4gAARXBi-ExSlCQ",
@@ -11823,7 +12817,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lunHRCK_dY_EGD0MPE4gAARXBi-ExSlCQ.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lunHRCK_dY_EGD0MPE4gAARXBi-ExSlCQ/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICITp7cYGEAE=&rs=AOn4CLDJsv0tDsqnEbju5IwukGaYI8oWtQ&v=1759212676",
       "sourceUrl": "https://www.youtube.com/watch?v=0Y19ARmndhE&list=OLAK5uy_lunHRCK_dY_EGD0MPE4gAARXBi-ExSlCQ",
-      "translationStatus": "user-reviewed"
+      "translationStatus": "user-reviewed",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lunHRCK_dY_EGD0MPE4gAARXBi-ExSlCQ&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mxynZEYQwF3t03eY1kCOH_FsNbX7g9XFc",
@@ -11847,7 +12844,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mxynZEYQwF3t03eY1kCOH_FsNbX7g9XFc.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mxynZEYQwF3t03eY1kCOH_FsNbX7g9XFc/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICLjd38UGEAE=&rs=AOn4CLB-PuEf1cuN8L6LNIwSNQwvUbbZGA&v=1756884664",
       "sourceUrl": "https://www.youtube.com/watch?v=W_xi2opPt8k&list=OLAK5uy_mxynZEYQwF3t03eY1kCOH_FsNbX7g9XFc",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mxynZEYQwF3t03eY1kCOH_FsNbX7g9XFc&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nzYtBC8TQrtJwULWP5xEigb12Ark9ETng",
@@ -11871,7 +12871,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nzYtBC8TQrtJwULWP5xEigb12Ark9ETng.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nzYtBC8TQrtJwULWP5xEigb12Ark9ETng/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICKmpgsQGEAE=&rs=AOn4CLA63vuKNYlvyCi3WyFvbfzP9oNayg&v=1753257129",
       "sourceUrl": "https://www.youtube.com/watch?v=Dqey9ZXH5Mk&list=OLAK5uy_nzYtBC8TQrtJwULWP5xEigb12Ark9ETng",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nzYtBC8TQrtJwULWP5xEigb12Ark9ETng&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kVLA5hntWnH6nY2h7pbmilgrdeQxyYZvM",
@@ -11897,7 +12900,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kVLA5hntWnH6nY2h7pbmilgrdeQxyYZvM.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kVLA5hntWnH6nY2h7pbmilgrdeQxyYZvM/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICKqF5sIGEAE=&rs=AOn4CLDxqknm_0bW4jjQt0w2X8UIm1Ys7w&v=1750696618",
       "sourceUrl": "https://www.youtube.com/watch?v=wltSHKqXie4&list=OLAK5uy_kVLA5hntWnH6nY2h7pbmilgrdeQxyYZvM",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kVLA5hntWnH6nY2h7pbmilgrdeQxyYZvM&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lNv3R_uy3lgHqsHIjQd5mDemWaFuyA30A",
@@ -11921,7 +12927,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lNv3R_uy3lgHqsHIjQd5mDemWaFuyA30A.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lNv3R_uy3lgHqsHIjQd5mDemWaFuyA30A/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICKLm-sEGEAE=&rs=AOn4CLDxk1_DD_7BBcQI7KeJmhkyhxg2Og&v=1748939554",
       "sourceUrl": "https://www.youtube.com/watch?v=KNCAD7b6ZyQ&list=OLAK5uy_lNv3R_uy3lgHqsHIjQd5mDemWaFuyA30A&pp=0gcJCQ4DOCosWNin",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lNv3R_uy3lgHqsHIjQd5mDemWaFuyA30A&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nyfSiJT_5EquhTVWDr1jEfBPbOzb13LH8",
@@ -11945,7 +12954,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nyfSiJT_5EquhTVWDr1jEfBPbOzb13LH8.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nyfSiJT_5EquhTVWDr1jEfBPbOzb13LH8/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICIGzncAGEAE=&rs=AOn4CLAhNwz5JMn7vm82ZwrKvh344CO-zg&v=1745312129",
       "sourceUrl": "https://www.youtube.com/watch?v=UQtUR8hmxY0&list=OLAK5uy_nyfSiJT_5EquhTVWDr1jEfBPbOzb13LH8",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nyfSiJT_5EquhTVWDr1jEfBPbOzb13LH8&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mtQXHDnGzISXNEyE5tSX4a3V41zcPHUls",
@@ -11969,7 +12981,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mtQXHDnGzISXNEyE5tSX4a3V41zcPHUls.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mtQXHDnGzISXNEyE5tSX4a3V41zcPHUls/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICMLnmr0GEAE=&rs=AOn4CLDLTEQmRRQVL9JYR_zgfJp5u_hP7A&v=1738978242",
       "sourceUrl": "https://www.youtube.com/watch?v=GmOi4MSqqh4&list=OLAK5uy_mtQXHDnGzISXNEyE5tSX4a3V41zcPHUls",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mtQXHDnGzISXNEyE5tSX4a3V41zcPHUls&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lmpsrEqpbThpCxnqlrShZSi0krJvmvmP8",
@@ -11996,7 +13011,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lmpsrEqpbThpCxnqlrShZSi0krJvmvmP8.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lmpsrEqpbThpCxnqlrShZSi0krJvmvmP8/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICNLEr70GEAE=&rs=AOn4CLC2PUBmlvZuO_J43uwjz9ffc5Kx3Q&v=1739317842",
       "sourceUrl": "https://www.youtube.com/watch?v=WMaPXvabZCU&list=OLAK5uy_lmpsrEqpbThpCxnqlrShZSi0krJvmvmP8",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lmpsrEqpbThpCxnqlrShZSi0krJvmvmP8&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mhifsJdQJuvI_DII2fj4wz7veXscE4fds",
@@ -12020,7 +13038,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mhifsJdQJuvI_DII2fj4wz7veXscE4fds.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mhifsJdQJuvI_DII2fj4wz7veXscE4fds/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICInTpb0GEAE=&rs=AOn4CLDXzagGAYlBC7xOksWq-YSZw99efA&v=1739155849",
       "sourceUrl": "https://www.youtube.com/watch?v=GX6Bg_0nXgY&list=OLAK5uy_mhifsJdQJuvI_DII2fj4wz7veXscE4fds",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mhifsJdQJuvI_DII2fj4wz7veXscE4fds&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nyshpxxBPRBjQSsBgbwohsXAnrpgT1a1Y",
@@ -12044,7 +13065,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nyshpxxBPRBjQSsBgbwohsXAnrpgT1a1Y.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nyshpxxBPRBjQSsBgbwohsXAnrpgT1a1Y/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICJqWob0GEAE=&rs=AOn4CLCAwNAK3chnj_oKeOaVzUBGiIOYmQ&v=1739082522",
       "sourceUrl": "https://www.youtube.com/watch?v=B21l_ukkIQg&list=OLAK5uy_nyshpxxBPRBjQSsBgbwohsXAnrpgT1a1Y&pp=0gcJCQ4DOCosWNin",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nyshpxxBPRBjQSsBgbwohsXAnrpgT1a1Y&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_k_n12HscWOQNCGhuvos_iOjgHHDdF25Fc",
@@ -12074,7 +13098,10 @@ window.catalogData = {
       "translationStatus": "user-reviewed",
       "excludedArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_k_n12HscWOQNCGhuvos_iOjgHHDdF25Fc&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lortUA0uQq3fivZvQuaNtYYq_sHpJCAmo",
@@ -12101,7 +13128,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lortUA0uQq3fivZvQuaNtYYq_sHpJCAmo.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lortUA0uQq3fivZvQuaNtYYq_sHpJCAmo/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICN3ltr0GEAE=&rs=AOn4CLCAQXtKZECzDouA_kEwajrv49Ebwg&v=1739436765",
       "sourceUrl": "https://www.youtube.com/watch?v=4enMG7U5pv4&list=OLAK5uy_lortUA0uQq3fivZvQuaNtYYq_sHpJCAmo",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lortUA0uQq3fivZvQuaNtYYq_sHpJCAmo&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nD4JGfhKQxNshIpe9v-PY-2hReeAsVpvE",
@@ -12127,7 +13157,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nD4JGfhKQxNshIpe9v-PY-2hReeAsVpvE.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nD4JGfhKQxNshIpe9v-PY-2hReeAsVpvE/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICKC2q70GEAE=&rs=AOn4CLCdqQzFJTrOE-8ZeNAsH_n-rssJBw&v=1739250464",
       "sourceUrl": "https://www.youtube.com/watch?v=P0az9IS2XQQ&list=OLAK5uy_nD4JGfhKQxNshIpe9v-PY-2hReeAsVpvE",
-      "translationStatus": "user-reviewed"
+      "translationStatus": "user-reviewed",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nD4JGfhKQxNshIpe9v-PY-2hReeAsVpvE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mQDge0x8Cz0xPo9TEv1UyoC6HrNXVpQi4",
@@ -12153,7 +13186,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_mQDge0x8Cz0xPo9TEv1UyoC6HrNXVpQi4.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mQDge0x8Cz0xPo9TEv1UyoC6HrNXVpQi4/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICP6yyb0GEAE=&rs=AOn4CLBX4QyAz6KdQFBWwPpKXNM0cF0cIg&v=1739741566",
       "sourceUrl": "https://www.youtube.com/watch?v=0XTRxAGJVMA&list=OLAK5uy_mQDge0x8Cz0xPo9TEv1UyoC6HrNXVpQi4",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mQDge0x8Cz0xPo9TEv1UyoC6HrNXVpQi4&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kiyN4VvU5t-8xWXQcHls3Y7w_ZS6TOhzg",
@@ -12179,7 +13215,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_kiyN4VvU5t-8xWXQcHls3Y7w_ZS6TOhzg.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kiyN4VvU5t-8xWXQcHls3Y7w_ZS6TOhzg/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICKXH_NUGEAE=&rs=AOn4CLDVI8hGPWZ2N-K8S-tR3TdVcOc23g&v=1790911397",
       "sourceUrl": "https://www.youtube.com/watch?v=apRs0d4l0Vk&list=OLAK5uy_kiyN4VvU5t-8xWXQcHls3Y7w_ZS6TOhzg&pp=0gcJCbwFa94AFGB0",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kiyN4VvU5t-8xWXQcHls3Y7w_ZS6TOhzg&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lLPdwaJsevBr_EhSsbBW131USRgaiV21E",
@@ -12203,7 +13242,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lLPdwaJsevBr_EhSsbBW131USRgaiV21E.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lLPdwaJsevBr_EhSsbBW131USRgaiV21E/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICMHG_NUGEAE=&rs=AOn4CLC1giXXfnf6v-7mw_9DG-s-5zF0Tg&v=1790911297",
       "sourceUrl": "https://www.youtube.com/watch?v=mZKdQHMJ_MA&list=OLAK5uy_lLPdwaJsevBr_EhSsbBW131USRgaiV21E",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lLPdwaJsevBr_EhSsbBW131USRgaiV21E&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nqUmx0aY0_zAF4FyFJbbV3bxUiAOqCSw8",
@@ -12230,7 +13272,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_nqUmx0aY0_zAF4FyFJbbV3bxUiAOqCSw8.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nqUmx0aY0_zAF4FyFJbbV3bxUiAOqCSw8/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICIHJ_NUGEAE=&rs=AOn4CLBYal3q6USX7CCJSk7n_L4IiQlZTQ&v=1790911617",
       "sourceUrl": "https://www.youtube.com/watch?v=Sn1ieBOLGB0&list=OLAK5uy_nqUmx0aY0_zAF4FyFJbbV3bxUiAOqCSw8",
-      "translationStatus": "original"
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nqUmx0aY0_zAF4FyFJbbV3bxUiAOqCSw8&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_n7aVurjcr4HR4U322Y1qTpzbpzmserY70",
@@ -12254,7 +13299,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_n7aVurjcr4HR4U322Y1qTpzbpzmserY70.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_n7aVurjcr4HR4U322Y1qTpzbpzmserY70/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICIXJ_NUGEAE=&rs=AOn4CLDl12CmzPeCwzq-Ft-8vCdQoyqNlw&v=1790911621",
       "sourceUrl": "https://www.youtube.com/watch?v=DxXfjfCUkY4&list=OLAK5uy_n7aVurjcr4HR4U322Y1qTpzbpzmserY70",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_n7aVurjcr4HR4U322Y1qTpzbpzmserY70&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_n5LZoiYvgnaJqpoHLdgPpkr72i7AtbuU0",
@@ -12278,7 +13326,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_n5LZoiYvgnaJqpoHLdgPpkr72i7AtbuU0.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_n5LZoiYvgnaJqpoHLdgPpkr72i7AtbuU0/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICOTG_NUGEAE=&rs=AOn4CLDZWXHwk0RMruWQekrowC09pf7LBQ&v=1790911332",
       "sourceUrl": "https://www.youtube.com/watch?v=fmbuOL-jjN0&list=OLAK5uy_n5LZoiYvgnaJqpoHLdgPpkr72i7AtbuU0",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_n5LZoiYvgnaJqpoHLdgPpkr72i7AtbuU0&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lV8p7dyWaMIeo17ng_FfeO9hz6q__j73A",
@@ -12302,7 +13353,10 @@ window.catalogData = {
       "image": "images/albums/youtube-OLAK5uy_lV8p7dyWaMIeo17ng_FfeO9hz6q__j73A.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lV8p7dyWaMIeo17ng_FfeO9hz6q__j73A/maxresdefault.jpg?sqp=CPjck9YGir7X7AMICOnKnb0GEAE=&rs=AOn4CLAANXoDx4DloNIzhbGLzx_kVIE5ig&v=1739023721",
       "sourceUrl": "https://www.youtube.com/watch?v=S7HY7A8cFmM&list=OLAK5uy_lV8p7dyWaMIeo17ng_FfeO9hz6q__j73A",
-      "translationStatus": "draft"
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lV8p7dyWaMIeo17ng_FfeO9hz6q__j73A&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_l-YnaOYB09zWhmZGYlBxOJj8E_h59BKJc",
@@ -12487,7 +13541,10 @@ window.catalogData = {
       "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_l-YnaOYB09zWhmZGYlBxOJj8E_h59BKJc&hl=ja",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_l-YnaOYB09zWhmZGYlBxOJj8E_h59BKJc&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lJpk4WdxmAQW5qMA8_LpMG7R2ra_DC56w",
@@ -12735,7 +13792,10 @@ window.catalogData = {
       "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lJpk4WdxmAQW5qMA8_LpMG7R2ra_DC56w&hl=ja",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lJpk4WdxmAQW5qMA8_LpMG7R2ra_DC56w&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_m5sk9JlNBatxOXHQIFIqaLsTwOkuHsrgY",
@@ -12923,7 +13983,10 @@ window.catalogData = {
       "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_m5sk9JlNBatxOXHQIFIqaLsTwOkuHsrgY&hl=ja",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_m5sk9JlNBatxOXHQIFIqaLsTwOkuHsrgY&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nuOuZiKV3InDnxIqYOw0xsbVeuSHRigbE",
@@ -13122,7 +14185,10 @@ window.catalogData = {
       "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nuOuZiKV3InDnxIqYOw0xsbVeuSHRigbE&hl=ja",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nuOuZiKV3InDnxIqYOw0xsbVeuSHRigbE&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_m26SCZhIFxmj_8CEgieBGyDjuOvG22Dsw",
@@ -13146,7 +14212,7 @@ window.catalogData = {
       "dateSource": "https://sp-m.mu-mo.net/album/1790895/",
       "dateVerifiedOn": "2026-10-07",
       "youtubeDate": "2026-07-21",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 5,
       "image": "images/albums/youtube-OLAK5uy_m26SCZhIFxmj_8CEgieBGyDjuOvG22Dsw.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_m26SCZhIFxmj_8CEgieBGyDjuOvG22Dsw/maxresdefault.jpg?sqp=CPCZlNYGir7X7AMICNzro8kGEAE=&rs=AOn4CLCDeQqIBMrQ2PxX-eeeV3AXsPtmWA&v=1764292060",
@@ -13207,7 +14273,10 @@ window.catalogData = {
       "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_m26SCZhIFxmj_8CEgieBGyDjuOvG22Dsw&hl=ja",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_m26SCZhIFxmj_8CEgieBGyDjuOvG22Dsw&hl=en",
+      "youtubeMusicType": "EP",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lcJ30FlEvItQUm0aK9TBD4t-eEn7bBvyo",
@@ -13231,7 +14300,7 @@ window.catalogData = {
       "dateSource": "https://kamitsubaki.jp/discography/?at=v-w-p",
       "dateVerifiedOn": "2026-10-07",
       "youtubeDate": "2026-07-24",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 4,
       "image": "images/albums/youtube-OLAK5uy_lcJ30FlEvItQUm0aK9TBD4t-eEn7bBvyo.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lcJ30FlEvItQUm0aK9TBD4t-eEn7bBvyo/maxresdefault.jpg?sqp=CPCZlNYGir7X7AMICMahvMMGEAE=&rs=AOn4CLAE7EniOCBv9qbcsT7hBxJ1EJhtcQ&v=1752109254",
@@ -13290,7 +14359,10 @@ window.catalogData = {
       "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lcJ30FlEvItQUm0aK9TBD4t-eEn7bBvyo&hl=ja",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lcJ30FlEvItQUm0aK9TBD4t-eEn7bBvyo&hl=en",
+      "youtubeMusicType": "EP",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kJNIwpCYQvEGfSYRrXFTNrDRrAr4kNfvg",
@@ -13314,7 +14386,7 @@ window.catalogData = {
       "dateSource": "https://kamitsubaki.jp/discography/?at=v-w-p",
       "dateVerifiedOn": "2026-10-07",
       "youtubeDate": "2025-09-25",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 6,
       "image": "images/albums/youtube-OLAK5uy_kJNIwpCYQvEGfSYRrXFTNrDRrAr4kNfvg.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kJNIwpCYQvEGfSYRrXFTNrDRrAr4kNfvg/maxresdefault.jpg?sqp=CPCZlNYGir7X7AMICJCtisMGEAE=&rs=AOn4CLClajm_mhucP4aypcH5B89PExGEiQ&v=1751291536",
@@ -13384,7 +14456,10 @@ window.catalogData = {
       "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_kJNIwpCYQvEGfSYRrXFTNrDRrAr4kNfvg&hl=ja",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kJNIwpCYQvEGfSYRrXFTNrDRrAr4kNfvg&hl=en",
+      "youtubeMusicType": "EP",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lB5mmfqZbBoWKvC9ATXXjBn5fAb31QZV0",
@@ -13408,7 +14483,7 @@ window.catalogData = {
       "dateSource": "https://kamitsubaki.jp/discography/?at=v-w-p",
       "dateVerifiedOn": "2026-10-07",
       "youtubeDate": "2025-09-26",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 5,
       "image": "images/albums/youtube-OLAK5uy_lB5mmfqZbBoWKvC9ATXXjBn5fAb31QZV0.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lB5mmfqZbBoWKvC9ATXXjBn5fAb31QZV0/maxresdefault.jpg?sqp=CPCZlNYGir7X7AMICKimlL8GEAE=&rs=AOn4CLAOvCGzpxzzWXV8sI53iL_VFobUNA&v=1743065896",
@@ -13469,7 +14544,10 @@ window.catalogData = {
       "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lB5mmfqZbBoWKvC9ATXXjBn5fAb31QZV0&hl=ja",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lB5mmfqZbBoWKvC9ATXXjBn5fAb31QZV0&hl=en",
+      "youtubeMusicType": "EP",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_n1KYNstzbid2KldNfOcJ-HIxDRoKGODXw",
@@ -13493,7 +14571,7 @@ window.catalogData = {
       "dateSource": "https://kamitsubaki.jp/discography/?at=v-w-p",
       "dateVerifiedOn": "2026-10-07",
       "youtubeDate": "2025-09-26",
-      "releaseType": "album",
+      "releaseType": "ep-cover",
       "trackCount": 5,
       "image": "images/albums/youtube-OLAK5uy_n1KYNstzbid2KldNfOcJ-HIxDRoKGODXw.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_n1KYNstzbid2KldNfOcJ-HIxDRoKGODXw/maxresdefault.jpg?sqp=CPCZlNYGir7X7AMICL2B070GEAE=&rs=AOn4CLAtneXRvGZYDiiNPsRH-M3mJ7KVxw&v=1739899069",
@@ -13550,7 +14628,10 @@ window.catalogData = {
       "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_n1KYNstzbid2KldNfOcJ-HIxDRoKGODXw&hl=ja",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_n1KYNstzbid2KldNfOcJ-HIxDRoKGODXw&hl=en",
+      "youtubeMusicType": "EP",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_n5BkyoaldTtTjShneVITlExPamKTm5Al0",
@@ -13582,7 +14663,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_n5BkyoaldTtTjShneVITlExPamKTm5Al0&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mBGPAQ7QRjPgTt__EHxk5P7LLhAFmfSpI",
@@ -13614,7 +14698,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mBGPAQ7QRjPgTt__EHxk5P7LLhAFmfSpI&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kEjbnELbw9s7lvKsiVyMAzhX-lEmX29Xk",
@@ -13646,7 +14733,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kEjbnELbw9s7lvKsiVyMAzhX-lEmX29Xk&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_m53mknSALfxopqGTq_koxFo-FRXWPkVnM",
@@ -13678,7 +14768,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_m53mknSALfxopqGTq_koxFo-FRXWPkVnM&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_krBAEDDFth0pRzpU5li_FcccwQvvQolmU",
@@ -13710,7 +14803,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_krBAEDDFth0pRzpU5li_FcccwQvvQolmU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kECz5r7fM-lFIM8QhijVb6DYqqSlDzFjM",
@@ -13742,7 +14838,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kECz5r7fM-lFIM8QhijVb6DYqqSlDzFjM&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mcj8Fl0EQ-hVf-VvuQw43I0dE5lTXAnQo",
@@ -13774,7 +14873,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mcj8Fl0EQ-hVf-VvuQw43I0dE5lTXAnQo&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kTXz51_nPFk2blBFE9SJKlL5HSpV305mU",
@@ -13806,7 +14908,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kTXz51_nPFk2blBFE9SJKlL5HSpV305mU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lrcaiLLV3J62ynuZng7BiEtxUG8XCC_gA",
@@ -13838,7 +14943,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lrcaiLLV3J62ynuZng7BiEtxUG8XCC_gA&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kWgXPLWSqt77lef5sQQKmUv79BKRhXkSA",
@@ -13870,7 +14978,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kWgXPLWSqt77lef5sQQKmUv79BKRhXkSA&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lhxbW6HeYwPANIomUO5TvZVNXmDXhcBkw",
@@ -13902,7 +15013,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lhxbW6HeYwPANIomUO5TvZVNXmDXhcBkw&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_msf2ueqdTd5wH--WmQdHxX4hcdoxgiYT0",
@@ -13937,7 +15051,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_msf2ueqdTd5wH--WmQdHxX4hcdoxgiYT0&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mzJCY9JHIb64UoloNHjO7yD9WBmerHDwo",
@@ -13969,7 +15086,10 @@ window.catalogData = {
       "translationStatus": "user-reviewed",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mzJCY9JHIb64UoloNHjO7yD9WBmerHDwo&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nj5c0kE32CTRgVgOX2QwtG3e54y60OlAI",
@@ -14001,7 +15121,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nj5c0kE32CTRgVgOX2QwtG3e54y60OlAI&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_l_vYqreqLt42d4m7Vgi1YTblfJhDu91h8",
@@ -14033,7 +15156,10 @@ window.catalogData = {
       "translationStatus": "user-reviewed",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_l_vYqreqLt42d4m7Vgi1YTblfJhDu91h8&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kNvhl513Elu4_UDKzvO61a9Va7utYFuzE",
@@ -14065,7 +15191,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kNvhl513Elu4_UDKzvO61a9Va7utYFuzE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lzer3XqlZxprxBCv8X5dPBqG6siWkkoLQ",
@@ -14097,7 +15226,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lzer3XqlZxprxBCv8X5dPBqG6siWkkoLQ&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kywQ7qYNIXAiAVZdVnYQz1oAZ9wSSHwCg",
@@ -14129,7 +15261,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kywQ7qYNIXAiAVZdVnYQz1oAZ9wSSHwCg&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_lHUsQQHb6wE_OfvecqxhFAh-xkyiRaMXw",
@@ -14161,7 +15296,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lHUsQQHb6wE_OfvecqxhFAh-xkyiRaMXw&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kg_JMEIGuuQWV5VdmqLeX1PEjnVkSAS2M",
@@ -14189,7 +15327,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "excludedArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kg_JMEIGuuQWV5VdmqLeX1PEjnVkSAS2M&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mX4Dm6wbGocqb08ogHrHarLv5ez6lrgBo",
@@ -14221,7 +15362,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mX4Dm6wbGocqb08ogHrHarLv5ez6lrgBo&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mEYzyvaUygJbMcgI5Zqmo1LRdEpDxp6LE",
@@ -14253,7 +15397,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mEYzyvaUygJbMcgI5Zqmo1LRdEpDxp6LE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kkZW-NJXaOM7O_NL3XlnbLoGnBDFJZ3Ao",
@@ -14285,7 +15432,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kkZW-NJXaOM7O_NL3XlnbLoGnBDFJZ3Ao&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mkiU81G89cIDNiE5VoZkTvOI-lg0mHEnY",
@@ -14309,7 +15459,7 @@ window.catalogData = {
       "dateSource": "https://kamitsubaki.jp/discography/?at=v-w-p",
       "dateVerifiedOn": "2026-10-07",
       "youtubeDate": "2025-09-27",
-      "releaseType": "album",
+      "releaseType": "single",
       "trackCount": 2,
       "image": "images/albums/youtube-OLAK5uy_mkiU81G89cIDNiE5VoZkTvOI-lg0mHEnY.jpg",
       "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mkiU81G89cIDNiE5VoZkTvOI-lg0mHEnY/maxresdefault.jpg?sqp=CJyclNYGir7X7AMICICnpMQGEAE=&rs=AOn4CLCmoAB9hncq3BTpU1qbUEA-WcGyIA&v=1753813888",
@@ -14340,7 +15490,10 @@ window.catalogData = {
       "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_mkiU81G89cIDNiE5VoZkTvOI-lg0mHEnY&hl=ja",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mkiU81G89cIDNiE5VoZkTvOI-lg0mHEnY&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kqApqjBfPYFqg-M2cR-PVFtTULuLPRMb8",
@@ -14372,7 +15525,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kqApqjBfPYFqg-M2cR-PVFtTULuLPRMb8&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_kWYdufeepveBj7mrAV08CRsGOxGz6l2RA",
@@ -14404,7 +15560,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kWYdufeepveBj7mrAV08CRsGOxGz6l2RA&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_mvTsQ1Fnkh-0G7068m6RTznws3Ck1ryCE",
@@ -14436,7 +15595,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mvTsQ1Fnkh-0G7068m6RTznws3Ck1ryCE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_l3vWqlhdyPKvHy7FFq5ZvDzbJ94fvvNuE",
@@ -14468,7 +15630,10 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
-      ]
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_l3vWqlhdyPKvHy7FFq5ZvDzbJ94fvvNuE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     },
     {
       "id": "youtube-OLAK5uy_nhpH_nYsPPX-f--4czf7lNuz649Rfdf1c",
@@ -14500,7 +15665,3119 @@ window.catalogData = {
       "translationStatus": "draft",
       "displayArtistIds": [
         "vwp"
+      ],
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nhpH_nYsPPX-f--4czf7lNuz649Rfdf1c&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_kSX_pB0Li4ZYeqAaocPRQeVhWlAiMqWr4",
+      "originalTitle": "Memories KAMITSUBAKI CITY UNDER CONSTRUCTION THEME SONGS COLLECTION",
+      "titles": {
+        "en": "Memories KAMITSUBAKI CITY UNDER CONSTRUCTION THEME SONGS COLLECTION",
+        "ja": "Memories KAMITSUBAKI CITY UNDER CONSTRUCTION THEME SONGS COLLECTION",
+        "ko": ""
+      },
+      "aliases": [
+        "Memories",
+        "메모리즈",
+        "메모리",
+        "카미츠바키시 건설중",
+        "神椿市建設中"
+      ],
+      "artistIds": [
+        "kaf",
+        "rim",
+        "harusaruhi",
+        "isekaijoucho",
+        "koko",
+        "vwp",
+        "kafu",
+        "ciel",
+        "shido"
+      ],
+      "displayArtistIds": [
+        "vwp",
+        "ciel",
+        "kafu",
+        "shido"
+      ],
+      "tags": [],
+      "date": "2021-12-10",
+      "dateSource": "https://kamitsubaki.jp/discography/other/833/",
+      "dateVerifiedOn": "2026-10-07",
+      "releaseType": "album",
+      "trackCount": 10,
+      "image": "images/albums/youtube-OLAK5uy_kSX_pB0Li4ZYeqAaocPRQeVhWlAiMqWr4.jpg",
+      "coverSource": "https://kamitsubaki.jp/wp-content/uploads/2021/11/Memories_1000_light.jpg",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_kSX_pB0Li4ZYeqAaocPRQeVhWlAiMqWr4",
+      "translationStatus": "original",
+      "tracks": [
+        {
+          "titles": {
+            "ja": "痛みを(Qutabire Remix)",
+            "ko": "아픔을"
+          },
+          "aliases": [
+            "아픔을"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "ジュブナイル",
+            "ko": "주브나일"
+          },
+          "aliases": [
+            "주브나일"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "Ambition",
+            "ko": "앰비션"
+          },
+          "aliases": [
+            "앰비션"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "生きていく光は",
+            "ko": "살아가는 빛은"
+          },
+          "aliases": [
+            "살아가는 빛은"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "Mayday",
+            "ko": "메이데이"
+          },
+          "aliases": [
+            "메이데이"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "君と見た色彩",
+            "ko": "너와 본 색채"
+          },
+          "aliases": [
+            "너와 본 색채"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "あわく心模様",
+            "ko": "희미한 마음 모양"
+          },
+          "aliases": [
+            "희미한 마음 모양"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "÷",
+            "ko": "심애"
+          },
+          "aliases": [
+            "나누기",
+            "深愛",
+            "심애",
+            "KAF",
+            "I SCREAM LIVE4 - Cover Live Album -",
+            "아이 스크림 라이브4",
+            "아이스크림 라이브4",
+            "寓話γ",
+            "우화 γ",
+            "寓話",
+            "우화",
+            "I SCREAM LIVE3",
+            "아이 스크림 라이브3",
+            "아이스크림 라이브3",
+            "狂想γ",
+            "광상 γ",
+            "I SCREAM LIVE2",
+            "아이 스크림 라이브2",
+            "아이스크림 라이브2",
+            "狂想",
+            "광상",
+            "魔法γ",
+            "마법 γ",
+            "魔法",
+            "마법",
+            "I SCREAM LIVE",
+            "아이 스크림 라이브",
+            "아이스크림 라이브",
+            "観測γ",
+            "관측 γ",
+            "観測",
+            "관측",
+            "愛と花",
+            "사랑과 꽃",
+            "KAF & Kizuna AI",
+            "夜が降り止む前に",
+            "밤이 그치기 전에",
+            "戸惑いテレパシー",
+            "망설임 텔레파시",
+            "放課後ボーダーライン",
+            "방과 후 보더라인",
+            "KAF ,  Shinsei Kamattechan",
+            "エラーソング",
+            "에러 송",
+            "周波数0の合言葉",
+            "주파수 0의 암호",
+            "Almost Forgot Your Birthday",
+            "suisoh ,  KAF",
+            "올모스트 포갓 유어 버스데이",
+            "世惑い子 (Chinese Ver.)",
+            "세상을 헤메는 아이 (중국어 버전)",
+            "それを世界と言うんだね (Chinese Ver.)",
+            "그걸 세계라고 하는구나 (중국어 버전)",
+            "그걸 세계라고 하는거구나 (중국어 버전)",
+            "ユーフォーを見にいこう",
+            "UFO를 보러 가자",
+            "KAF ,  Necry Talkie",
+            "キャンディーゲリラ",
+            "캔디 게릴라",
+            "理芽 ,  花譜",
+            "ありふれてたい",
+            "평범하고 싶어",
+            "光",
+            "빛",
+            "ひとえに壊れて",
+            "그저 부서져서",
+            "撃って",
+            "쏴 줘",
+            "EAT THE PAST (English Ver.)",
+            "과거를 먹다",
+            "이트 더 패스트",
+            "잇 더 패스트",
+            "過去を喰らう",
+            "代替嬉々",
+            "대체희희",
+            "My Life",
+            "마이 라이프",
+            "一世風靡",
+            "일세풍미",
+            "KAF ,  Hoshimachi Suisei",
+            "夢魔",
+            "몽마",
+            "KAF ,  Harusaruhi",
+            "Answer (English Ver.)",
+            "앤서",
+            "안서",
+            "アンサー",
+            "チューイン・ディスコ",
+            "츄잉 디스코",
+            "KAF ,  Tsumiki",
+            "抱きしめて",
+            "안아 줘",
+            "KAF ,  Soshi Sakiyama",
+            "GSA",
+            "지에스에이",
+            "BEKI",
+            "#KTCHAN ,  KAF",
+            "베키",
+            "ギミギミ逃避行",
+            "기미기미도피행",
+            "KAF ,  #KTchan",
+            "愛のまま",
+            "사랑인 채로",
+            "KAF ,  Shigeru Kishida",
+            "メイドインあたし",
+            "메이드 인 아타시",
+            "KAF ,  Tokyo Gegegay",
+            "シン・カバー produced by 歌のシン・トップテン",
+            "MANON ,  Sonoko Inoue ,  Kaf",
+            "春陽",
+            "춘양",
+            "あさひ",
+            "아침 해",
+            "KAF ,  Ayane Sakura ,  KAF & Ayane Sakura",
+            "イマジナリーフレンド",
+            "이매지너리 프렌드",
+            "鏡よ鏡",
+            "거울아 거울아",
+            "海に化ける",
+            "바다로 변하다",
+            "例えば",
+            "예를 들어",
+            "花と心臓",
+            "꽃과 심장",
+            "ゲシュタルト（崩壊Remix）",
+            "게슈탈트 (붕괴 Remix)",
+            "KAF ,  Otome",
+            "CHOCOLATE LIVE2",
+            "초콜릿 라이브2",
+            "초콜렛 라이브2",
+            "NEW ROMANCER2",
+            "뉴 로맨서2",
+            "뉴로맨서2",
+            "おしえてかみさま",
+            "理芽 - おしえてかみさま / RIM - Divine Delays (Official Music Video)｜from 神椿",
+            "生きているより楽しそう",
+            "フロム天国 feat. EMA",
+            "理芽 - フロム天国 Feat. EMA / RIM -  from HEAVEN Feat. EMA (Official Music Video)｜from 神椿",
+            "フロム天国 Feat. EMA",
+            "ファンファーレ",
+            "デイネイ",
+            "どくどく",
+            "百年",
+            "ハウメニ",
+            "하우매니",
+            "하우메니",
+            "NEW ROMANCER",
+            "뉴 로맨서",
+            "뉴로맨서",
+            "ラヴソング",
+            "さみしいひと",
+            "理芽 - さみしいひと / RIM - Lonely (Official Music Video)｜from 神椿",
+            "宿木",
+            "いたいよ",
+            "NEUROMANCE",
+            "理芽 - NEUROMANCE / RIM - NEUROMANCE (Official Music Video)｜from 神椿",
+            "NEUROMANCE (Cover Live)",
+            "魔的",
+            "理芽 × 花譜 - 魔的 / RIM & KAF - Magical｜from 神椿",
+            "やさしくしないで",
+            "理芽 - やさしくしないで / RIM - Don't be Kind to Me (Official Music Video)｜from 神椿",
+            "imagine",
+            "이매진",
+            "이마진",
+            "ぷれいや",
+            "플레이어",
+            "閃光だった (Rearranged Ver.)",
+            "섬광이었다 (리어레인지 버전)",
+            "ノマネ",
+            "노머니",
+            "노마네",
+            "CHOCOLATE LIVE4",
+            "초콜릿 라이브4",
+            "초콜렛 라이브4",
+            "本懐",
+            "본회",
+            "アイノ最適解",
+            "사랑의 최적해",
+            "きみが大人になったんだ",
+            "네가 어른이 된 거야",
+            "私的",
+            "사적",
+            "素的",
+            "소적",
+            "ルフラン feat. 笹川真生",
+            "르프랑 feat. 사사가와 마오",
+            "えろいむ",
+            "엘로임",
+            "에로임",
+            "不的",
+            "부적",
+            "狂えない",
+            "미칠 수 없어",
+            "インナアチャイルド",
+            "이너 차일드",
+            "ピルグリム",
+            "필그림",
+            "チクタクボーイ",
+            "틱택 보이",
+            "十九月",
+            "십구월",
+            "胎児に月はキスをしない",
+            "태아에게 달은 키스하지 않아",
+            "法螺話",
+            "허풍",
+            "Flowering",
+            "플라워링",
+            "甘美な無法",
+            "감미로운 무법",
+            "ピロウトーク",
+            "필로우 토크",
+            "ユーエンミー",
+            "유 앤 미",
+            "クライベイビー",
+            "크라이 베이비",
+            "閃光だった",
+            "섬광이었다",
+            "CHOCOLATE LIVE3",
+            "초콜릿 라이브3",
+            "초콜렛 라이브3",
+            "CREAM PUFF LIVE 4 (Cover Live)",
+            "크림 퍼프 라이브 4",
+            "크림퍼프 라이브 4",
+            "PAUSE",
+            "포즈",
+            "心獣",
+            "심수",
+            "GLITCH STAGE",
+            "글리치 스테이지",
+            "SPICE OF LIFE",
+            "스파이스 오브 라이프",
+            "RULE THE WORLD",
+            "룰 더 월드",
+            "CREAM PUFF LIVE 2",
+            "크림 퍼프 라이브 2",
+            "크림퍼프 라이브 2",
+            "CREAM PUFF LIVE 3",
+            "크림 퍼프 라이브 3",
+            "크림퍼프 라이브 3",
+            "Accomplice",
+            "어컴플리스",
+            "Splash.",
+            "스플래시",
+            "心眼",
+            "심안",
+            "LOVEぃ",
+            "LOVE이",
+            "러브이",
+            "BREATHE (Rearranged ver.)",
+            "브리드",
+            "브리드 리어레인지",
+            "距離。",
+            "거리.",
+            "SWIPE!",
+            "스와이프",
+            "(A)letheia",
+            "알레테이아",
+            "META",
+            "메타",
+            "YONA YONA",
+            "요나 요나",
+            "砂時計",
+            "모래시계",
+            "巫女",
+            "무녀",
+            "daydream",
+            "데이드림",
+            "残火",
+            "잔화",
+            "身空歌",
+            "신공가",
+            "潜む自信",
+            "숨어드는 자신",
+            "迷人",
+            "미인",
+            "台風の子",
+            "태풍의 아이",
+            "自由までの距離",
+            "자유까지의 거리",
+            "テラ",
+            "테라",
+            "哀愁さえも仲間",
+            "슬픔마저 동료",
+            "Oarana",
+            "오아라나",
+            "百花繚乱",
+            "백화요란",
+            "覚醒",
+            "각성",
+            "台風の眼",
+            "태풍의 눈",
+            "friction（Remix）feat. 梓川",
+            "프릭션 (리믹스) feat. 아즈사가와",
+            "居場所",
+            "있을 곳",
+            "Deep Invite (TeddyLoid Remix)",
+            "딥 인바이트",
+            "테디로이드 리믹스",
+            "深海のフレイム",
+            "심해의 플레임",
+            "CANDY LIVE 3 (Cover Live)",
+            "캔디 라이브 3",
+            "色彩",
+            "색채",
+            "息吹-instrumental-",
+            "ディメンション",
+            "ヰ世界情緒 #14 「ディメンション」【Official Music Video】",
+            "グレイスケイル",
+            "此処に棘と死を",
+            "ネリネの内緒事",
+            "ヴァーミリオン",
+            "描き続けた君へ",
+            "ヰ世界情緒 #45「描き続けた君へ」【Official Music Video】",
+            "ANGELIC",
+            "ヰ世界情緒 #47「ANGELIC」【Official Music Video】",
+            "色彩-instrumental-",
+            "CANDY LIVE 2",
+            "캔디 라이브 2",
+            "創生",
+            "창생",
+            "ハイドレンジア",
+            "ヰ世界情緒 #05 「ハイドレンジア」【Official Music Video】",
+            "Isekai Joucho",
+            "Isekai Joucho #05 \"Hydrangea\" [Original MV]",
+            "이세계정서 (ヰ世界情緒) #05 「하이드레인지아」【오리지널MV】",
+            "하이드레인지아",
+            "斯く美しき造花",
+            "ヰ世界情緒 #08 「斯く美しき造花」【Official Music Video】",
+            "マボロシのまち",
+            "やさしいせかい",
+            "ANEMONE",
+            "ヰ世界の宝石譚",
+            "ヰ世界情緒 #13 「ヰ世界の宝石譚」【Official Music Video】",
+            "シリウスの心臓",
+            "ヰ世界情緒 #10 「シリウスの心臓」【Official Music Video】",
+            "とめどなき白情",
+            "ヰ世界情緒 #07 「とめどなき白情」【Official Music Video】",
+            "Isekaijoucho",
+            "Isekaijoucho #07 \"Tomedo Naki Hakujou (Endless Whiteness)\"",
+            "이세계정서 (ヰ世界情緒) #07 「하염없는 하얀 정」【오리지널MV】",
+            "하염없는 하얀 정",
+            "霞がついてくる",
+            "ヰ世界情緒 #23「霞がついてくる」【Official Music Video】",
+            "誰もいない絵で",
+            "ヰ世界情緒 #17「誰もいない絵で」【Official Music Video】",
+            "ARCADIA",
+            "ヰ世界情緒 #25「ARCADIA」【Official Music Video】",
+            "永久に枯れぬ花",
+            "영원히 시들지 않는 꽃",
+            "FARAWAY",
+            "파어웨이",
+            "파 어웨이",
+            "Virtual Ties 〜ヰ世界情緒夢想曲〜 Theme Songs",
+            "Virtual Ties ~이세계정서 몽상곡~ Theme Songs",
+            "コンパスローズ",
+            "コンパスローズ",
+            "モシモノセカイ",
+            "ヰ世界情緒 #67「モシモノセカイ」【Official Music Video】",
+            "また、ここから",
+            "BREATHE",
+            "ETERNAL",
+            "이터널",
+            "連れ出してトロイメライ",
+            "데려가 줘 트로이메라이",
+            "みらいのかたち",
+            "미래의 형태",
+            "果てなきソラへ",
+            "끝없는 하늘로",
+            "アンビバレント",
+            "앰비벌런트",
+            "眠りゆく芽吹き",
+            "잠들어 가는 새싹",
+            "システムズコア",
+            "시스템즈 코어",
+            "CALL",
+            "콜",
+            "ラピスのお人形",
+            "라피스의 인형",
+            "キミ消失セカイ",
+            "너 소실 세계",
+            "네가 사라진 세계",
+            "生存",
+            "생존",
+            "泡沫",
+            "포말",
+            "물거품",
+            "刻印",
+            "각인",
+            "深淵",
+            "심연",
+            "そして白に還る",
+            "그리고 백으로 돌아가다",
+            "그리고 하양으로 돌아가",
+            "暮れなずむ約束",
+            "저물어 가는 약속",
+            "かたちなきもの",
+            "형태 없는 것",
+            "パンドラコール",
+            "판도라 콜",
+            "いろはに咲きて",
+            "첫 걸음에 피어나",
+            "이로하에 피어나",
+            "物語りのワルツ",
+            "이야기의 왈츠",
+            "ジオラマドラマ",
+            "디오라마 드라마",
+            "共回線",
+            "공회선",
+            "prayer2",
+            "프레이어2",
+            "프레이어 2",
+            "Abstractions Void",
+            "앱스트랙션즈 보이드",
+            "앱스트랙션 보이드",
+            "No.026　幸祜 -KOKO- 「Abstractions Void」【Official Music Video】",
+            "ナナシノウタ",
+            "ClimBinge",
+            "클라이밍",
+            "클라임빙",
+            "ClimBinge (Nor Remix)",
+            "ClimBinge (ark_ui Remix)",
+            "ClimBinge (Dotnoi & Tom-i Remix)",
+            "ClimBinge (DC Mizey Remix)",
+            "ClimBinge (TEMPLIME Remix)",
+            "ClimBinge (The Herb Shop Remix)",
+            "ClimBinge (ど～ぱみん Remix)",
+            "ClimBinge (前線 Remix)",
+            "ClimBinge (Marble Remix)",
+            "ClimBinge (yuzen Remix)",
+            "ClimBinge (前澤 Remix)",
+            "ClimBinge (鹿あるく Remix)",
+            "ClimBinge (osirasekita Remix)",
+            "Revy",
+            "私を纏う",
+            "ANTINOMY",
+            "TIME",
+            "타임",
+            "No.021　幸祜 -KOKO- 「TIME」【Official Music Video】",
+            "MiMi Cry",
+            "Lullaby",
+            "カスミソウ",
+            "prayer",
+            "프레이어",
+            "LIT",
+            "No.013　幸祜 -KOKO- 「LIT」【Official Music Video】",
+            "花と蜜",
+            "錘",
+            "the last bullet",
+            "더 라스트 불릿",
+            "더 라스트 불렛",
+            "No.012　幸祜 -KOKO- 「the last bullet」【Official Music Video】",
+            "harmony",
+            "하모니",
+            "No.002 幸祜 -koko- 「harmony」 【MV】",
+            "レイヴン・フリージア",
+            "此処へ",
+            "閃光の彼方",
+            "No.019　幸祜 -KOKO- 「閃光の彼方」【Official Music Video】",
+            "bliss",
+            "ClimBinge the Remix",
+            "클라이밍 더 리믹스",
+            "클라임빙 더 리믹스",
+            "Phantom",
+            "팬텀",
+            "切り咲く",
+            "자르고 피어나다",
+            "베어 피다",
+            "月時雨",
+            "츠키시구레",
+            "달의 가을비",
+            "僕は願うことをやめたんだ",
+            "나는 바라기를 그만뒀어",
+            "シャングリラ",
+            "샹그릴라",
+            "Kazura",
+            "카즈라",
+            "在処",
+            "있는 곳",
+            "オレンジ",
+            "오렌지",
+            "むすんでひらいて",
+            "쥐었다 펴고",
+            "始まりの銃声",
+            "시작의 총성",
+            "ゲンフウケイ",
+            "원풍경",
+            "歯車",
+            "톱니",
+            "톱니바퀴",
+            "ミラージュコード",
+            "미라쥬 코드",
+            "미라주 코드",
+            "この世界に口づけを",
+            "이 세계에 입맞춤을",
+            "白昼夢",
+            "백일몽",
+            "夜光を呼ぶ",
+            "야광을 부르다",
+            "瞑目",
+            "명목",
+            "反転",
+            "반전",
+            "繁殖",
+            "번식",
+            "運命",
+            "운명",
+            "都市II from 神椿市建設中。VIRTUAL REALITY",
+            "도시 II from 카미츠바키시 건설중. VIRTUAL REALITY",
+            "歌姫",
+            "가희",
+            "魔女ぷらす2",
+            "마녀 플러스 2",
+            "都市 from 神椿市建設中。REGENERATE",
+            "도시 from 카미츠바키시 건설중. REGENERATE",
+            "魔女ぷらす",
+            "마녀 플러스",
+            "幻界",
+            "환계",
+            "酸欠",
+            "산결",
+            "照射",
+            "조사",
+            "魔女(真) sinka ver.",
+            "마녀(진) sinka ver.",
+            "電脳 sinka ver.",
+            "전뇌 sinka ver.",
+            "追憶",
+            "추억",
+            "再会 SINKA LIVE SERIES ver.",
+            "재회 SINKA LIVE SERIES ver.",
+            "玩具 SINKA LIVE SERIES ver.",
+            "완구 SINKA LIVE SERIES ver.",
+            "未遂 SINKA LIVE SERIES ver.",
+            "미수 SINKA LIVE SERIES ver.",
+            "愛詩",
+            "애시",
+            "真偽",
+            "진위",
+            "마기",
+            "Magi",
+            "花束",
+            "화속",
+            "同盟",
+            "동맹",
+            "切札",
+            "절찰",
+            "感情",
+            "감정",
+            "秘密",
+            "비밀",
+            "祭壇",
+            "제단",
+            "飛翔",
+            "비상",
+            "逆絶",
+            "역절",
+            "玩具",
+            "완구",
+            "定命",
+            "정명",
+            "魔女(真)",
+            "마녀(진)",
+            "再会",
+            "재회",
+            "共鳴",
+            "공명",
+            "言霊",
+            "언령",
+            "変身",
+            "변신",
+            "輪廻",
+            "윤회",
+            "電脳",
+            "전뇌"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "ふわり花、咲くように",
+            "ko": "살며시 꽃, 피어나듯이"
+          },
+          "aliases": [
+            "살며시 꽃, 피어나듯이"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "キョウメイミライ",
+            "ko": "공명 미래"
+          },
+          "aliases": [
+            "공명 미래"
+          ]
+        }
+      ],
+      "trackSource": "https://kamitsubaki.jp/discography/other/833/",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kSX_pB0Li4ZYeqAaocPRQeVhWlAiMqWr4&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "kamitsubaki-monark-awake",
+      "originalTitle": "Awake",
+      "titles": {
+        "en": "Awake",
+        "ja": "Awake",
+        "ko": ""
+      },
+      "aliases": [
+        "어웨이크",
+        "모나크",
+        "모나크 monark",
+        "Monark",
+        "モナーク",
+        "KAMITSUBAKI x Monark Collaboration Album"
+      ],
+      "artistIds": [
+        "kaf",
+        "rim",
+        "harusaruhi",
+        "isekaijoucho",
+        "koko",
+        "vwp",
+        "ciel"
+      ],
+      "displayArtistIds": [
+        "vwp",
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2021-10-20",
+      "dateSource": "https://kamitsubaki.jp/discography/kaf/831/",
+      "dateVerifiedOn": "2026-10-07",
+      "releaseType": "album",
+      "trackCount": 14,
+      "image": "images/albums/kamitsubaki-monark-awake.jpg",
+      "coverSource": "https://kamitsubaki.jp/wp-content/uploads/2021/10/monark_book_H1_light.jpg",
+      "sourceUrl": "https://youtu.be/Rw2fUBwv_WA",
+      "translationStatus": "original",
+      "tracks": [
+        {
+          "titles": {
+            "ja": "ニヒル",
+            "ko": "니힐"
+          },
+          "aliases": [
+            "니힐",
+            "ニヒル",
+            "ニヒル (椎乃味醂 Remix)"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "ASH",
+            "ko": "애쉬"
+          },
+          "aliases": [
+            "애쉬"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "Gunpowder",
+            "ko": "건파우더"
+          },
+          "aliases": [
+            "건파우더"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "何億光年の孤独",
+            "ko": "몇 억 광년의 고독"
+          },
+          "aliases": [
+            "몇 억 광년의 고독"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "強欲",
+            "ko": "강욕"
+          },
+          "aliases": [
+            "강욕"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "Pleiades",
+            "ko": "플레이아데스"
+          },
+          "aliases": [
+            "플레이아데스"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "この夢に弔いを",
+            "ko": "이 꿈에 애도를"
+          },
+          "aliases": [
+            "이 꿈에 애도를"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "愛厭奇縁",
+            "ko": "애염기연"
+          },
+          "aliases": [
+            "애염기연"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "Dear",
+            "ko": "디어"
+          },
+          "aliases": [
+            "디어"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "あおいこわす",
+            "ko": "아오이코와스"
+          },
+          "aliases": [
+            "아오이코와스"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "あまくてあかくて",
+            "ko": "달콤하고 붉어서"
+          },
+          "aliases": [
+            "달콤하고 붉어서"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "Is it Pain, Love or Death?",
+            "ko": "이즈 잇 페인 러브 오어 데스"
+          },
+          "aliases": [
+            "이즈 잇 페인 러브 오어 데스"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "世惑い子",
+            "ko": "세상을 헤메는 아이"
+          },
+          "aliases": [
+            "세상을 헤메는 아이",
+            "世惑い子",
+            "花譜 #87「世惑い子」【オリジナルMV】",
+            "世惑い子 (Chinese Ver.)",
+            "세상을 헤메는 아이 (중국어 버전)",
+            "KAF",
+            "世惑い子 (ササノマリイ Remix)"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "君の望み、君の願い",
+            "ko": "너의 소망, 너의 소원"
+          },
+          "aliases": [
+            "너의 바람, 너의 소원",
+            "너의 소망, 너의 소원"
+          ],
+          "translationStatus": "user-reviewed"
+        }
+      ],
+      "trackSource": "https://kamitsubaki.jp/discography/kaf/831/"
+    },
+    {
+      "id": "youtube-OLAK5uy_k2ZKhgYsfjaUNDEDGRC9OJclSpV1b9jmQ",
+      "originalTitle": "STRAWBERRY LIVE3",
+      "titles": {
+        "ja": "STRAWBERRY LIVE3",
+        "ko": "",
+        "en": "STRAWBERRY LIVE3"
+      },
+      "aliases": [
+        "스트로베리 라이브 3"
+      ],
+      "artistIds": [
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2026-07-25",
+      "dateSource": "https://kamitsubaki.jp/news/2026/06/27/11417/",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-10-06",
+      "releaseType": "ep-cover",
+      "trackCount": 15,
+      "image": "images/albums/youtube-OLAK5uy_k2ZKhgYsfjaUNDEDGRC9OJclSpV1b9jmQ.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_k2ZKhgYsfjaUNDEDGRC9OJclSpV1b9jmQ/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICPaIj9UGEAE=&rs=AOn4CLCnaxmQ8uXUbO52GJnb3qGDQyiO1A&v=1789117558",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_k2ZKhgYsfjaUNDEDGRC9OJclSpV1b9jmQ",
+      "translationStatus": "original",
+      "tracks": [
+        {
+          "titles": {
+            "ja": "狂乱 Hey Kids!!",
+            "ko": ""
+          },
+          "aliases": [
+            "狂乱 Hey Kids!! (Live Cover)",
+            "狂乱 Hey Kids!!"
+          ],
+          "videoId": "TRfrlhIxw-8"
+        },
+        {
+          "titles": {
+            "ja": "夜は眠れるかい？",
+            "ko": ""
+          },
+          "aliases": [
+            "夜は眠れるかい？ (Live Cover)",
+            "夜は眠れるかい？"
+          ],
+          "videoId": "tmV7KUSBZyM"
+        },
+        {
+          "titles": {
+            "ja": "MC1",
+            "ko": ""
+          },
+          "aliases": [
+            "MC1",
+            "MC1 at I SCREAM LIVE2",
+            "MC1 at I SCREAM LIVE",
+            "MC1 (Live)",
+            "MC1（Live）"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "刹那Blue",
+            "ko": ""
+          },
+          "aliases": [
+            "刹那Blue (Live Cover)",
+            "刹那Blue"
+          ],
+          "videoId": "f6zSct4qES0"
+        },
+        {
+          "titles": {
+            "ja": "ひとりひとつ",
+            "ko": ""
+          },
+          "aliases": [
+            "ひとりひとつ (Live Cover)",
+            "ひとりひとつ"
+          ],
+          "videoId": "jnZK8_8F6NE"
+        },
+        {
+          "titles": {
+            "ja": "MC2",
+            "ko": ""
+          },
+          "aliases": [
+            "MC2",
+            "MC2 at I SCREAM LIVE2",
+            "MC2 at I SCREAM LIVE",
+            "MC2 (Live)",
+            "MC2（Live）"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "Black out",
+            "ko": ""
+          },
+          "aliases": [
+            "Black out (Live Cover)",
+            "Black out"
+          ],
+          "videoId": "OwdlUUdw2hM"
+        },
+        {
+          "titles": {
+            "ja": "キョウメイミライ",
+            "ko": ""
+          },
+          "aliases": [
+            "キョウメイミライ (Live Cover)",
+            "キョウメイミライ",
+            "공명 미래"
+          ],
+          "videoId": "imMlNX4-eBQ"
+        },
+        {
+          "titles": {
+            "ja": "クライベイビー",
+            "ko": ""
+          },
+          "aliases": [
+            "クライベイビー (Live Cover)",
+            "クライベイビー",
+            "크라이 베이비",
+            "理芽 - クライベイビー / RIM - Cry Baby (Official Music Video)｜from 神椿"
+          ],
+          "videoId": "VeF00L7oiws"
+        },
+        {
+          "titles": {
+            "ja": "MC3",
+            "ko": ""
+          },
+          "aliases": [
+            "MC3",
+            "MC3 at I SCREAM LIVE2",
+            "MC3 at I SCREAM LIVE",
+            "MC3 (Live)",
+            "MC3（Live）"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "旅の途中",
+            "ko": ""
+          },
+          "aliases": [
+            "旅の途中 (Live Cover)",
+            "旅の途中"
+          ],
+          "videoId": "S60HB1jqBuE"
+        },
+        {
+          "titles": {
+            "ja": "とても素敵な六月でした",
+            "ko": ""
+          },
+          "aliases": [
+            "とても素敵な六月でした (Live Cover)",
+            "とても素敵な六月でした"
+          ],
+          "videoId": "X9fyI02ciAE"
+        },
+        {
+          "titles": {
+            "ja": "MC4",
+            "ko": ""
+          },
+          "aliases": [
+            "MC4",
+            "MC4 at I SCREAM LIVE2",
+            "MC4 at I SCREAM LIVE",
+            "MC4 (Live)",
+            "MC4（Live）"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "ナラタージュ",
+            "ko": ""
+          },
+          "aliases": [
+            "ナラタージュ (Live Cover)",
+            "ナラタージュ"
+          ],
+          "videoId": "uKJeQRxWJuU"
+        },
+        {
+          "titles": {
+            "ja": "MC5",
+            "ko": ""
+          },
+          "aliases": [
+            "MC5",
+            "MC5 at I SCREAM LIVE2",
+            "MC5 at I SCREAM LIVE",
+            "MC5 (Live)",
+            "MC5（Live）"
+          ]
+        }
+      ],
+      "trackSource": "https://findmestore.thinkr.jp/products/ktr-000-0248",
+      "youtubeTrackCount": 10,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 15,
+      "albumReleaseDate": "2026-10-07",
+      "albumReleaseDateSource": "https://findmestore.thinkr.jp/products/ktr-000-0248",
+      "liveDate": "2026-07-25",
+      "dateBasis": "live",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_k2ZKhgYsfjaUNDEDGRC9OJclSpV1b9jmQ&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "ciel"
       ]
+    },
+    {
+      "id": "youtube-OLAK5uy_nwP9Ti0pMV7N3_Bld3QJBddKe8k-hmRDg",
+      "originalTitle": "空想劇",
+      "titles": {
+        "ja": "空想劇",
+        "ko": "공상극",
+        "en": ""
+      },
+      "aliases": [
+        "Kusougeki"
+      ],
+      "artistIds": [
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2024-07-24",
+      "dateSource": "https://kamitsubaki.jp/news/2024/05/18/3421/",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2025-09-27",
+      "releaseType": "album",
+      "trackCount": 13,
+      "image": "images/albums/youtube-OLAK5uy_nwP9Ti0pMV7N3_Bld3QJBddKe8k-hmRDg.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nwP9Ti0pMV7N3_Bld3QJBddKe8k-hmRDg/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICKnwzr0GEAE=&rs=AOn4CLCyU31ZteY6VP9qdPDYCiX3f33ieg&v=1739831337",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_nwP9Ti0pMV7N3_Bld3QJBddKe8k-hmRDg",
+      "translationStatus": "draft",
+      "tracks": [
+        {
+          "titles": {
+            "ja": "introduction",
+            "ko": ""
+          },
+          "aliases": [
+            "introduction"
+          ],
+          "videoId": "BbiMLPBgi9o"
+        },
+        {
+          "titles": {
+            "ja": "窓を開けて",
+            "ko": "창문을 열고"
+          },
+          "aliases": [
+            "【オリジナルMV】窓を開けて / CIEL #01",
+            "창문을 열고",
+            "Mado wo Akete"
+          ],
+          "videoId": "KD14CW-j2sA"
+        },
+        {
+          "titles": {
+            "ja": "君の望み、君の願い",
+            "ko": "너의 소망, 너의 소원"
+          },
+          "aliases": [
+            "【オリジナルMV】君の望み、君の願い / CIEL #04",
+            "君の望み、君の願い",
+            "너의 바람, 너의 소원",
+            "너의 소망, 너의 소원"
+          ],
+          "videoId": "wEbzZjEG-Vw",
+          "translationStatus": "user-reviewed"
+        },
+        {
+          "titles": {
+            "ja": "眼裏の懐疑",
+            "ko": "눈 안의 회의"
+          },
+          "aliases": [
+            "【オリジナルMV】眼裏の懐疑 / CIEL #03",
+            "눈 안의 회의",
+            "Ganri no Kaigi"
+          ],
+          "videoId": "eDLFNttpXgU"
+        },
+        {
+          "titles": {
+            "ja": "馥郁の街",
+            "ko": "복욱의 거리"
+          },
+          "aliases": [
+            "【オリジナルMV】馥郁の街 / CIEL #05",
+            "향기로운 거리",
+            "Fukuiku no Machi",
+            "복욱의 거리"
+          ],
+          "videoId": "wjwGuYoL5VE",
+          "translationStatus": "user-reviewed"
+        },
+        {
+          "titles": {
+            "ja": "少年漫画",
+            "ko": "소년만화"
+          },
+          "aliases": [
+            "【オリジナルMV】少年漫画 / CIEL #08",
+            "소년만화",
+            "Shounen Manga"
+          ],
+          "videoId": "ffreBjHrOHU"
+        },
+        {
+          "titles": {
+            "ja": "空より",
+            "ko": "하늘에서"
+          },
+          "aliases": [
+            "【オリジナルMV】空より / CIEL #11",
+            "하늘에서",
+            "Sora yori"
+          ],
+          "videoId": "9VwH2EM-q3A"
+        },
+        {
+          "titles": {
+            "ja": "生活に落ちる",
+            "ko": "생활에 빠지다"
+          },
+          "aliases": [
+            "【オリジナルMV】生活に落ちる / CIEL #12",
+            "생활에 빠지다",
+            "Seikatsu ni Ochiru"
+          ],
+          "videoId": "35r1ruTbYjc"
+        },
+        {
+          "titles": {
+            "ja": "うわのそら",
+            "ko": "건성"
+          },
+          "aliases": [
+            "うわのそら",
+            "건성",
+            "Uwanosora"
+          ],
+          "videoId": "eaLzqnuQkyY"
+        },
+        {
+          "titles": {
+            "ja": "空中散歩",
+            "ko": "공중산책"
+          },
+          "aliases": [
+            "【オリジナルMV】空中散歩 / CIEL #15",
+            "공중산책"
+          ],
+          "videoId": "fjnUIiHqVtM"
+        },
+        {
+          "titles": {
+            "ja": "僕たちの群青",
+            "ko": "우리들의 군청"
+          },
+          "aliases": [
+            "僕たちの群青",
+            "우리들의 군청"
+          ],
+          "videoId": "4SrdPwCfvjk"
+        },
+        {
+          "titles": {
+            "ja": "空想少女",
+            "ko": "공상소녀"
+          },
+          "aliases": [
+            "【オリジナルMV】空想少女  / CIEL #17",
+            "공상소녀",
+            "Kusou Shoujo",
+            "空想少女 (Cover Live)"
+          ],
+          "videoId": "Ig16vvGn-Ig"
+        },
+        {
+          "titles": {
+            "ja": "outroduction",
+            "ko": ""
+          },
+          "aliases": [
+            "outroduction"
+          ],
+          "videoId": "a1pNP-3Z6wU"
+        }
+      ],
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_nwP9Ti0pMV7N3_Bld3QJBddKe8k-hmRDg",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nwP9Ti0pMV7N3_Bld3QJBddKe8k-hmRDg&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_ltYF3OSHwGvQrQkJYxPwiBsD7RIDvWdd0",
+      "originalTitle": "STRAWBERRY LIVE 2",
+      "titles": {
+        "ja": "STRAWBERRY LIVE 2",
+        "ko": "",
+        "en": "STRAWBERRY LIVE 2"
+      },
+      "aliases": [
+        "스트로베리 라이브 2"
+      ],
+      "artistIds": [
+        "koko",
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2023-07-22",
+      "dateSource": "https://findmestore.thinkr.jp/products/ktr-000-0117",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2025-09-23",
+      "releaseType": "ep-cover",
+      "trackCount": 31,
+      "image": "images/albums/youtube-OLAK5uy_ltYF3OSHwGvQrQkJYxPwiBsD7RIDvWdd0.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_ltYF3OSHwGvQrQkJYxPwiBsD7RIDvWdd0/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICOHqu70GEAE=&rs=AOn4CLCcdjZLcGFWQ0VZugD2Fhn3kWMZMw&v=1739519329",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_ltYF3OSHwGvQrQkJYxPwiBsD7RIDvWdd0",
+      "translationStatus": "original",
+      "tracks": [
+        {
+          "titles": {
+            "ja": "ノーダウト",
+            "ko": "노 다우트"
+          },
+          "aliases": [
+            "ノーダウト",
+            "노 다우트"
+          ]
+        },
+        {
+          "titles": {
+            "ja": "Vinyl",
+            "ko": ""
+          },
+          "aliases": [
+            "Vinyl (Live)",
+            "Vinyl"
+          ],
+          "videoId": "yKlSWHZ2Wkk"
+        },
+        {
+          "titles": {
+            "ja": "MC1",
+            "ko": ""
+          },
+          "aliases": [
+            "MC1 (Live)",
+            "MC1",
+            "MC1 at I SCREAM LIVE2",
+            "MC1 at I SCREAM LIVE",
+            "MC1（Live）"
+          ],
+          "videoId": "veg4akEIdg8"
+        },
+        {
+          "titles": {
+            "ja": "ド屑",
+            "ko": ""
+          },
+          "aliases": [
+            "ド屑 (Live)",
+            "ド屑"
+          ],
+          "videoId": "4KPL5RK2eoI"
+        },
+        {
+          "titles": {
+            "ja": "従属ふりったー",
+            "ko": ""
+          },
+          "aliases": [
+            "従属ふりったー (Live)",
+            "従属ふりったー"
+          ],
+          "videoId": "ZORO8Iab2Eo"
+        },
+        {
+          "titles": {
+            "ja": "シカバネーゼ",
+            "ko": ""
+          },
+          "aliases": [
+            "シカバネーゼ (Live)",
+            "シカバネーゼ"
+          ],
+          "videoId": "ptjq9Qv9glg"
+        },
+        {
+          "titles": {
+            "ja": "コールボーイ.",
+            "ko": ""
+          },
+          "aliases": [
+            "コールボーイ covered by CIEL  (from Strawberry Live2)",
+            "コールボーイ",
+            "コールボーイ."
+          ],
+          "videoId": "3UvhEXFp4lE"
+        },
+        {
+          "titles": {
+            "ja": "MC2",
+            "ko": ""
+          },
+          "aliases": [
+            "MC2 (Live)",
+            "MC2",
+            "MC2 at I SCREAM LIVE2",
+            "MC2 at I SCREAM LIVE",
+            "MC2（Live）"
+          ],
+          "videoId": "-PnCPsaxKmM"
+        },
+        {
+          "titles": {
+            "ja": "ロミオとシンデレラ",
+            "ko": ""
+          },
+          "aliases": [
+            "ロミオとシンデレラ (Live)",
+            "ロミオとシンデレラ"
+          ],
+          "videoId": "ayZEq8U5dZM"
+        },
+        {
+          "titles": {
+            "ja": "Sunflower",
+            "ko": ""
+          },
+          "aliases": [
+            "Sunflower (Live)",
+            "Sunflower"
+          ],
+          "videoId": "dDWhaqH3w7c"
+        },
+        {
+          "titles": {
+            "ja": "知りたい",
+            "ko": ""
+          },
+          "aliases": [
+            "知りたい (Live)",
+            "知りたい"
+          ],
+          "videoId": "LGAuDooVgiE"
+        },
+        {
+          "titles": {
+            "ja": "MC3",
+            "ko": ""
+          },
+          "aliases": [
+            "MC3 (Live)",
+            "MC3",
+            "MC3 at I SCREAM LIVE2",
+            "MC3 at I SCREAM LIVE",
+            "MC3（Live）"
+          ],
+          "videoId": "esMuRCZxjZc"
+        },
+        {
+          "titles": {
+            "ja": "人間辞職",
+            "ko": ""
+          },
+          "aliases": [
+            "人間辞職 (Live)",
+            "人間辞職"
+          ],
+          "videoId": "bf5Zv19ms30"
+        },
+        {
+          "titles": {
+            "ja": "MC4",
+            "ko": ""
+          },
+          "aliases": [
+            "MC4 (Live)",
+            "MC4",
+            "MC4 at I SCREAM LIVE2",
+            "MC4 at I SCREAM LIVE",
+            "MC4（Live）"
+          ],
+          "videoId": "4S0KnqXTVgI"
+        },
+        {
+          "titles": {
+            "ja": "MC5",
+            "ko": ""
+          },
+          "aliases": [
+            "MC5 (Live)",
+            "MC5",
+            "MC5 at I SCREAM LIVE2",
+            "MC5 at I SCREAM LIVE",
+            "MC5（Live）"
+          ],
+          "videoId": "z8RnVhMHTO8"
+        },
+        {
+          "titles": {
+            "ja": "ドーナツホール",
+            "ko": ""
+          },
+          "aliases": [
+            "ドーナツホール (Live)",
+            "ドーナツホール"
+          ],
+          "videoId": "xd8MkwhsuUQ"
+        },
+        {
+          "titles": {
+            "ja": "マインドキャッスル",
+            "ko": ""
+          },
+          "aliases": [
+            "マインドキャッスル (Live)",
+            "マインドキャッスル"
+          ],
+          "videoId": "EzcZWovattA"
+        },
+        {
+          "titles": {
+            "ja": "渇愛論Ⅱ",
+            "ko": ""
+          },
+          "aliases": [
+            "渇愛論II (Live)",
+            "渇愛論Ⅱ"
+          ],
+          "videoId": "4jby-ZcAH9c"
+        },
+        {
+          "titles": {
+            "ja": "MC6",
+            "ko": ""
+          },
+          "aliases": [
+            "MC6 (Live)",
+            "MC6",
+            "MC6 at I SCREAM LIVE2",
+            "MC6 at I SCREAM LIVE",
+            "MC6（Live）"
+          ],
+          "videoId": "sS9Ky9m0jAc"
+        },
+        {
+          "titles": {
+            "ja": "告赤",
+            "ko": ""
+          },
+          "aliases": [
+            "告赤 (Live)",
+            "告赤"
+          ],
+          "videoId": "PkAoG2yDtEg"
+        },
+        {
+          "titles": {
+            "ja": "風",
+            "ko": ""
+          },
+          "aliases": [
+            "風 (Live)",
+            "風"
+          ],
+          "videoId": "RkNZWmMh0m4"
+        },
+        {
+          "titles": {
+            "ja": "過去を喰らう",
+            "ko": ""
+          },
+          "aliases": [
+            "過去を喰らう (Live)",
+            "過去を喰らう (ツミキ Remix)",
+            "過去を喰らう",
+            "과거를 먹다",
+            "EAT THE PAST",
+            "이트 더 패스트",
+            "EAT THE PAST (English Ver.)",
+            "KAF",
+            "잇 더 패스트",
+            "花譜　#22　「過去を喰らう」 【オリジナルMV】",
+            "KAF #22 - EAT THE PAST [Music Video]",
+            "카후 #22 「과거를 먹다」 【오리지널 MV】"
+          ],
+          "videoId": "R7xkfGOA_w8"
+        },
+        {
+          "titles": {
+            "ja": "MC7",
+            "ko": ""
+          },
+          "aliases": [
+            "MC7 (Live)",
+            "MC7",
+            "MC7 at I SCREAM LIVE2",
+            "MC7 at I SCREAM LIVE",
+            "MC7（Live）"
+          ],
+          "videoId": "kn0plujZjI4"
+        },
+        {
+          "titles": {
+            "ja": "夏祭り",
+            "ko": ""
+          },
+          "aliases": [
+            "夏祭り / JITTERIN'JINN covered by CIEL  (from Strawberry Live2)",
+            "夏祭り / JITTERIN'JINN",
+            "夏祭り"
+          ],
+          "videoId": "M6OWzvIVdNQ"
+        },
+        {
+          "titles": {
+            "ja": "エゴロック(long ver.)",
+            "ko": ""
+          },
+          "aliases": [
+            "エゴロック (Live)",
+            "エゴロック(long ver.)"
+          ],
+          "videoId": "xqWnneaZCr8"
+        },
+        {
+          "titles": {
+            "ja": "MC8",
+            "ko": ""
+          },
+          "aliases": [
+            "MC8 (Live)",
+            "MC8",
+            "MC8 at I SCREAM LIVE2",
+            "MC8 at I SCREAM LIVE",
+            "MC8（Live）"
+          ],
+          "videoId": "_AwIF-W_dFM"
+        },
+        {
+          "titles": {
+            "ja": "君の望み、君の願い with 幸祜",
+            "ko": "너의 소망, 너의 소원"
+          },
+          "aliases": [
+            "君の望み、君の願い (Live)",
+            "君の望み、君の願い",
+            "너의 바람, 너의 소원",
+            "【オリジナルMV】君の望み、君の願い / CIEL #04",
+            "君の望み、君の願い with 幸祜",
+            "너의 소망, 너의 소원"
+          ],
+          "videoId": "vr5CausVYAQ",
+          "translationStatus": "user-reviewed"
+        },
+        {
+          "titles": {
+            "ja": "MC9",
+            "ko": ""
+          },
+          "aliases": [
+            "MC9 (Live)",
+            "MC9",
+            "MC9 at I SCREAM LIVE2",
+            "MC9 at I SCREAM LIVE",
+            "MC9（Live）"
+          ],
+          "videoId": "ES_8yJTW8dA"
+        },
+        {
+          "titles": {
+            "ja": "朝を呑む",
+            "ko": ""
+          },
+          "aliases": [
+            "朝を呑む (Live)",
+            "朝を呑む"
+          ],
+          "videoId": "313zhl1fAcs"
+        },
+        {
+          "titles": {
+            "ja": "MC10",
+            "ko": ""
+          },
+          "aliases": [
+            "MC10 (Live)",
+            "MC10",
+            "MC10 at I SCREAM LIVE"
+          ],
+          "videoId": "rvSWrHLlTOU"
+        },
+        {
+          "titles": {
+            "ja": "少年よ我に帰れ",
+            "ko": "소년이여 내게로 돌아오라"
+          },
+          "aliases": [
+            "少年よ我に帰れ",
+            "소년이여 내게로 돌아오라"
+          ]
+        }
+      ],
+      "trackSource": "https://findmestore.thinkr.jp/products/ktr-000-0117",
+      "youtubeTrackCount": 29,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 31,
+      "albumReleaseDate": "2023-10-04",
+      "albumReleaseDateSource": "https://www.avex.com.tw/artist/artist_news.asp?ArtistCode=CIELXJ",
+      "liveDate": "2023-07-22",
+      "dateBasis": "live",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_ltYF3OSHwGvQrQkJYxPwiBsD7RIDvWdd0&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "ciel"
+      ]
+    },
+    {
+      "id": "youtube-OLAK5uy_kQ8N9DZNHtOU1XiF60RTRf-XWf0RoUr8s",
+      "originalTitle": "STRAWBERRY LIVE",
+      "titles": {
+        "ja": "STRAWBERRY LIVE",
+        "ko": "",
+        "en": "STRAWBERRY LIVE"
+      },
+      "aliases": [
+        "스트로베리 라이브 "
+      ],
+      "artistIds": [
+        "harusaruhi",
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2022-11-23",
+      "dateSource": "https://findmestore.thinkr.jp/products/ciel-cover-live-album-strawberry-live-%E3%82%B9%E3%83%88%E3%83%AD%E3%83%99%E3%83%AA%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%96",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-01-15",
+      "releaseType": "ep-cover",
+      "trackCount": 29,
+      "image": "images/albums/youtube-OLAK5uy_kQ8N9DZNHtOU1XiF60RTRf-XWf0RoUr8s.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kQ8N9DZNHtOU1XiF60RTRf-XWf0RoUr8s/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICJzTrr0GEAE=&rs=AOn4CLAON0277wdjUNYFMwghfLCKX4NzTQ&v=1739303324",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_kQ8N9DZNHtOU1XiF60RTRf-XWf0RoUr8s",
+      "translationStatus": "original",
+      "tracks": [
+        {
+          "titles": {
+            "ja": "リビングデッド・ユース",
+            "ko": ""
+          },
+          "aliases": [
+            "リビングデッド・ユース（Live）",
+            "リビングデッド・ユース"
+          ],
+          "videoId": "8OHxiBSjD8w"
+        },
+        {
+          "titles": {
+            "ja": "イミテーション",
+            "ko": ""
+          },
+          "aliases": [
+            "イミテーション（Live）",
+            "イミテーション"
+          ],
+          "videoId": "EO9mEsRffx4"
+        },
+        {
+          "titles": {
+            "ja": "MC1",
+            "ko": ""
+          },
+          "aliases": [
+            "MC1（Live）",
+            "MC1",
+            "MC1 at I SCREAM LIVE2",
+            "MC1 at I SCREAM LIVE",
+            "MC1 (Live)"
+          ],
+          "videoId": "iYFvTOyHFIM"
+        },
+        {
+          "titles": {
+            "ja": "DARKHERO",
+            "ko": ""
+          },
+          "aliases": [
+            "DARKHERO（Live）",
+            "DARKHERO"
+          ],
+          "videoId": "_jVd1-8L1YA"
+        },
+        {
+          "titles": {
+            "ja": "CH4NGE",
+            "ko": ""
+          },
+          "aliases": [
+            "CH4NGE（Live）",
+            "CH4NGE (Live)",
+            "CH4NGE"
+          ],
+          "videoId": "7usUylyp1zE"
+        },
+        {
+          "titles": {
+            "ja": "傷心中",
+            "ko": ""
+          },
+          "aliases": [
+            "傷心中（Live）",
+            "傷心中"
+          ],
+          "videoId": "Dsexr3YFI8E"
+        },
+        {
+          "titles": {
+            "ja": "MC2",
+            "ko": ""
+          },
+          "aliases": [
+            "MC2（Live）",
+            "MC2",
+            "MC2 at I SCREAM LIVE2",
+            "MC2 at I SCREAM LIVE",
+            "MC2 (Live)"
+          ],
+          "videoId": "ePgqTeRqQ4Y"
+        },
+        {
+          "titles": {
+            "ja": "きっと想",
+            "ko": ""
+          },
+          "aliases": [
+            "きっと想（Live）",
+            "きっと想"
+          ],
+          "videoId": "eQRJSbyDvss"
+        },
+        {
+          "titles": {
+            "ja": "ヴィラン",
+            "ko": ""
+          },
+          "aliases": [
+            "ヴィラン（Live）",
+            "ヴィラン"
+          ],
+          "videoId": "nrJH_8QRwoI"
+        },
+        {
+          "titles": {
+            "ja": "シルバーワープ",
+            "ko": ""
+          },
+          "aliases": [
+            "シルバーワープ（Live）",
+            "シルバーワープ"
+          ],
+          "videoId": "RSBtDTm-tGA"
+        },
+        {
+          "titles": {
+            "ja": "染まるよ",
+            "ko": ""
+          },
+          "aliases": [
+            "染まるよ（Live）",
+            "染まるよ"
+          ],
+          "videoId": "6Wd0d19KARo"
+        },
+        {
+          "titles": {
+            "ja": "MC3",
+            "ko": ""
+          },
+          "aliases": [
+            "MC3（Live）",
+            "MC3",
+            "MC3 at I SCREAM LIVE2",
+            "MC3 at I SCREAM LIVE",
+            "MC3 (Live)"
+          ],
+          "videoId": "1KEC4fzO38Q"
+        },
+        {
+          "titles": {
+            "ja": "MC4",
+            "ko": ""
+          },
+          "aliases": [
+            "MC4（Live）",
+            "MC4",
+            "MC4 at I SCREAM LIVE2",
+            "MC4 at I SCREAM LIVE",
+            "MC4 (Live)"
+          ],
+          "videoId": "Jp__N2ol40w"
+        },
+        {
+          "titles": {
+            "ja": "ポップソング",
+            "ko": ""
+          },
+          "aliases": [
+            "ポップソング (Live)",
+            "ポップソング"
+          ],
+          "videoId": "MFFUPs-mV7U"
+        },
+        {
+          "titles": {
+            "ja": "レイヴン・フリージア",
+            "ko": ""
+          },
+          "aliases": [
+            "レイヴン・フリージア（Live）",
+            "レイヴン・フリージア"
+          ],
+          "videoId": "KCMNg_8wvv8"
+        },
+        {
+          "titles": {
+            "ja": "偏食",
+            "ko": ""
+          },
+          "aliases": [
+            "偏食（Live）",
+            "偏食"
+          ],
+          "videoId": "bHoionAnp0I"
+        },
+        {
+          "titles": {
+            "ja": "MC5",
+            "ko": ""
+          },
+          "aliases": [
+            "MC5（Live）",
+            "MC5",
+            "MC5 at I SCREAM LIVE2",
+            "MC5 at I SCREAM LIVE",
+            "MC5 (Live)"
+          ],
+          "videoId": "8C1qnQfpI58"
+        },
+        {
+          "titles": {
+            "ja": "曖昧さ回避",
+            "ko": ""
+          },
+          "aliases": [
+            "曖昧さ回避（Live）",
+            "曖昧さ回避"
+          ],
+          "videoId": "mFKQJwPR5G4"
+        },
+        {
+          "titles": {
+            "ja": "フロイデ",
+            "ko": ""
+          },
+          "aliases": [
+            "フロイデ（Live）",
+            "フロイデ"
+          ],
+          "videoId": "6FLSsm9i51s"
+        },
+        {
+          "titles": {
+            "ja": "夜明けと蛍",
+            "ko": ""
+          },
+          "aliases": [
+            "夜明けと蛍（Live）",
+            "夜明けと蛍"
+          ],
+          "videoId": "hK0sF8jAtbQ"
+        },
+        {
+          "titles": {
+            "ja": "MC6",
+            "ko": ""
+          },
+          "aliases": [
+            "MC6（Live）",
+            "MC6",
+            "MC6 at I SCREAM LIVE2",
+            "MC6 at I SCREAM LIVE",
+            "MC6 (Live)"
+          ],
+          "videoId": "EY-vIc2t64M"
+        },
+        {
+          "titles": {
+            "ja": "東京は夜",
+            "ko": ""
+          },
+          "aliases": [
+            "東京は夜 covered by CIEL feat.春猿火 (from Strawberry Live)",
+            "東京は夜"
+          ],
+          "videoId": "EyRbt9TB8aE"
+        },
+        {
+          "titles": {
+            "ja": "MC7",
+            "ko": ""
+          },
+          "aliases": [
+            "MC7（Live）",
+            "MC7",
+            "MC7 at I SCREAM LIVE2",
+            "MC7 at I SCREAM LIVE",
+            "MC7 (Live)"
+          ],
+          "videoId": "Rs2HD8wUNMI"
+        },
+        {
+          "titles": {
+            "ja": "窓を開けて (Acoustic ver.)",
+            "ko": ""
+          },
+          "aliases": [
+            "窓を開けて -Acoustic ver.-（Live）",
+            "窓を開けて (Acoustic ver.)",
+            "窓を開けて",
+            "창문을 열고",
+            "【オリジナルMV】窓を開けて / CIEL #01",
+            "Mado wo Akete"
+          ],
+          "videoId": "0mtdqpcI0DE"
+        },
+        {
+          "titles": {
+            "ja": "セカイ",
+            "ko": ""
+          },
+          "aliases": [
+            "セカイ covered by CIEL  (from Strawberry Live)",
+            "セカイ"
+          ],
+          "videoId": "Rs3cg8yxcPo"
+        },
+        {
+          "titles": {
+            "ja": "MC8",
+            "ko": ""
+          },
+          "aliases": [
+            "MC8（Live）",
+            "MC8",
+            "MC8 at I SCREAM LIVE2",
+            "MC8 at I SCREAM LIVE",
+            "MC8 (Live)"
+          ],
+          "videoId": "daSeICOTCaI"
+        },
+        {
+          "titles": {
+            "ja": "ガーネット",
+            "ko": ""
+          },
+          "aliases": [
+            "ガーネット（Live）",
+            "ガーネット"
+          ],
+          "videoId": "Mokcmy1wPpk"
+        },
+        {
+          "titles": {
+            "ja": "MC9",
+            "ko": ""
+          },
+          "aliases": [
+            "MC9（Live）",
+            "MC9",
+            "MC9 at I SCREAM LIVE2",
+            "MC9 at I SCREAM LIVE",
+            "MC9 (Live)"
+          ],
+          "videoId": "IsGeqd_UXbQ"
+        },
+        {
+          "titles": {
+            "ja": "Ending",
+            "ko": ""
+          },
+          "aliases": [
+            "Ending（Live）",
+            "Ending"
+          ],
+          "videoId": "fd6mzp7CErY"
+        }
+      ],
+      "trackSource": "https://findmestore.thinkr.jp/products/ciel-cover-live-album-strawberry-live-%E3%82%B9%E3%83%88%E3%83%AD%E3%83%99%E3%83%AA%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%96",
+      "youtubeTrackCount": 29,
+      "trackVerifiedOn": "2026-10-07",
+      "storeTrackCount": 29,
+      "albumReleaseDate": "2023-02-15",
+      "albumReleaseDateSource": "https://www.avex.com.tw/artist/artist_news.asp?ArtistCode=CIELXJ",
+      "liveDate": "2022-11-23",
+      "dateBasis": "live",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kQ8N9DZNHtOU1XiF60RTRf-XWf0RoUr8s&hl=en",
+      "youtubeMusicType": "Album",
+      "releaseTypeVerifiedOn": "2026-10-07",
+      "releaseTypeOverride": "Cover live grouped under EP/COVER by site policy",
+      "displayArtistIds": [
+        "ciel"
+      ]
+    },
+    {
+      "id": "youtube-OLAK5uy_njW6PQibdr1tPPz8JhP8CeiRCjihC32Ys",
+      "originalTitle": "再晴",
+      "titles": {
+        "ja": "再晴",
+        "ko": "재청",
+        "en": ""
+      },
+      "aliases": [
+        "Saisei"
+      ],
+      "artistIds": [
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2026-03-04",
+      "dateSource": "https://findmestore.thinkr.jp/products/ktr-000-0231",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-03-03",
+      "releaseType": "ep-cover",
+      "trackCount": 4,
+      "image": "images/albums/youtube-OLAK5uy_njW6PQibdr1tPPz8JhP8CeiRCjihC32Ys.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_njW6PQibdr1tPPz8JhP8CeiRCjihC32Ys/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICJ3AlswGEAE=&rs=AOn4CLDq3nXUJOde5ISvB_OetSVUJ97OQw&v=1770364957",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_njW6PQibdr1tPPz8JhP8CeiRCjihC32Ys",
+      "translationStatus": "draft",
+      "tracks": [
+        {
+          "titles": {
+            "ja": "常しなえ",
+            "ko": "영원"
+          },
+          "aliases": [
+            "「常しなえ / CIEL」MusicVideo",
+            "영원",
+            "Tokoshinae"
+          ],
+          "videoId": "Js5lqE2u44s"
+        },
+        {
+          "titles": {
+            "ja": "空白の暈",
+            "ko": "공백의 무리"
+          },
+          "aliases": [
+            "空白の暈",
+            "공백의 무리"
+          ],
+          "videoId": "dYjq18MBR4g"
+        },
+        {
+          "titles": {
+            "ja": "此処で咲かせて (CIEL Solo ver.)",
+            "ko": ""
+          },
+          "aliases": [
+            "此処で咲かせて (CIEL Solo ver.)",
+            "此処で咲かせて"
+          ],
+          "videoId": "oiYhm8pwJi8"
+        },
+        {
+          "titles": {
+            "ja": "ろうそく",
+            "ko": "양초"
+          },
+          "aliases": [
+            "ろうそく",
+            "양초"
+          ],
+          "videoId": "RTI6pVuNtqg"
+        }
+      ],
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_njW6PQibdr1tPPz8JhP8CeiRCjihC32Ys",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_njW6PQibdr1tPPz8JhP8CeiRCjihC32Ys&hl=en",
+      "youtubeMusicType": "EP",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_m_pfFYdbmAr6OW0u2-8W_RT_AbHLeK5II",
+      "originalTitle": "空想少女",
+      "titles": {
+        "ja": "空想少女",
+        "ko": "공상소녀",
+        "en": ""
+      },
+      "aliases": [
+        "Kusou Shoujo"
+      ],
+      "artistIds": [
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2023-12-13",
+      "dateSource": "https://www.avex.com.tw/artist/artist_news.asp?ArtistCode=CIELXJ",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2025-09-25",
+      "releaseType": "ep-cover",
+      "trackCount": 4,
+      "image": "images/albums/youtube-OLAK5uy_m_pfFYdbmAr6OW0u2-8W_RT_AbHLeK5II.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_m_pfFYdbmAr6OW0u2-8W_RT_AbHLeK5II/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICMGVmr0GEAE=&rs=AOn4CLDCWsOjdmAyT8hpWW_Ll5NwQPu9DA&v=1738967745",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_m_pfFYdbmAr6OW0u2-8W_RT_AbHLeK5II",
+      "translationStatus": "draft",
+      "tracks": [
+        {
+          "titles": {
+            "ja": "うわのそら",
+            "ko": "건성"
+          },
+          "aliases": [
+            "【オリジナルMV】うわのそら  / CIEL #18",
+            "건성",
+            "Uwanosora",
+            "うわのそら"
+          ],
+          "videoId": "tWcwwR7i-uY"
+        },
+        {
+          "titles": {
+            "ja": "空中散歩",
+            "ko": "공중산책"
+          },
+          "aliases": [
+            "【オリジナルMV】空中散歩 / CIEL #15",
+            "공중산책",
+            "空中散歩"
+          ],
+          "videoId": "fjnUIiHqVtM"
+        },
+        {
+          "titles": {
+            "ja": "僕たちの群青",
+            "ko": "우리들의 군청"
+          },
+          "aliases": [
+            "僕たちの群青",
+            "우리들의 군청"
+          ],
+          "videoId": "K8lKNKZCdIs"
+        },
+        {
+          "titles": {
+            "ja": "空想少女",
+            "ko": "공상소녀"
+          },
+          "aliases": [
+            "【オリジナルMV】空想少女  / CIEL #17",
+            "공상소녀",
+            "Kusou Shoujo",
+            "空想少女 (Cover Live)",
+            "空想少女"
+          ],
+          "videoId": "Ig16vvGn-Ig"
+        }
+      ],
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_m_pfFYdbmAr6OW0u2-8W_RT_AbHLeK5II",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_m_pfFYdbmAr6OW0u2-8W_RT_AbHLeK5II&hl=en",
+      "youtubeMusicType": "EP",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_nYj55gtcLm2w9g0wjSJDoOyiqI0uR5xM4",
+      "originalTitle": "君と旅風",
+      "titles": {
+        "ja": "君と旅風",
+        "ko": "너와 여행 바람",
+        "en": ""
+      },
+      "aliases": [
+        "Kimi to Tabikaze",
+        "Wind Journey with You"
+      ],
+      "artistIds": [
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2026-05-13",
+      "dateSource": "https://www.youtube.com/watch?v=7KOEWBB8NkY",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-05-15",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_nYj55gtcLm2w9g0wjSJDoOyiqI0uR5xM4.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nYj55gtcLm2w9g0wjSJDoOyiqI0uR5xM4/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICLWyl88GEAE=&rs=AOn4CLAbPEH8j2Mj8YVEYOqPSdTiXrPBSw&v=1776671029",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_nYj55gtcLm2w9g0wjSJDoOyiqI0uR5xM4",
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nYj55gtcLm2w9g0wjSJDoOyiqI0uR5xM4&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_lwjqa2WtXHhxFy_iHUyKGTntMMul_pm7o",
+      "originalTitle": "常しなえ",
+      "titles": {
+        "ja": "常しなえ",
+        "ko": "영원",
+        "en": ""
+      },
+      "aliases": [
+        "Tokoshinae"
+      ],
+      "artistIds": [
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2025-09-24",
+      "dateSource": "https://www.qobuz.com/us-en/interpreter/ciel/2993314",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2025-09-25",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_lwjqa2WtXHhxFy_iHUyKGTntMMul_pm7o.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lwjqa2WtXHhxFy_iHUyKGTntMMul_pm7o/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICMbd38UGEAE=&rs=AOn4CLC1U6KDvKifO74tP0qSxPsqiVo_XQ&v=1756884678",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_lwjqa2WtXHhxFy_iHUyKGTntMMul_pm7o",
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lwjqa2WtXHhxFy_iHUyKGTntMMul_pm7o&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_mnKIoSvacp-PpQHTjszHy7Mat6-Louo_4",
+      "originalTitle": "うわのそら",
+      "titles": {
+        "ja": "うわのそら",
+        "ko": "건성",
+        "en": ""
+      },
+      "aliases": [
+        "Uwanosora"
+      ],
+      "artistIds": [
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2023-12-06",
+      "dateSource": "https://music.apple.com/jp/song/1717373968",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2025-09-23",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_mnKIoSvacp-PpQHTjszHy7Mat6-Louo_4.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mnKIoSvacp-PpQHTjszHy7Mat6-Louo_4/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICKzTub0GEAE=&rs=AOn4CLCKylyysuT95WI42T_FzMR2TQf20g&v=1739483564",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_mnKIoSvacp-PpQHTjszHy7Mat6-Louo_4",
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mnKIoSvacp-PpQHTjszHy7Mat6-Louo_4&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_kjODeekajD6B-0EI6rxV71pgXt8gdiX2E",
+      "originalTitle": "生活に落ちる",
+      "titles": {
+        "ja": "生活に落ちる",
+        "ko": "생활에 빠지다",
+        "en": ""
+      },
+      "aliases": [
+        "Seikatsu ni Ochiru"
+      ],
+      "artistIds": [
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2023-04-12",
+      "dateSource": "https://www.avex.com.tw/artist/artist_news.asp?ArtistCode=CIELXJ",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2025-09-23",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_kjODeekajD6B-0EI6rxV71pgXt8gdiX2E.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kjODeekajD6B-0EI6rxV71pgXt8gdiX2E/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICIfI68IGEAE=&rs=AOn4CLApBofdodtBYs-bxaq6vtgGXNDeKg&v=1750787079",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_kjODeekajD6B-0EI6rxV71pgXt8gdiX2E",
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kjODeekajD6B-0EI6rxV71pgXt8gdiX2E&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_kyEiIj6IbrL9DT87bQhYL1kXR_SkNRmdc",
+      "originalTitle": "空より",
+      "titles": {
+        "ja": "空より",
+        "ko": "하늘에서",
+        "en": ""
+      },
+      "aliases": [
+        "Sora yori"
+      ],
+      "artistIds": [
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2023-03-01",
+      "dateSource": "https://music.apple.com/jp/song/1672247431",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2025-09-23",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_kyEiIj6IbrL9DT87bQhYL1kXR_SkNRmdc.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kyEiIj6IbrL9DT87bQhYL1kXR_SkNRmdc/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICKDQtb0GEAE=&rs=AOn4CLDIXAOgXRBKMTN02JrfsVXzhJxVvw&v=1739417632",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_kyEiIj6IbrL9DT87bQhYL1kXR_SkNRmdc",
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kyEiIj6IbrL9DT87bQhYL1kXR_SkNRmdc&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_lpySxZre98V7Qc0oWDpyi5QhshH4gUB70",
+      "originalTitle": "少年漫画",
+      "titles": {
+        "ja": "少年漫画",
+        "ko": "소년만화",
+        "en": ""
+      },
+      "aliases": [
+        "Shounen Manga"
+      ],
+      "artistIds": [
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2022-07-06",
+      "dateSource": "https://ototoy.jp/_/default/p/1266685",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2025-09-20",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_lpySxZre98V7Qc0oWDpyi5QhshH4gUB70.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lpySxZre98V7Qc0oWDpyi5QhshH4gUB70/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICPuLj8IGEAE=&rs=AOn4CLCFxMinaYdlTxfOuzodI0Axe2nWKQ&v=1749272059",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_lpySxZre98V7Qc0oWDpyi5QhshH4gUB70",
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lpySxZre98V7Qc0oWDpyi5QhshH4gUB70&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_mAptWbGxh5JKwboBVQA_2ZVSYKFK3vCvU",
+      "originalTitle": "馥郁の街",
+      "titles": {
+        "ja": "馥郁の街",
+        "ko": "복욱의 거리",
+        "en": ""
+      },
+      "aliases": [
+        "Fukuiku no Machi",
+        "향기로운 거리",
+        "복욱의 거리"
+      ],
+      "artistIds": [
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2022-03-30",
+      "dateSource": "https://music.apple.com/jp/song/1756277059",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2025-09-26",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_mAptWbGxh5JKwboBVQA_2ZVSYKFK3vCvU.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mAptWbGxh5JKwboBVQA_2ZVSYKFK3vCvU/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICIvQ5sIGEAE=&rs=AOn4CLD-I8Plv-zTubyQU7YRD5uhWlphtw&v=1750706187",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_mAptWbGxh5JKwboBVQA_2ZVSYKFK3vCvU",
+      "translationStatus": "user-reviewed",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mAptWbGxh5JKwboBVQA_2ZVSYKFK3vCvU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_lkJ8U3UM_AAbv35kd4IxIvmqM0mLILXJg",
+      "originalTitle": "眼裏の懐疑",
+      "titles": {
+        "ja": "眼裏の懐疑",
+        "ko": "눈 안의 회의",
+        "en": ""
+      },
+      "aliases": [
+        "Ganri no Kaigi"
+      ],
+      "artistIds": [
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2021-09-15",
+      "dateSource": "https://kamitsubaki.jp/discography/ciel/779/",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2025-09-24",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_lkJ8U3UM_AAbv35kd4IxIvmqM0mLILXJg.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lkJ8U3UM_AAbv35kd4IxIvmqM0mLILXJg/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICPvLtr0GEAE=&rs=AOn4CLD6ZWK6Uf1QqL9-bFbXQ8lN1yG9MA&v=1739433467",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_lkJ8U3UM_AAbv35kd4IxIvmqM0mLILXJg",
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lkJ8U3UM_AAbv35kd4IxIvmqM0mLILXJg&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_nkY04noFsnIejoh-4wEMhPwp05iHb_cIM",
+      "originalTitle": "窓を開けて",
+      "titles": {
+        "ja": "窓を開けて",
+        "ko": "창문을 열고",
+        "en": ""
+      },
+      "aliases": [
+        "Mado wo Akete"
+      ],
+      "artistIds": [
+        "ciel"
+      ],
+      "tags": [],
+      "date": "2021-06-04",
+      "dateSource": "https://kamitsubaki.jp/discography/ciel/389/",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2025-09-24",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_nkY04noFsnIejoh-4wEMhPwp05iHb_cIM.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nkY04noFsnIejoh-4wEMhPwp05iHb_cIM/maxresdefault.jpg?sqp=CMDSl9YGir7X7AMICOyYp70GEAE=&rs=AOn4CLDuA-qY6JsP5dRlovSkMAcCvhNi9g&v=1739181164",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_nkY04noFsnIejoh-4wEMhPwp05iHb_cIM",
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nkY04noFsnIejoh-4wEMhPwp05iHb_cIM&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_mpGGDYEFiiYdb-lofc1oTk7skjaXmgd2s",
+      "originalTitle": "ガラス",
+      "titles": {
+        "ja": "ガラス",
+        "ko": "유리",
+        "en": ""
+      },
+      "aliases": [
+        "ガラス",
+        "Garasu",
+        "Glass"
+      ],
+      "artistIds": [
+        "sooda"
+      ],
+      "tags": [],
+      "date": "2026-09-02",
+      "dateSource": "https://www.uta-net.com/song/398998/",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-09-13",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_mpGGDYEFiiYdb-lofc1oTk7skjaXmgd2s.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_mpGGDYEFiiYdb-lofc1oTk7skjaXmgd2s/maxresdefault.jpg?sqp=CMjgl9YGir7X7AMICNG31tMGEAE=&rs=AOn4CLBvAuhEf5UCAFplAiwcBXvcSZZHhQ&v=1786092497",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_mpGGDYEFiiYdb-lofc1oTk7skjaXmgd2s",
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_mpGGDYEFiiYdb-lofc1oTk7skjaXmgd2s&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_kdQC99fo3AC-wtp20qmozQpvtu6--m5DU",
+      "originalTitle": "トートバッグ",
+      "titles": {
+        "ja": "トートバッグ",
+        "ko": "토트백",
+        "en": ""
+      },
+      "aliases": [
+        "トートバッグ",
+        "Tote Bag",
+        "Totobaggu"
+      ],
+      "artistIds": [
+        "sooda"
+      ],
+      "tags": [],
+      "date": "2025-11-19",
+      "dateSource": "https://kamitsubaki.jp/news/page/7/",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-05-04",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_kdQC99fo3AC-wtp20qmozQpvtu6--m5DU.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kdQC99fo3AC-wtp20qmozQpvtu6--m5DU/maxresdefault.jpg?sqp=CMjgl9YGir7X7AMICJnvi8gGEAE=&rs=AOn4CLBkhOLOxwZ9LYq-q0nDeyDPpRmAfw&v=1761802137",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_kdQC99fo3AC-wtp20qmozQpvtu6--m5DU",
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kdQC99fo3AC-wtp20qmozQpvtu6--m5DU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_k49R0r_lhkhHNnIsu5TZoPbrfZ66DAGlU",
+      "originalTitle": "人生ゲーム (feat. 犬甘うる（CV:POCHI）, 犬甘るる（CV:由莉子） & 彗星ルナ (CV:ようなぴ)) [Sped up]",
+      "titles": {
+        "ja": "人生ゲーム (feat. 犬甘うる（CV:POCHI）, 犬甘るる（CV:由莉子） & 彗星ルナ (CV:ようなぴ)) [Sped up]",
+        "ko": "",
+        "en": ""
+      },
+      "aliases": [
+        "人生ゲーム ) [Sped up]",
+        "인생게임",
+        "Jinsei Game",
+        "Jinsei Geemu"
+      ],
+      "artistIds": [
+        "sooda"
+      ],
+      "tags": [],
+      "date": "2025-08-18",
+      "dateSource": "https://linkco.re/VBZUF0mR?lang=ja",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-07-25",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_k49R0r_lhkhHNnIsu5TZoPbrfZ66DAGlU.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_k49R0r_lhkhHNnIsu5TZoPbrfZ66DAGlU/maxresdefault.jpg?sqp=CMjgl9YGir7X7AMICJ6h084GEAE=&rs=AOn4CLCeR1jCYUYrE2AXnRAji4lbVTv9bw&v=1775554718",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_k49R0r_lhkhHNnIsu5TZoPbrfZ66DAGlU",
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_k49R0r_lhkhHNnIsu5TZoPbrfZ66DAGlU&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_lXqT-FLAtnXYjQUs72xeMafFcNMwyc3uE",
+      "originalTitle": "人生ゲーム (feat. 彗星ルナ (CV:ようなぴ), 犬甘うる（CV:POCHI）, 犬甘るる（CV:由莉子） & HIDEYA KOJIMA)",
+      "titles": {
+        "ja": "人生ゲーム (feat. 彗星ルナ (CV:ようなぴ), 犬甘うる（CV:POCHI）, 犬甘るる（CV:由莉子） & HIDEYA KOJIMA)",
+        "ko": "",
+        "en": ""
+      },
+      "aliases": [
+        "人生ゲーム , 犬甘うる（CV:POCHI）, 犬甘るる（CV:由莉子） & HIDEYA KOJIMA)",
+        "인생게임",
+        "Jinsei Game",
+        "Jinsei Geemu"
+      ],
+      "artistIds": [
+        "sooda"
+      ],
+      "tags": [],
+      "date": "2024-07-01",
+      "dateSource": "https://linkco.re/503GpcxH?lang=ja",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-07-23",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_lXqT-FLAtnXYjQUs72xeMafFcNMwyc3uE.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lXqT-FLAtnXYjQUs72xeMafFcNMwyc3uE/maxresdefault.jpg?sqp=CMjgl9YGir7X7AMICMaiu70GEAE=&rs=AOn4CLAHLPNXs12Wkksnc0D_W87OBZLdZw&v=1739510086",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_lXqT-FLAtnXYjQUs72xeMafFcNMwyc3uE",
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lXqT-FLAtnXYjQUs72xeMafFcNMwyc3uE&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_kQiMBNJLXlc2Dd-Eivsf1MQ-Q4bFt2HWs",
+      "originalTitle": "Bansoukou",
+      "titles": {
+        "ja": "Bansoukou",
+        "ko": "",
+        "en": "Bansoukou"
+      },
+      "aliases": [
+        "Bansoukou",
+        "반창고",
+        "반소코",
+        "반소코우",
+        "絆創膏"
+      ],
+      "artistIds": [
+        "sooda"
+      ],
+      "tags": [],
+      "date": "2024-03-23",
+      "dateSource": "https://music.apple.com/us/album/bansoukou/1734403065",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-05-04",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_kQiMBNJLXlc2Dd-Eivsf1MQ-Q4bFt2HWs.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kQiMBNJLXlc2Dd-Eivsf1MQ-Q4bFt2HWs/maxresdefault.jpg?sqp=CMjgl9YGir7X7AMICIiR0b0GEAE=&rs=AOn4CLBn5OqmuY0Spve4fMJth4xNMMoE0w&v=1739868296",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_kQiMBNJLXlc2Dd-Eivsf1MQ-Q4bFt2HWs",
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kQiMBNJLXlc2Dd-Eivsf1MQ-Q4bFt2HWs&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_nXUxdNye7Zmdccvea4kghiXEP6AvX9-hA",
+      "originalTitle": "甘党",
+      "titles": {
+        "ja": "甘党",
+        "ko": "단것을 좋아하는 사람",
+        "en": ""
+      },
+      "aliases": [
+        "甘党",
+        "Amatou",
+        "아마토"
+      ],
+      "artistIds": [
+        "sooda"
+      ],
+      "tags": [],
+      "date": "2023-11-10",
+      "dateSource": "https://kamitsubaki.jp/discography/sooda/2776/",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-05-04",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_nXUxdNye7Zmdccvea4kghiXEP6AvX9-hA.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_nXUxdNye7Zmdccvea4kghiXEP6AvX9-hA/maxresdefault.jpg?sqp=CMjgl9YGir7X7AMICM-qvsEGEAE=&rs=AOn4CLDO6uSr6BA18y6UIcIOmfP_j-tQKQ&v=1747948879",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_nXUxdNye7Zmdccvea4kghiXEP6AvX9-hA",
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_nXUxdNye7Zmdccvea4kghiXEP6AvX9-hA&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_m7_eceVrohrNja4VP4NkSRLn4i6--slZ0",
+      "originalTitle": "GAME OVER (High Speed Version)",
+      "titles": {
+        "ja": "GAME OVER (High Speed Version)",
+        "ko": "",
+        "en": "GAME OVER (High Speed Version)"
+      },
+      "aliases": [
+        "GAME OVER",
+        "게임 오버",
+        "게임오버",
+        "하이스피드",
+        "배속"
+      ],
+      "artistIds": [
+        "sooda"
+      ],
+      "tags": [],
+      "date": "2022-01-12",
+      "dateSource": "https://music.apple.com/us/song/1602165682",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-07-24",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_m7_eceVrohrNja4VP4NkSRLn4i6--slZ0.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_m7_eceVrohrNja4VP4NkSRLn4i6--slZ0/maxresdefault.jpg?sqp=CMjgl9YGir7X7AMICIaHtb0GEAE=&rs=AOn4CLAVBZBRnrRIah0MOS9QmHxlOS0ANw&v=1739408262",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_m7_eceVrohrNja4VP4NkSRLn4i6--slZ0",
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_m7_eceVrohrNja4VP4NkSRLn4i6--slZ0&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_ncaBiDEP4ijhLrvyZCtEwCM_BVAkqB1Ek",
+      "originalTitle": "GAME OVER",
+      "titles": {
+        "ja": "GAME OVER",
+        "ko": "",
+        "en": "GAME OVER"
+      },
+      "aliases": [
+        "GAME OVER",
+        "게임 오버",
+        "게임오버"
+      ],
+      "artistIds": [
+        "sooda"
+      ],
+      "tags": [],
+      "date": "2021-11-03",
+      "dateSource": "https://music.apple.com/us/album/game-over-single/1591132508",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-07-28",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_ncaBiDEP4ijhLrvyZCtEwCM_BVAkqB1Ek.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_ncaBiDEP4ijhLrvyZCtEwCM_BVAkqB1Ek/maxresdefault.jpg?sqp=CMjgl9YGir7X7AMICN3ttr0GEAE=&rs=AOn4CLBWncGezdQkPHwPJKVZtmG9aQg5tg&v=1739437789",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_ncaBiDEP4ijhLrvyZCtEwCM_BVAkqB1Ek",
+      "translationStatus": "original",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_ncaBiDEP4ijhLrvyZCtEwCM_BVAkqB1Ek&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_kpOlVCmosWKG4DPLFQew8_fL0vhNSbukw",
+      "originalTitle": "最期のお話",
+      "titles": {
+        "ja": "最期のお話",
+        "ko": "마지막 이야기",
+        "en": ""
+      },
+      "aliases": [
+        "最期のお話",
+        "Saigo No Ohanashi"
+      ],
+      "artistIds": [
+        "sooda"
+      ],
+      "tags": [],
+      "date": "2020-11-30",
+      "dateSource": "https://music.apple.com/jp/album/1540303690",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-07-25",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_kpOlVCmosWKG4DPLFQew8_fL0vhNSbukw.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_kpOlVCmosWKG4DPLFQew8_fL0vhNSbukw/maxresdefault.jpg?sqp=CMjgl9YGir7X7AMICKD7qL0GEAE=&rs=AOn4CLBqtVBw9UzacA08uGynfIbElvsX2g&v=1739210144",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_kpOlVCmosWKG4DPLFQew8_fL0vhNSbukw",
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_kpOlVCmosWKG4DPLFQew8_fL0vhNSbukw&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_lOIqAlb5UC4GPGkhErqX2U4rRbKfxS_yc",
+      "originalTitle": "最後の電話",
+      "titles": {
+        "ja": "最後の電話",
+        "ko": "마지막 전화",
+        "en": ""
+      },
+      "aliases": [
+        "最後の電話",
+        "Saigo No Denwa"
+      ],
+      "artistIds": [
+        "sooda"
+      ],
+      "tags": [],
+      "date": "2020-11-23",
+      "dateSource": "https://music.amazon.com/tracks/B08NJ1F595",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-07-23",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_lOIqAlb5UC4GPGkhErqX2U4rRbKfxS_yc.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lOIqAlb5UC4GPGkhErqX2U4rRbKfxS_yc/maxresdefault.jpg?sqp=CMjgl9YGir7X7AMICMbvmr0GEAE=&rs=AOn4CLB4oXASv5C3Itzr4HCqf3Z_VGOzOg&v=1738979270",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_lOIqAlb5UC4GPGkhErqX2U4rRbKfxS_yc",
+      "translationStatus": "draft",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lOIqAlb5UC4GPGkhErqX2U4rRbKfxS_yc&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_m1adxckUPtaOueEHqnaBo7Fk2jQ78r5QM",
+      "originalTitle": "知らない",
+      "titles": {
+        "ja": "知らない",
+        "ko": "모르겠어",
+        "en": ""
+      },
+      "aliases": [
+        "Shiranai",
+        "시라나이"
+      ],
+      "artistIds": [
+        "ciel",
+        "sooda",
+        "kuusou"
+      ],
+      "displayArtistIds": [
+        "ciel",
+        "sooda",
+        "kuusou"
+      ],
+      "tags": [],
+      "date": "2026-08-26",
+      "dateSource": "https://open.spotify.com/intl-ja/album/3rl5J7JsGPd6uEz0995b9q",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-08-25",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_m1adxckUPtaOueEHqnaBo7Fk2jQ78r5QM.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_m1adxckUPtaOueEHqnaBo7Fk2jQ78r5QM/maxresdefault.jpg?sqp=CKDll9YGir7X7AMICJWvnNMGEAE=&rs=AOn4CLCIPqUf-_mqgFnLJ3to5S4Tf43n9Q&v=1785141141",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_m1adxckUPtaOueEHqnaBo7Fk2jQ78r5QM",
+      "translationStatus": "draft",
+      "tracks": [
+        {
+          "titles": {
+            "ja": "知らない",
+            "ko": "모르겠어",
+            "en": ""
+          },
+          "aliases": [
+            "Shiranai",
+            "시라나이"
+          ]
+        }
+      ],
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_m1adxckUPtaOueEHqnaBo7Fk2jQ78r5QM",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_m1adxckUPtaOueEHqnaBo7Fk2jQ78r5QM&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_n0YNmoiEH6ZXZDOPFFqL299mYgRrSuXSI",
+      "originalTitle": "CYAN",
+      "titles": {
+        "ja": "CYAN",
+        "ko": "",
+        "en": "CYAN"
+      },
+      "aliases": [
+        "시안",
+        "사이안"
+      ],
+      "artistIds": [
+        "ciel",
+        "sooda",
+        "kuusou"
+      ],
+      "displayArtistIds": [
+        "ciel",
+        "sooda",
+        "kuusou"
+      ],
+      "tags": [],
+      "date": "2026-06-17",
+      "dateSource": "https://kamitsubaki.jp/news/?at=kuusou",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-08-29",
+      "releaseType": "ep-cover",
+      "trackCount": 5,
+      "image": "images/albums/youtube-OLAK5uy_n0YNmoiEH6ZXZDOPFFqL299mYgRrSuXSI.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_n0YNmoiEH6ZXZDOPFFqL299mYgRrSuXSI/maxresdefault.jpg?sqp=CKDll9YGir7X7AMICMCj-tAGEAE=&rs=AOn4CLCs1lKe2CkmLue0X-yrG1Y1yuD2RQ&v=1780388288",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_n0YNmoiEH6ZXZDOPFFqL299mYgRrSuXSI",
+      "translationStatus": "original",
+      "tracks": [
+        {
+          "titles": {
+            "ja": "透明流星ラプソディ",
+            "ko": "투명유성 랩소디",
+            "en": ""
+          },
+          "aliases": [
+            "Lucid Meteor Rhapsody",
+            "Toumei Ryuusei Rhapsody"
+          ],
+          "videoId": "cU9dcS-MXL4"
+        },
+        {
+          "titles": {
+            "ja": "走れシュガー",
+            "ko": "달려라 슈가",
+            "en": ""
+          },
+          "aliases": [
+            "Hashire Sugar"
+          ],
+          "videoId": "6ksiB6M8nxU"
+        },
+        {
+          "titles": {
+            "ja": "クローゼット",
+            "ko": "클로젯",
+            "en": ""
+          },
+          "aliases": [
+            "Closet",
+            "클로제트"
+          ],
+          "videoId": "TbgNYUyqfSU"
+        },
+        {
+          "titles": {
+            "ja": "トクベツな予感",
+            "ko": "특별한 예감",
+            "en": ""
+          },
+          "aliases": [
+            "Tokubetsu na Yokan"
+          ],
+          "videoId": "r3InyLdgQeQ"
+        },
+        {
+          "titles": {
+            "ja": "sweet secret",
+            "ko": "",
+            "en": "sweet secret"
+          },
+          "aliases": [
+            "스위트 시크릿"
+          ],
+          "videoId": "cSNw0MBqxxA"
+        }
+      ],
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_n0YNmoiEH6ZXZDOPFFqL299mYgRrSuXSI",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_n0YNmoiEH6ZXZDOPFFqL299mYgRrSuXSI&hl=en",
+      "youtubeMusicType": "EP",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_lyEhj2vhbnnXAv3Mx7bLVo4CjoTvqOQSs",
+      "originalTitle": "クローゼット",
+      "titles": {
+        "ja": "クローゼット",
+        "ko": "클로젯",
+        "en": ""
+      },
+      "aliases": [
+        "Closet",
+        "클로제트"
+      ],
+      "artistIds": [
+        "ciel",
+        "sooda",
+        "kuusou"
+      ],
+      "displayArtistIds": [
+        "ciel",
+        "sooda",
+        "kuusou"
+      ],
+      "tags": [],
+      "date": "2026-04-15",
+      "dateSource": "https://zula.link-map.jp/links/Closet_KUUSOU",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-08-29",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_lyEhj2vhbnnXAv3Mx7bLVo4CjoTvqOQSs.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_lyEhj2vhbnnXAv3Mx7bLVo4CjoTvqOQSs/maxresdefault.jpg?sqp=CKDll9YGir7X7AMICISQ380GEAE=&rs=AOn4CLBIA16ZaGLeDXuFuyTwJiRUfPE3cQ&v=1773651972",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_lyEhj2vhbnnXAv3Mx7bLVo4CjoTvqOQSs",
+      "translationStatus": "draft",
+      "tracks": [
+        {
+          "titles": {
+            "ja": "クローゼット",
+            "ko": "클로젯",
+            "en": ""
+          },
+          "aliases": [
+            "Closet",
+            "클로제트"
+          ]
+        }
+      ],
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_lyEhj2vhbnnXAv3Mx7bLVo4CjoTvqOQSs",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_lyEhj2vhbnnXAv3Mx7bLVo4CjoTvqOQSs&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
+    },
+    {
+      "id": "youtube-OLAK5uy_madRBqLi8amPXNA662okHekjWIQU5A3Iw",
+      "originalTitle": "透明流星ラプソディ",
+      "titles": {
+        "ja": "透明流星ラプソディ",
+        "ko": "투명유성 랩소디",
+        "en": ""
+      },
+      "aliases": [
+        "Lucid Meteor Rhapsody",
+        "Toumei Ryuusei Rhapsody"
+      ],
+      "artistIds": [
+        "ciel",
+        "sooda",
+        "kuusou"
+      ],
+      "displayArtistIds": [
+        "ciel",
+        "sooda",
+        "kuusou"
+      ],
+      "tags": [],
+      "date": "2026-01-14",
+      "dateSource": "https://kamitsubaki.jp/news/2026/01/14/9817/",
+      "dateVerifiedOn": "2026-10-07",
+      "youtubeDate": "2026-06-29",
+      "releaseType": "single",
+      "trackCount": 1,
+      "image": "images/albums/youtube-OLAK5uy_madRBqLi8amPXNA662okHekjWIQU5A3Iw.jpg",
+      "coverSource": "https://i9.ytimg.com/s_p/OLAK5uy_madRBqLi8amPXNA662okHekjWIQU5A3Iw/maxresdefault.jpg?sqp=CKDll9YGir7X7AMICLKTk8oGEAE=&rs=AOn4CLBJaAxPAsXA7sMs50-g-VawNY6Jvg&v=1766115762",
+      "sourceUrl": "https://www.youtube.com/playlist?list=OLAK5uy_madRBqLi8amPXNA662okHekjWIQU5A3Iw",
+      "translationStatus": "draft",
+      "tracks": [
+        {
+          "titles": {
+            "ja": "透明流星ラプソディ",
+            "ko": "투명유성 랩소디",
+            "en": ""
+          },
+          "aliases": [
+            "Lucid Meteor Rhapsody",
+            "Toumei Ryuusei Rhapsody"
+          ]
+        }
+      ],
+      "trackSource": "https://www.youtube.com/playlist?list=OLAK5uy_madRBqLi8amPXNA662okHekjWIQU5A3Iw",
+      "releaseTypeSource": "https://music.youtube.com/playlist?list=OLAK5uy_madRBqLi8amPXNA662okHekjWIQU5A3Iw&hl=en",
+      "youtubeMusicType": "Single",
+      "releaseTypeVerifiedOn": "2026-10-07"
     }
   ],
   "live": [],
