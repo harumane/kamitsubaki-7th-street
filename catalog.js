@@ -1,13 +1,51 @@
 (() => {
-    const normalize = value => String(value || '').normalize('NFKC').toLowerCase().replace(/[\p{P}\p{S}\s]/gu, '');
+    const normalize = value => { const text = String(value || '').normalize('NFKC').toLowerCase().trim(); return text.replace(/[\p{P}\p{S}\s]/gu, '') || text; };
     const values = value => typeof value === 'string' ? [value] : Array.isArray(value) ? value.flatMap(values) : value && typeof value === 'object' ? Object.values(value).flatMap(values) : [];
-    function matches(item, query, artists, selected = '') {
-        if (selected && (!(item.artistIds || []).includes(selected) || (item.excludedArtistIds || []).includes(selected))) return false;
+    const relatedCache = new WeakMap();
+    function relatedArtists(item) {
+        if (relatedCache.has(item)) return relatedCache.get(item);
+        const ids = new Set(item.artistIds || []);
+        const catalog = window.catalogData || {};
+        const entries = [...(catalog.albums || []), ...(catalog.songs || [])];
+        for (const track of item.tracks || []) {
+            for (const id of [...(track.artistIds || []), ...(track.vocalistIds || [])]) ids.add(id);
+            if (!track.songHref) continue;
+            const params = new URLSearchParams(track.songHref.split('?')[1] || '');
+            const song = entries.find(entry => entry.id === params.get('id'));
+            for (const id of song?.artistIds || []) ids.add(id);
+        }
+        relatedCache.set(item, [...ids]);
+        return [...ids];
+    }
+    function artistSearchNames(id, artist) {
+        if (!artist) return [id];
+        const names = artist.tagName ? { ...artist.names, ko: artist.tagName } : artist.names;
+        return [id, artist.tagName, ...values(names), ...values(artist.aliases)].filter(Boolean);
+    }
+    function queryArtists(query, artists) {
+        const words = query.trim().split(/\s+/u).filter(Boolean);
+        const groups = [];
+        // Prefer a complete multiword name. Shared names are alternatives, not
+        // a requirement that one album must carry every namesake's tag.
+        for (let i = 0; i < words.length; i++) {
+            for (let j = words.length; j > i; j--) {
+                const phrase = normalize(words.slice(i, j).join(' '));
+                const ids = Object.keys(artists).filter(id => artistSearchNames(id, artists[id]).some(name => normalize(name) === phrase));
+                if (ids.length) { groups.push(ids); i = j - 1; break; }
+            }
+        }
+        return groups;
+    }
+    function matches(item, query, artists, selected = '', ownOnly = false) {
+        const tagged = item.displayArtistIds || item.artistIds || [];
+        const related = ownOnly ? tagged : relatedArtists(item);
+        if (selected && (!related.includes(selected) || (item.excludedArtistIds || []).includes(selected))) return false;
+        if (ownOnly && queryArtists(query, artists).some(ids => !ids.some(id => tagged.includes(id)))) return false;
         const terms = query.trim().split(/\s+/u).map(normalize).filter(Boolean);
         // Explicit artist exclusions also apply when a raw track video title names the group.
         if ((item.excludedArtistIds || []).some(id => [...values(artists[id]?.names), ...values(artists[id]?.aliases), id].map(normalize).filter(Boolean).some(name => terms.includes(name)))) return false;
         const fields = [...values(item.titles), ...values(item.aliases), ...values(item.tags), ...values((item.tracks || []).map(track => typeof track === 'string' ? track : [track.titles, track.aliases])), item.date || '', item.venue || ''];
-        (item.artistIds || []).forEach(id => fields.push(...values(artists[id]?.names), ...values(artists[id]?.aliases)));
+        related.forEach(id => fields.push(...artistSearchNames(id, artists[id])));
         const indexed = fields.map(normalize).filter(Boolean);
         return query.trim().split(/\s+/u).map(normalize).filter(Boolean).every(term => indexed.some(field => field.includes(term)));
     }
@@ -23,6 +61,7 @@
     const orderedArtistIds = ids => [...new Set(ids || [])].sort((a, b) => (artistRanks.get(a) ?? Infinity) - (artistRanks.get(b) ?? Infinity));
     const input = document.getElementById('catalog-query');
     const clear = document.getElementById('catalog-clear');
+    const ownOnly = document.getElementById('catalog-own-only');
     const results = document.getElementById('catalog-results');
     const status = document.getElementById('catalog-status');
     const filter = document.getElementById('catalog-filter');
@@ -32,6 +71,12 @@
     function node(tag, cls, text) { const e = document.createElement(tag); e.className = cls; if (text) e.textContent = text; return e; }
     function colorArtistTag(tag, id) {
         if (id === 'vwp') { tag.classList.add('catalog-vwp-color'); return; }
+        if (id === 'kuusou') {
+            tag.classList.add('catalog-kuusou-color');
+            tag.style.setProperty('--kuusou-ciel', artists.ciel.color);
+            tag.style.setProperty('--kuusou-sooda', artists.sooda.color);
+            return;
+        }
         const color = artists[id]?.color;
         if (!color) return;
         tag.classList.add('catalog-artist-color');
@@ -39,9 +84,39 @@
     }
     const releaseTypes = new Set(kind === 'albums' ? ['single', 'album', 'ep-cover'] : ['one-man', 'cover', 'mini', 'etc']);
     const sort = document.getElementById('catalog-sort');
+    // Keep each history entry's filters, with a tab-local fallback for the list link.
+    const stateKey = 'kamitsubaki:album-view:v1:' + location.pathname;
+    let savedView = null;
+    if (kind === 'albums') {
+        savedView = history.state?.albumViewState || null;
+        if (!savedView && !new URLSearchParams(location.search).has('artist')) {
+            try { savedView = JSON.parse(sessionStorage.getItem(stateKey)); } catch (_) {}
+        }
+        if (savedView && typeof savedView === 'object') {
+            if (typeof savedView.query === 'string') input.value = savedView.query;
+            if (ownOnly && typeof savedView.ownOnly === 'boolean') ownOnly.checked = savedView.ownOnly;
+            if (sort && ['newest', 'oldest'].includes(savedView.sort)) sort.value = savedView.sort;
+            selected = artists[savedView.artist] ? savedView.artist : '';
+            if (Array.isArray(savedView.types)) {
+                releaseTypes.clear();
+                savedView.types.filter(type => ['single', 'album', 'ep-cover'].includes(type)).forEach(type => releaseTypes.add(type));
+            }
+        }
+        document.querySelectorAll('[data-release-type]').forEach(button => {
+            button.setAttribute('aria-pressed', String(releaseTypes.has(button.dataset.releaseType)));
+        });
+    }
+    function saveView() {
+        if (kind !== 'albums') return;
+        const view = { ownOnly: !!ownOnly?.checked, query: input.value, sort: sort?.value || 'newest', artist: selected, types: [...releaseTypes] };
+        try { sessionStorage.setItem(stateKey, JSON.stringify(view)); } catch (_) {}
+        try { history.replaceState({ ...history.state, albumViewState: view }, ''); } catch (_) {}
+    }
     if (sort) sort.addEventListener('change', render);
+    if (ownOnly) ownOnly.addEventListener('change', render);
     function render() {
-        const found = items.filter(item => releaseTypes.has(kind === 'albums' ? (item.releaseType || 'album') : (item.liveType || 'etc')) && matches(item, input.value, artists, selected));
+        saveView();
+        const found = items.filter(item => releaseTypes.has(kind === 'albums' ? (item.releaseType || 'album') : (item.liveType || 'etc')) && matches(item, input.value, artists, selected, !!ownOnly?.checked));
         if (sort) found.sort((a,b) => (sort.value === 'oldest' ? 1 : -1) * (a.date || '').localeCompare(b.date || '') || (a.originalTitle || '').localeCompare(b.originalTitle || ''));
         results.replaceChildren(); filter.replaceChildren();
         clear.hidden = !input.value;
@@ -116,3 +191,4 @@
     document.getElementById('catalog-search').addEventListener('submit', e => { e.preventDefault(); render(); });
     render();
 })();
+

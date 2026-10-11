@@ -63,13 +63,36 @@
 .catalog-cover-placeholder { display: grid; place-items: center; background: #e7e7e7; color: #666; font-size: 14px; }
 [data-theme="dark"] .catalog-cover-placeholder { background: #252529; color: #bbb; }
 
-/* V.W.P combines the five members' colors in the tag lettering. */
+/* Soft, full-chip gradients distinguish units from solo artists. */
+.catalog-tag.catalog-vwp-color, .catalog-tag.catalog-kuusou-color,
+[data-theme='dark'] .catalog-tag.catalog-vwp-color, [data-theme='dark'] .catalog-tag.catalog-kuusou-color {
+    background-color: transparent;
+    background-clip: padding-box; -webkit-background-clip: padding-box;
+    color: #222; font-weight: 700; text-shadow: none;
+}
 .catalog-tag.catalog-vwp-color, [data-theme='dark'] .catalog-tag.catalog-vwp-color {
-    background-image: linear-gradient(100deg, #c33a79, #316fd0, #d33b48, #8a6a00, #8552bd);
-    background-color: transparent; background-clip: text; -webkit-background-clip: text;
-    color: transparent; font-weight: 700; border-color: #9b829f;
+    background-image: linear-gradient(110deg, #f18ab640 0%, #78a7ff40 25%, #ff708040 50%, #ffe08040 75%, #bd8ee740 100%);
+    border-color: #a389ad;
 }
-[data-theme='dark'] .catalog-tag.catalog-vwp-color {
-    background-image: linear-gradient(100deg, #f6a4cb, #9dc0ff, #ff9da5, #ffe68d, #d4aff8);
+.catalog-tag.catalog-kuusou-color, [data-theme='dark'] .catalog-tag.catalog-kuusou-color {
+    background-image: linear-gradient(110deg,
+        color-mix(in srgb, var(--kuusou-ciel) 30%, transparent) 0%,
+        color-mix(in srgb, var(--kuusou-ciel) 24%, transparent) 25%,
+        color-mix(in srgb, var(--kuusou-sooda) 32%, transparent) 75%,
+        color-mix(in srgb, var(--kuusou-sooda) 38%, transparent) 100%);
+    border-color: color-mix(in srgb, var(--kuusou-ciel) 55%, var(--kuusou-sooda));
 }
-.catalog-tag.catalog-vwp-color:hover { border-color: #ba8cbd; filter: brightness(1.15); }
+[data-theme='dark'] .catalog-tag.catalog-vwp-color,
+[data-theme='dark'] .catalog-tag.catalog-kuusou-color { color: #f5f6fa; }
+.catalog-tag.catalog-vwp-color:hover { border-color: #c5a1cf; filter: brightness(1.12); }
+.catalog-tag.catalog-kuusou-color:hover { border-color: var(--kuusou-ciel); filter: brightness(1.12); }
+
+.catalog-search-row { display:flex; align-items:center; flex-wrap:wrap; gap:16px 24px; }
+.catalog-search-row .catalog-search { flex:1 1 340px; min-width:0; }
+.catalog-owner-option { display:flex; flex-direction:column; gap:7px; }
+.catalog-owner-label { display:flex; align-items:center; gap:9px; min-height:44px; font-size:16px; font-weight:600; cursor:pointer; }
+.catalog-owner-label input { width:20px; height:20px; margin:0; accent-color:#668ce0; cursor:pointer; }
+.catalog-owner-label input:focus-visible { outline:2px solid #668ce0; outline-offset:4px; }
+#catalog-owner-help { font-size:13px; line-height:1.5; color:#555; }
+[data-theme="dark"] #catalog-owner-help { color:#b4b4bf; }
+@media(max-width:700px) { .catalog-search-row { gap:8px; } .catalog-owner-option { width:100%; } }

@@ -1,0 +1,35 @@
+.album-track-layout { display: grid; grid-template-columns: minmax(280px, 0.85fr) minmax(430px, 1.25fr); align-items: start; gap: clamp(32px, 4vw, 80px); margin-top: 42px; }
+.album-large-cover { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; }
+.album-track-panel { height: 600px; overflow-y: auto; overscroll-behavior: contain; border: 1px solid #c9cbd0; background: #fafafa; scrollbar-gutter: stable; scrollbar-color: #94949e transparent; cursor: default; user-select: text; }
+.album-track-list { list-style: none; padding: 0 16px; margin: 0; }
+.album-track-row { display: grid; grid-template-columns: 30px minmax(0,1fr) minmax(0,1fr); gap: 12px; align-items: center; box-sizing: border-box; min-height: 80px; padding: 14px 4px; border-bottom: 1px solid #dddde3; }
+.album-track-row:last-child { border-bottom: 0; }
+.album-track-number { color: #73737d; font-size: 17px; font-variant-numeric: tabular-nums; }
+.album-track-original, .album-track-korean { min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.album-track-korean { text-align: right; }
+.album-track-name { font-size: 17px; font-weight: 600; line-height: 1.4; overflow-wrap: anywhere; }
+.album-track-singer { font-size: 13px; line-height: 1.4; color: #71717b; }
+.main-content .album-track-name, .main-content .album-track-artist { color: inherit; text-decoration: none; }
+.main-content a.album-track-name[href]:hover, .main-content a.album-track-artist[href]:hover { text-decoration: underline; }
+.album-track-panel a { cursor: default; }
+.album-track-panel:focus-visible { outline: 2px solid #668ce0; outline-offset: 4px; }
+[data-theme="dark"] .album-track-panel { background: #1c1d20; border-color: #3b3d43; }
+[data-theme="dark"] .album-track-row { border-color: #35363c; }
+[data-theme="dark"] .album-track-singer, [data-theme="dark"] .album-track-number { color: #b1b3be; }
+@media (max-width: 1200px) { .album-track-layout { grid-template-columns: minmax(0, 1fr); gap: 30px; } .album-large-cover { max-width: 500px; } }
+@media (max-width: 600px) { .album-track-list { padding: 0 10px; } .album-track-row { gap: 8px; grid-template-columns: 24px minmax(0,1fr) minmax(0,1fr); } .album-track-name { font-size: 15px; } }
+
+
+/* Keep track links confined to their visible text. */
+.album-track-original { align-items: flex-start; }
+.album-track-korean { align-items: flex-end; }
+.album-track-name { width: fit-content; max-width: 100%; }
+.album-description { grid-column: 1 / -1; min-width: 0; }
+.album-store-card { margin: 0 0 20px; }
+.album-store-card .song-release-art { height: auto; object-fit: contain; }
+.album-platform-links { display: flex; flex-direction: column; align-items: flex-start; gap: 20px; }
+.main-content .album-platform-link { display: inline-flex; align-items: center; gap: 14px; font-size: 23px; font-weight: 700; line-height: 1.4; color: inherit; text-decoration: none; }
+.main-content a.album-platform-link[href]:hover { text-decoration: underline; }
+.album-platform-arrow { font-size: 23px; font-weight: 400; }
+.album-platform-link small { color: var(--song-muted); font-size: 13px; font-weight: 400; }
+

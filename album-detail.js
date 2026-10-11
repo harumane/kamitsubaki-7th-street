@@ -1,6 +1,6 @@
 (() => {
     const id = new URLSearchParams(location.search).get('id');
-    const album = (window.catalogData?.albums || []).find(item => item.id === id);
+    const album = window.activeSong || (window.catalogData?.albums || []).find(item => item.id === id);
     const title = document.getElementById('album-title');
     const subtitle = document.getElementById('album-subtitle');
     if (!album) {
